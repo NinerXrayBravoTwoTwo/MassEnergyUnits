@@ -32,7 +32,7 @@ I recommend "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyrig
 
 Examples
 --------
-On gram is equal to about 21,480 tons of TNT or 21 kilotons
+On gram is equal to about 21,480 tons of TNT or 21 kilotons.
 Trinity and Fatman both liberated about a gram of energy
 
 ```
