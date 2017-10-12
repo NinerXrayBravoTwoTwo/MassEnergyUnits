@@ -30,7 +30,7 @@ ton_tnt_energy          1e+9 calorie # calorie ktontnt =~ 4.184TJ
 # http://www.english.uiuc.edu/maps/poets/g_l/levine/bombing.htm
 # https://en.wikipedia.org/wiki/TNT_equivalent
 # The energy values of these early bomb tests are just best guesses by the scientists of the day.
-# do not treat them as relyable contants but as factors to put energy into terms that
+# do not treat them as relyable constants but as factors to put energy into terms that
 # people 'think' they understand
   
 trinity     19.0 kton_e # 04-16-45, near white sands New Mexico (Pu implosion)
