@@ -45,7 +45,7 @@ You want: g
         nagasaki = 1.0241721 g
 
 ```
-######An hour is a very long distance. 
+###### An hour is a very long distance. 
 It is 670 thousand miles 
 ```
 You have: 1 hour
@@ -64,13 +64,13 @@ You have: au
 You want:
         Definition: astronomicalunit = 149597870700 m = 1.4959787e+11 m
 ```
-######Are a year and a light year the same thing?  Depends on politics ;)
+###### Are a year and a light year the same thing?  Depends on politics ;)
 ```
 You have: year
 You want: ly
         year = 0.99997864 ly
 ```
-######A tera watt hour is a whopping amount of energy, equivalent to 40 grams of mass! (thats about 40 fatman bombs)
+###### A tera watt hour is a whopping amount of energy, equivalent to 40 grams of mass! (thats about 40 fatman bombs)
 ```
 You have: tera watt hours
 You want: g
