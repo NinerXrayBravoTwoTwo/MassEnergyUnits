@@ -1,0 +1,45 @@
+# Copyright (c) Jillian England, 1995, 2008, 2017. 
+# GNU License. CopyLeft if that is still in vogue :)
+#
+# Can be intalled in '/usr/share/units' but you don't have to.
+#
+# Usage: units -f '' -f massenergy.units
+# alias lightunits='(units -vf "" -f /usr/share/units/massenergy.units)'
+#
+##
+# See examples;
+##
+
+s         2.99792458e+08 m   # time is the same kind of thing as space, each second is 2.998+08 meters.
+c         1		     # light is unitless because of the above fact, ie. xm / xm = 1
+
+# Information to compare energy usage and generation to energy released
+# from nuclear devices.  For giving a rough idea.
+ 
+tontnt			ton_e
+ton_e                   ton_tnt_energy
+ton_tnt_energy          1e+9 calorie # calorie ktontnt =~ 4.184TJ
+			# kton_e is 1e+12 calorie or 4.186 TJ kilotons as a metric mass measurement
+			# (kilotonnes) of TNT gives a value of 1000 c/g, well within the reported range,
+			# while treating it as "kilo short tons of TNT" gives 1102 c/g, at the extreme
+			# upper end of the reported range. Thus a kiloton can be called a "kilo metric ton 
+			# of TNT" and a "kilo short ton of TNT"  with about equal validity.
+
+# http://www.cartage.org.lb/en/themes/sciences/chemistry/NuclearChemistry/NuclearWeapons/FirstChainReaction/TypesofNuclear/UnitsMeasurement.htm
+# cartage.org.lb is gone as of 2014 it is available on the way back machine
+# http://www.english.uiuc.edu/maps/poets/g_l/levine/bombing.htm
+# https://en.wikipedia.org/wiki/TNT_equivalent
+# The energy values of these early bomb tests are just best guesses by the scientists of the day.
+# do not treat them as relyable contants but as factors to put energy into terms that
+# people 'think' they understand
+  
+trinity     19.0 kton_e # 04-16-45, near white sands New Mexico (Pu implosion)
+hiroshima   12.5 kton_e # 08-06-45, 3600 kg,  9ft 9in, littleboy, U-235, 118,661 killed, est. 12-18 kt
+nagasaki    22.0 kton_e # 08-09-45, 4050 kg, 11ft 4in, fatman,    Pu-239, 73,884 killed, est. 18.9-23.1 kt
+gadget      trinity
+littleboy   hiroshima
+fatman      nagasaki
+#
+nova            10^44 J  # A small super nova, ranges vary wildly depending on what you are talking about
+everestmass	357 trillion lb
+
