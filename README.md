@@ -130,7 +130,7 @@ You have: 20 Mton_e 300
 You want: thousand fatman
         20 Mton_e 300 = 272.72727 thousand fatman
 ```
-###### An exploding star releases energy equivelent to the mass of 186 earths.
+###### An exploding star releases the the mass of 186 earths
 ###### If the entire mass of the earth was converted into energy it would only be 1/5000's that of an exploding star.
 ```
 You have: nova
@@ -142,3 +142,8 @@ You want: earthmass
 ###### End of examples
 #### Velocity is Relative
 Not just a statment.  Velocity has always been understood to be a vector. What everyone before Einstein did was to never mention the 4th element of the vector since velocity was always a function of time.  Time is now reconized to be another dimension of space with the same units of measurement.  It is differnt from x, y, & z only in that they rest on the ever expanding dimension of t.  Your velocity relative to you is still zero and always has been.
+
+#### Anti PC
+###### A nuclear bomb is not a nuclear 'device' or some other euphemistic term.  Don't sugar coat it. It's a bomb. -- T. Taylor
+###### Saying that the mass of X is eqivelent to Y energy is incorrect. Mass and Energy are the SAME THING just expressed in different terms. Energy = Mass.
+###### The speed of light is squared is just a conversion factor used by our ancesotrs who thought that time was "special".  They also thought that the earth was flat and the center of the universe around which everything revolved.
