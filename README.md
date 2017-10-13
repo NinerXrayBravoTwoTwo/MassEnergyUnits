@@ -130,6 +130,18 @@ You have: 20 Mton_e 300
 You want: thousand fatman
         20 Mton_e 300 = 272.72727 thousand fatman
 ```
+An exploding star releases energy equivelent to the mass of 186 earths.
+
+If the entire mass of the earth was converted into energy it would
+only be 1/5000's that of an exploding star.
+'''
+You have: nova
+You want: earthmass
+        nova = 186.24123 earthmass
+        nova = (1 / 0.0053693802) earthmass        
+'''
+If the earth was converted to energy it would 
+
 ###### End of examples
 #### Velocity is Relative
 Not just a statment.  Velocity has always been understood to be a vector. What everyone before Einstein did was to never mention the 4th element of the vector since velocity was always a function of time.  Time is now reconized to be another dimension of space with the same units of measurement.  It is differnt from x, y, & z only in that they rest on the ever expanding dimension of t.  Your velocity relative to you is still zero and always has been.
