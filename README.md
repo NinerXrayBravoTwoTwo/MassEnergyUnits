@@ -129,7 +129,9 @@ You want: Twatt year
 You have: 20 Mton_e 300
 You want: thousand fatman
         20 Mton_e 300 = 272.72727 thousand fatman
-
 ```
 ###### End of examples
+#### Velocity is Relative
+Not just a statment.  Velocity has always been understood to be a vector. What everyone before Einstine did was to never mention the 4th element of the vector since velocity was always a function of time.  Time is now reconized to be another dimention of space with the same units of measurement.  It is differnt from x, y, & z only in that they rest on the ever expanding dimention of t.  Your velocity relative to you is still zero and always has been.
+
 
