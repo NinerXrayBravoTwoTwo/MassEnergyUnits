@@ -32,8 +32,8 @@ I recommend "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyrig
 
 Examples
 --------
-On gram is equal to about 21,480 tons of TNT or 21 kilotons.
-Trinity and Fatman both liberated about a gram of energy
+ On gram is equal to about 21,480 tons of TNT or 21 kilotons.
+ Trinity and Fatman both liberated about a gram of energy
 
 ```
 You have: g
@@ -45,8 +45,25 @@ You want: g
         nagasaki = 1.0241721 g
 
 ```
-###### An hour is a very long distance. 
-It is 670 thousand miles 
+ Fatman was much larger bomb than little boy;
+```
+You have: nagasaki
+You want: hiroshima
+        nagasaki = 1.76 hiroshima
+```
+ The Castle Bravo "shot", first hydrogen bomb, released 63 PJ of energy.
+ This is appoximately 15 Megatons
+ It was 684 times the yeild of Fatman
+```
+You have: 63 PJ
+You want: Mton_e
+        63 PJ = 15.057361 Mton_e
+
+You have: 63 PJ
+You want: nagasaki
+        63 PJ = 684.42552 nagasaki
+```
+ An hour is a is 670 thousand miles 
 ```
 You have: 1 hour
 You want:
@@ -64,13 +81,13 @@ You have: au
 You want:
         Definition: astronomicalunit = 149597870700 m = 1.4959787e+11 m
 ```
-###### Are a year and a light year the same thing?  Depends on politics ;)
+ Are a year and a light year the same thing?  Depends on politics ;)
 ```
 You have: year
 You want: ly
         year = 0.99997864 ly
 ```
-###### A tera watt hour is a whopping amount of energy, equivalent to 40 grams of mass! (thats about 40 fatman bombs)
+ A tera watt hour is a whopping amount of energy, equivalent to 40 grams of mass! (thats about 40 fatman bombs)
 ```
 You have: tera watt hours
 You want: g
@@ -94,12 +111,14 @@ You have: 15 TW  years
 You want: kg
         15 TW  years = 5266.7723 kg
 ```
-######
+
  In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release 
  about ~20 Mega ton's of energy for a total cold war arsenal of about 6,000 Mega tons 
  in this one weapon system. This was equal to 616 lbs of matter-energy conversion or ~7,000 
  Terra watt hours. Each of these bombs could have incinerated a large city and set fire
- to half a state the size of Washington
+ to half a state the size of Washington.
+ 
+ 
 ```
 You have: 20 Mton_e 300
 You want: lbs
@@ -112,6 +131,11 @@ You want: Twatt hours
 You have: 20 Mton_e 300
 You want: Twatt year
         20 Mton_e 300 = 0.79551475 Twatt year
+        
+You have: 20 Mton_e 300
+You want: thousand fatman
+        20 Mton_e 300 = 272.72727 thousand fatman
+
 ```
 ###### End of examples
 
