@@ -4,7 +4,7 @@ Summary
 -------
 
 An extension for the Unix units conversion files that changes 
-energy to mass and seconds to meters.  Will never see the universe exactly the same again.
+energy to mass and seconds to meters.  You will never see the universe exactly the same again.
 
 License
 -------
@@ -60,7 +60,7 @@ You have: 63 PJ
 You want: nagasaki
         63 PJ = 684.42552 nagasaki
 ```
- An hour is a is 670 thousand miles 
+ An hour is 670 thousand miles. 
 ```
 You have: 1 hour
 You want:
@@ -109,7 +109,7 @@ You want: kg
         15 TW  years = 5266.7723 kg
 ```
  In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release 
- about ~20 Mega ton's of energy for a total cold war arsenal of about 6,000 Mega tons 
+ about ~20 Megatons of energy for a total cold war arsenal of about 6,000 Megatons 
  in this one weapon system. This was equal to 616 lbs of matter-energy conversion or ~7,000 
  Terra watt hours. Each of these bombs could have incinerated a large city and set fire
  to half a state the size of Washington.
@@ -132,4 +132,4 @@ You want: thousand fatman
 ```
 ###### End of examples
 #### Velocity is Relative
-Not just a statment.  Velocity has always been understood to be a vector. What everyone before Einstein did was to never mention the 4th element of the vector since velocity was always a function of time.  Time is now reconized to be another dimention of space with the same units of measurement.  It is differnt from x, y, & z only in that they rest on the ever expanding dimension of t.  Your velocity relative to you is still zero and always has been.
+Not just a statment.  Velocity has always been understood to be a vector. What everyone before Einstein did was to never mention the 4th element of the vector since velocity was always a function of time.  Time is now reconized to be another dimension of space with the same units of measurement.  It is differnt from x, y, & z only in that they rest on the ever expanding dimension of t.  Your velocity relative to you is still zero and always has been.
