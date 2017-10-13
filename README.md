@@ -19,8 +19,7 @@ units -f '' -f massenergy.units
 
 ###### .bashrc
 ```
-alias lightunits=
-'(units -vf "" -usr/share/units/massenergy.units)'
+alias lightunits = '(units -vf "" -usr/share/units/massenergy.units)'
 ```
 
 Will not help with Spacetime physics
@@ -28,13 +27,13 @@ Will not help with Spacetime physics
 
 This file will NOT help you doing Lorentz transformations or understanding
 the geometry of spacetime.  
+
 I recommend "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992"
 
 Examples
 --------
  On gram is equal to about 21,480 tons of TNT or 21 kilotons.
  Trinity and Fatman both liberated about a gram of energy
-
 ```
 You have: g
 You want: ton_e
@@ -43,7 +42,6 @@ You want: ton_e
 You have: nagasaki
 You want: g
         nagasaki = 1.0241721 g
-
 ```
  Fatman was much larger bomb than little boy;
 ```
@@ -51,8 +49,7 @@ You have: nagasaki
 You want: hiroshima
         nagasaki = 1.76 hiroshima
 ```
- The Castle Bravo "shot", first hydrogen bomb, released 63 PJ of energy.
- This is appoximately 15 Megatons
+ The Castle Bravo "shot" most powerful H-bomb tested by the USA. It released 63 PJ or appoximately 15 Megatons.
  It was 684 times the yeild of Fatman
 ```
 You have: 63 PJ
@@ -111,14 +108,11 @@ You have: 15 TW  years
 You want: kg
         15 TW  years = 5266.7723 kg
 ```
-
  In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release 
  about ~20 Mega ton's of energy for a total cold war arsenal of about 6,000 Mega tons 
  in this one weapon system. This was equal to 616 lbs of matter-energy conversion or ~7,000 
  Terra watt hours. Each of these bombs could have incinerated a large city and set fire
  to half a state the size of Washington.
- 
- 
 ```
 You have: 20 Mton_e 300
 You want: lbs
