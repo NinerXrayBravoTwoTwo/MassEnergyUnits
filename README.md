@@ -132,6 +132,4 @@ You want: thousand fatman
 ```
 ###### End of examples
 #### Velocity is Relative
-Not just a statment.  Velocity has always been understood to be a vector. What everyone before Einstine did was to never mention the 4th element of the vector since velocity was always a function of time.  Time is now reconized to be another dimention of space with the same units of measurement.  It is differnt from x, y, & z only in that they rest on the ever expanding dimention of t.  Your velocity relative to you is still zero and always has been.
-
-
+Not just a statment.  Velocity has always been understood to be a vector. What everyone before Einstein did was to never mention the 4th element of the vector since velocity was always a function of time.  Time is now reconized to be another dimention of space with the same units of measurement.  It is differnt from x, y, & z only in that they rest on the ever expanding dimension of t.  Your velocity relative to you is still zero and always has been.
