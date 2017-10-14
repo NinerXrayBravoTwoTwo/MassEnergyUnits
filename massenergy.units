@@ -1,10 +1,15 @@
 # Copyright (c) Jillian England, 1995, 2008, 2017. 
 # GNU License. CopyLeft if that is still in vogue :)
 #
-# Can be intalled in '/usr/share/units' but you don't have to.
+# Intalled in '/usr/share/units' but you don't have to.
 #
 # Usage: units -f '' -f massenergy.units
 # alias lightunits='(units -vf "" -f /usr/share/units/massenergy.units)'
+#
+# This file is not a trick.  A second really is 300 thousand kilometers
+# and because of this the speed of light really is 1 by definition.
+# Time and space are not seperate things; Time is the forth dimension
+# of space measured in meters just like the rest of space.
 #
 ##
 # See examples;
@@ -45,6 +50,6 @@ castlebravo 63 PJ       # 03-04-54, 10432 kg, 14ft 12in, shrimp,    Pu-239 Li-6 
 
 gadget      trinity     #    0.8845 g
 littleboy   hiroshima   #    0.5819 g 
-shrimp      castlebravo #  700.9695 g The bomb nicknamed SHRIMP could be acronym for System for Hydrogen Radation Implosion
 fatman      nagasaki    #    1.0241 g
+shrimp      castlebravo #  700.9695 g The bomb nicknamed SHRIMP could be acronym for System for Hydrogen Radation Implosion
 
