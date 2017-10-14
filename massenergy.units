@@ -29,6 +29,8 @@ ton_tnt_energy          1e+9 calorie # calorie ktontnt =~ 4.184TJ
 			# while treating it as "kilo short tons of TNT" gives 1102 c/g, at the extreme
 			# upper end of the reported range. Thus a kiloton can be called a "kilo metric ton 
 			# of TNT" and a "kilo short ton of TNT"  with about equal validity.
+			# IMHO we should stop using the 'imaginary' pile of TNT as a reference and start using grams
+			# as a measure of energy released, less subjective and everone knows what a gram is from e=mc^2
 # 
 nova            10^44 J  # A small super nova, ranges vary wildly depending on what you are talking about
 everestmass	357 trillion lb
@@ -48,8 +50,8 @@ hiroshima   12.5 kton_e # 08-06-45,  3600 kg,  9ft  9in, littleboy, U-235, 118,6
 nagasaki    22.0 kton_e # 08-09-45,  4050 kg, 11ft  4in, fatman,    Pu-239, 73,884 killed, est. yeild 18.9-23.1 kt
 castlebravo 63 PJ       # 03-04-54, 10432 kg, 14ft 12in, shrimp,    Pu-239 Li-6 U-238 tritum, est. yeild 15 Mt
 
-gadget      trinity     #    0.8845 g
+gadget      trinity     #    0.8845 g (energy in grams)
 littleboy   hiroshima   #    0.5819 g 
 fatman      nagasaki    #    1.0241 g
-shrimp      castlebravo #  700.9695 g The bomb nicknamed SHRIMP could be acronym for System for Hydrogen Radation Implosion
+shrimp      castlebravo #  700.9695 g  nicknamed SHRIMP could be acronym for "System for Hydrogen Radation Implosion"
 
