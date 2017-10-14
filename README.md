@@ -19,16 +19,21 @@ units -f '' -f massenergy.units
 
 ###### .bashrc
 ```
-alias lightunits = '(units -vf "" -usr/share/units/massenergy.units)'
+alias lightunits = '(units -vf "" -f /usr/share/units/massenergy.units)'
 ```
 
-Will not help with Spacetime physics
+Will not help with Spacetime Physics
 ------------------------------------
 
 This file will NOT help you doing Lorentz transformations or understanding
-the geometry of spacetime.  
+the geometry of spacetime. To learn that time is really just a 4th dimension
+of space and that a second is actually 300 thousand kilometers (186,000 miles) 
+you need some spacetime physics. You can take an undergrade STP class if one is 
+available.  There are many books and videos I like and are necessary for continious
+immersion in this subject.  
 
-I recommend "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992"
+One classic I love is "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992".
+Both the first and second versions of this book are great.
 
 Examples
 --------
@@ -49,8 +54,10 @@ You have: nagasaki
 You want: hiroshima
         nagasaki = 1.76 hiroshima
 ```
- The Castle Bravo "shot" most powerful H-bomb tested by the USA. It released 63 PJ or appoximately 15 Megatons.
- It was 684 times the yeild of Fatman
+ The Castle Bravo shot was most powerful H-bomb tested by the USA. 
+ It released 63 peta joule (PJ), appoximately 15) Megatons.
+ The bomb components themselves were nicknamed 'SHRIMP' which may be an acronym.
+ This bomb was 684 times the energy release of Fatman which was used against Nagasaki. 
 ```
 You have: 63 PJ
 You want: Mton_e
@@ -141,9 +148,9 @@ You want: earthmass
 
 ###### End of examples
 #### Velocity is Relative
-Not just a statment.  Velocity has always been understood to be a vector. What everyone before Einstein did was to never mention the 4th element of the vector since velocity was always a function of time.  Time is now reconized to be another dimension of space with the same units of measurement.  It is differnt from x, y, & z only in that they rest on the ever expanding dimension of t.  Your velocity relative to you is still zero and always has been.
-
 #### Anti PC
-###### A nuclear bomb is not a nuclear 'device' or some other euphemistic term.  Don't sugar coat it. It's a bomb. -- T. Taylor
-###### Saying that the mass of X is eqivelent to Y energy is incorrect. Mass and Energy are the SAME THING just expressed in different terms. Energy = Mass.
-###### The speed of light is squared is just a conversion factor used by our ancesotrs who thought that time was "special".  They also thought that the earth was flat and the center of the universe around which everything revolved.
+
+###### -- put in Ted Taylor quote
+###### mass is NOT equivlent to energy MASS IS Energy.
+###### Matter is not the same thing as mass either. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... 
+###### It seems that the mass aspect of matter can be seperated from the rest of matter at the 'event horizon of a black hole leaving the rest of matter, the 'information' component behind while the energy/mass component becomes part of the singularity.  I will not pretend that I actually understand this.

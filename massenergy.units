@@ -12,7 +12,7 @@
 # of space measured in meters just like the rest of space.
 #
 ##
-# See examples;
+# See useage examples in readme.
 ##
 
 s         2.99792458e+08 m   # time is the same kind of thing as space, each second is 2.998+08 meters.
@@ -42,9 +42,9 @@ everestmass	357 trillion lb
 
 # The energy values of bomb tests are just best guesses by the scientists.
 # Current modern digitization of old shot footage is yeilding more accurate measurments
-# These yeild numbers as reliable constants.  They may change as more information is analized
-# from these old tests.
-  
+# These yeild numbers are not necessarilly reliable or accurate. 
+# They may change as old films are analized with modern digital equipment.
+
 trinity     19.0 kton_e # 04-16-45, near white sands New Mexico (Pu implosion)
 hiroshima   12.5 kton_e # 08-06-45,  3600 kg,  9ft  9in, littleboy, U-235, 118,661 killed, est. yeild 12-18 kt
 nagasaki    22.0 kton_e # 08-09-45,  4050 kg, 11ft  4in, fatman,    Pu-239, 73,884 killed, est. yeild 18.9-23.1 kt
@@ -53,5 +53,5 @@ castlebravo 63 PJ       # 03-04-54, 10432 kg, 14ft 12in, shrimp,    Pu-239 Li-6 
 gadget      trinity     #    0.8845 g (energy in grams)
 littleboy   hiroshima   #    0.5819 g 
 fatman      nagasaki    #    1.0241 g
-shrimp      castlebravo #  700.9695 g  nicknamed SHRIMP could be acronym for "System for Hydrogen Radiation Implosion"
+shrimp      castlebravo #  700.9695 g Nicknamed SHRIMP; May be acronym for "System for Hydrogen Radiation Implosion"
 
