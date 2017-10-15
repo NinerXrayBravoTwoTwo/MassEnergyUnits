@@ -2,7 +2,7 @@
 
 * Readme is unfinished
 * Book referances need to be corrected to standard format, include ISDN's if possible.
-
+* The hyperlink on the readme page point's to a web site I don't have hosted at the moment
 
 ### List of possible projects
 
