@@ -35,10 +35,10 @@ you need some spacetime physics. You can take an undergraduate STP class if one 
 available or/and there are many books and videos that are fun and even necessary for continious
 immersion in this subject.
 
-	One classic I love is "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992".
+A classic textbook I love is; "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992".
 Both the first and second versions of this book are great.
 
-	An essential book, a biography of sorts by John McPhee is one of those books that will alter your reality.
+An essential book, a biography of Ted Taylor by John McPhee is a classic that will alter your reality.
 "The Curve of Binding Energy: a Journey into the Awesome and Alarming world of Theodore B. Taylor, John McPhee, May 22nd 1974".  
 
 Examples
@@ -163,4 +163,4 @@ You want: earthmass
 ###### mass is NOT equivlent to energy MASS IS Energy.
 ###### Matter is not the same thing as mass either. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... 
 ###### It seems that the mass attribute of matter can be seperated from matter's other attributes at the 'event horizon of a black hole leaving the remaining part of matter, it's 'information' components behind while the energy/mass component becomes part of the singularity.
-    I will not pretend that I actually understand this.
+###### I will not pretend that I actually understand this.
