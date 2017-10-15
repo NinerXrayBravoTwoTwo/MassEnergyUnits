@@ -10,6 +10,8 @@ List of possible projects
 * Pictures?  If so which ones would help.  Should be referenced from a public Wiki I believe.
 * A tool that draw's good spacetime diagrams with hyperbolic graph lines that can be used to
 create diagrams for powerpoints and other presentations.  Could this use povray for some diagrams?
+* A seperate file for this that includes all the shot designations, type, estimated yeild, aliases.
+* Should all shot designations be resolved to Peta Joules instead of tons_tnt?
 * I have a simple programs that displays a time countdown expressd in ly, au, miles instead of hours min sec which is kind of neat (and simple)
 ```
 var ly = interval.TotalDays / 365.25;
