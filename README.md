@@ -9,9 +9,10 @@ energy to mass and seconds to meters.
 
 License
 -------
-    Copyright (c) Jillian England, 1995, 2008, 2017. 
+Copyright (c) Jillian England, 1995, 2008, 2017. 
 
-    GNU License. CopyLeft if that is still in vogue 
+GNU License.
+    CopyLeft if that is still in vogue 
 
 Usage
 -----
@@ -19,7 +20,7 @@ units -f '' -f massenergy.units
 
 Can be installed in '/usr/share/units' but this is not required.
 
-###### .bashrc
+##### .bashrc
 ```
 alias lightunits = '(units -vf "" -f /usr/share/units/massenergy.units)'
 ```
@@ -27,12 +28,12 @@ alias lightunits = '(units -vf "" -f /usr/share/units/massenergy.units)'
 Will not help with Spacetime Physics
 ------------------------------------
 
-This file will NOT help you doing Lorentz transformations or understanding
+This file will NOT help you with your Lorentz transformations or understanding
 the geometry of spacetime. To learn that time is really just a 4th dimension
 of space and that a second is actually 300 thousand kilometers (186,000 miles) 
 you need some spacetime physics. You can take an undergraduate STP class if one is 
-available.  There are many books and videos I like and are necessary for continious
-immersion in this subject.  
+available or/and there are many books and videos that are fun and even necessary for continious
+immersion in this subject.
 
 	One classic I love is "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992".
 Both the first and second versions of this book are great.
@@ -156,10 +157,9 @@ You want: earthmass
 ```
 
 ###### End of examples
-#### Velocity is Relative
-#### Anti PC
+####  Errata
 
-###### -- put in Ted Taylor quote
+###### -- insert Ted Taylor quote about not sugar coating military weapons as 'devices'
 ###### mass is NOT equivlent to energy MASS IS Energy.
 ###### Matter is not the same thing as mass either. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... 
 ###### It seems that the mass attribute of matter can be seperated from matter's other attributes at the 'event horizon of a black hole leaving the remaining part of matter, it's 'information' components behind while the energy/mass component becomes part of the singularity.
