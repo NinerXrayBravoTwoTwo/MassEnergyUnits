@@ -54,8 +54,26 @@ You have: nagasaki
 You want: g
         nagasaki = 1.0241721 g
 ```
-A person weighing 170 lbs (x kg, x stone) is y thousand Megatons, or z SHRIMP's bombs.
+A person weighing 170 lbs (77 kg, 12.1 stone) is 1.65 thousand Megatons, or 110 SHRIMP bombs.
+OR just 77.11 kg of energy ...
 ```
+~ Note extra You want lines have been removed from this result ...
+You have: 170 lbs
+You want: stone
+        170 lbs = 12.142857 stone
+You want: kg
+        170 lbs = 77.110703 kg
+You want: stone
+        170 lbs = 12.142857 stone
+You want: Mton_e
+        170 lbs = 1656.3968 Mton_e
+You want: shrimp
+        170 lbs = 110.00578 shrimp
+	
+You have: 170 lbs
+You want: kg
+        170 lbs = 77.110 kg
+
 ```
 The bomb dropped on Nagasaki was almost twice as powerful as the bomb dropped on Hiroshima the previous week.
 Little boy released 0.58 grams of energy and fatman released 1.02.
