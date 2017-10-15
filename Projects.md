@@ -4,7 +4,7 @@
 * Book referances need to be corrected to standard format, include ISDN's if possible.
 
 
-List of possible projects
+### List of possible projects
 
 * Missing a simple explanation of Spacetime.  A spacetime diagram might help or confuse ...
 * Pictures?  If so which ones would help.  Should be referenced from a public Wiki I believe.
