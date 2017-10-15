@@ -4,18 +4,20 @@ Summary
 -------
 
 An extension for the Unix units conversion files that changes 
-energy to mass and seconds to meters.  You will never see the universe exactly the same again.
+energy to mass and seconds to meters.  
+    You will never see the universe exactly the same again.
 
 License
 -------
-Copyright (c) Jillian England, 1995, 2008, 2017. 
+    Copyright (c) Jillian England, 1995, 2008, 2017. 
 
-Can be installed in '/usr/share/units' but you don't have to.
-GNU License. CopyLeft if that is still in vogue 
+    GNU License. CopyLeft if that is still in vogue 
 
 Usage
 -----
 units -f '' -f massenergy.units
+
+Can be installed in '/usr/share/units' but this is not required.
 
 ###### .bashrc
 ```
@@ -32,8 +34,11 @@ you need some spacetime physics. You can take an undergrade STP class if one is
 available.  There are many books and videos I like and are necessary for continious
 immersion in this subject.  
 
-One classic I love is "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992".
+	One classic I love is "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992".
 Both the first and second versions of this book are great.
+
+	An essential book, a biography of sorts by John McPhee is one of those books that will alter your reality.
+"The Curve of Binding Energy: a Journey into the Awesome and Alarming world of Theodore B. Taylor, John McPhee, May 22nd 1974".  
 
 Examples
 --------
@@ -48,7 +53,11 @@ You have: nagasaki
 You want: g
         nagasaki = 1.0241721 g
 ```
- Fatman was much larger bomb than little boy;
+A person weighing 170 lbs (x kg, x stone) is y thousand Megatons, or z SHRIMP's bombs.
+```
+```
+The bomb dropped on Nagasaki was almost twice as powerful as the bomb dropped on Hiroshima the previous week.
+Little boy released 0.58 grams of energy and fatman released 1.02.
 ```
 You have: nagasaki
 You want: hiroshima
@@ -56,7 +65,7 @@ You want: hiroshima
 ```
  The Castle Bravo shot was most powerful H-bomb tested by the USA. 
  It released 63 peta joule (PJ), appoximately 15) Megatons.
- The bomb components themselves were nicknamed 'SHRIMP' which may be an acronym.
+	 The bomb components themselves were nicknamed 'SHRIMP' which may be an acronym.
  This bomb was 684 times the energy release of Fatman which was used against Nagasaki. 
 ```
 You have: 63 PJ
@@ -137,8 +146,8 @@ You have: 20 Mton_e 300
 You want: thousand fatman
         20 Mton_e 300 = 272.72727 thousand fatman
 ```
-###### An exploding star releases the the mass of 186 earths
-###### If the entire mass of the earth was converted into energy it would only be 1/5000's that of an exploding star.
+An exploding star releases the the mass of 186 earths. If the entire mass of the earth 
+was converted into energy it would only be 1/5000's that of an exploding star.
 ```
 You have: nova
 You want: earthmass

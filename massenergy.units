@@ -15,8 +15,8 @@
 # See useage examples in readme.
 ##
 
-s         2.99792458e+08 m   # time is the same kind of thing as space, each second is 2.998+08 meters.
-c         1		     # light is unitless because of the above fact, ie. xm / xm = 1
+s         2.99792458e+08 m   # Time is the same kind of thing as space. Each second is 299.8 thousand kilometers
+c         1		     # Light is unitless because of this fact. 
 
 # Information to compare energy usage and generation to energy released
 # from nuclear devices.  For giving a rough idea.
