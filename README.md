@@ -35,10 +35,10 @@ you need some spacetime physics. You can take an undergraduate STP class if one 
 available or/and there are many books and videos that are fun and even necessary for continious
 immersion in this subject.
 
-A classic textbook I love is; "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992".
+An excellent textbook is; "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992".
 Both the first and second versions of this book are great.
 
-An essential book, a biography of Ted Taylor by John McPhee is a classic that will alter your reality.
+Annother essential book, a biography of Ted Taylor by John McPhee, will alter the way you see the world;
 "The Curve of Binding Energy: a Journey into the Awesome and Alarming world of Theodore B. Taylor, John McPhee, May 22nd 1974".  
 
 Examples
