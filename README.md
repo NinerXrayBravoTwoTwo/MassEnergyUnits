@@ -69,11 +69,6 @@ You want: Mton_e
         170 lbs = 1656.3968 Mton_e
 You want: shrimp
         170 lbs = 110.00578 shrimp
-	
-You have: 170 lbs
-You want: kg
-        170 lbs = 77.110 kg
-
 ```
 The bomb dropped on Nagasaki was almost twice as powerful as the bomb dropped on Hiroshima the previous week.
 Little boy released 0.58 grams of energy and fatman released 1.02.
