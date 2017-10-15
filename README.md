@@ -30,7 +30,7 @@ Will not help with Spacetime Physics
 This file will NOT help you doing Lorentz transformations or understanding
 the geometry of spacetime. To learn that time is really just a 4th dimension
 of space and that a second is actually 300 thousand kilometers (186,000 miles) 
-you need some spacetime physics. You can take an undergrade STP class if one is 
+you need some spacetime physics. You can take an undergraduate STP class if one is 
 available.  There are many books and videos I like and are necessary for continious
 immersion in this subject.  
 
@@ -162,4 +162,5 @@ You want: earthmass
 ###### -- put in Ted Taylor quote
 ###### mass is NOT equivlent to energy MASS IS Energy.
 ###### Matter is not the same thing as mass either. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... 
-###### It seems that the mass aspect of matter can be seperated from the rest of matter at the 'event horizon of a black hole leaving the rest of matter, the 'information' component behind while the energy/mass component becomes part of the singularity.  I will not pretend that I actually understand this.
+###### It seems that the mass attribute of matter can be seperated from matter's other attributes at the 'event horizon of a black hole leaving the remaining part of matter, it's 'information' components behind while the energy/mass component becomes part of the singularity.
+    I will not pretend that I actually understand this.
