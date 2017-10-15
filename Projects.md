@@ -7,6 +7,7 @@
 * Could just reduce the examples to a few key examples and create a seperate Examples.md document to 
 include a larger list.
 * Group the examples by topic and add topic sub header
+* Missing example for Tritium / Mol  fusion reaction energy.  Should be able to estimate yeild from fusion by 4H -> He + 24MeV and subsequent estimate of secondary minimum construction weight.  I did this calculation once 30 years ago and a new example could be interesting.
 
 ### List of possible projects
 
