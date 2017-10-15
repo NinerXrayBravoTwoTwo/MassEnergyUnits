@@ -17,7 +17,9 @@ include a larger list.
 create diagrams for powerpoints and other presentations.  Could this use povray for some diagrams?
 * A seperate file for this that includes all the shot designations, type, estimated yeild, aliases.
 * Should all shot designations be resolved to Peta Joules instead of tons_tnt?
-* I have a simple programs that displays a time countdown expressd in ly, au, miles instead of hours min sec which is kind of neat (and simple)
+* A lorenz transformation is just a conversion from one spacetime world line to another.  There may be a way to teach units to do
+lorenz transforms with simple definitions.  I may have already achived it to some degree with this definition set but I believe more needs to be done.  I'll play with it.
+* I have a simple program that displays a time countdown expressd in ly, au, miles instead of hours min sec which is kind of neat (and simple)
 ```
 var ly = interval.TotalDays / 365.25;
 var au = interval.TotalDays * 173.14463;
