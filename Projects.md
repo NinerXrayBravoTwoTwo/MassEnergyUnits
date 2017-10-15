@@ -4,6 +4,9 @@
 * Book referances need to be corrected to standard format, include ISDN's if possible.
 * The hyperlink on the readme page point's to a web site I don't have hosted at the moment
 * Readme should be less personal and more professional.  Phrases such as "I like" etc should be removed.
+* Could just reduce the examples to a few key examples and create a seperate Examples.md document to 
+include a larger list.
+* Group the examples by topic and add topic sub header
 
 ### List of possible projects
 
