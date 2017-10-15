@@ -55,7 +55,7 @@ You want: g
         nagasaki = 1.0241721 g
 ```
 A person weighing 170 lbs (77 kg, 12.1 stone) is 1.65 thousand Megatons, or 110 SHRIMP bombs.
-OR just 77.11 kg of energy ...
+OR just 77.11 kg of energy ... mass is energy there is really no need to convert it.
 ```
 ~ Note extra You want lines have been removed from this result ...
 You have: 170 lbs
@@ -166,7 +166,7 @@ You want: thousand fatman
         20 Mton_e 300 = 272.72727 thousand fatman
 ```
 An exploding star releases the the mass of 186 earths. If the entire mass of the earth 
-was converted into energy it would only be 1/5000's that of an exploding star.
+was converted into energy it would only be 1/200'th that of an exploding star.
 ```
 You have: nova
 You want: earthmass
