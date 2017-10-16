@@ -27,9 +27,6 @@ https://www.cygwin.com/
 
 There may be other ways of installing it on windows as well.
 
-Units is one of my favorite programs.  Especially since I taught it that one second is 300 thousand kilometers 
-and speed of light is one.
-
 Usage
 -----
 units -f '' -f massenergy.units
