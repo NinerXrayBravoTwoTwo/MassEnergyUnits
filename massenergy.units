@@ -24,14 +24,24 @@ c         1		     # Light is unitless because of this fact.
 tontnt			ton_e
 ton_e                   ton_tnt_energy
 ton_tnt_energy          1e+9 calorie # calorie ktontnt =~ 4.184TJ
-			# kton_e is 1e+12 calorie or 4.186 TJ kilotons as a metric mass measurement
-			# (kilotonnes) of TNT gives a value of 1000 c/g, well within the reported range,
-			# while treating it as "kilo short tons of TNT" gives 1102 c/g, at the extreme
-			# upper end of the reported range. Thus a kiloton can be called a "kilo metric ton 
-			# of TNT" and a "kilo short ton of TNT"  with about equal validity.
-			# IMHO we should stop using the 'imaginary' pile of TNT as a reference and start using grams
-			# as a measure of energy released, less subjective and everone knows what a gram is from e=mc^2
-# 
+
+# kton_e is 1e+12 calorie or 4.186 TJ kilotons as a metric mass measurement
+# (kilotonnes) of TNT gives a value of 1000 c/g, well within the reported range,
+# while treating it as "kilo short tons of TNT" gives 1102 c/g, at the extreme
+# upper end of the reported range. Thus a kiloton can be called a "kilo metric ton 
+# of TNT" and a "kilo short ton of TNT"  with about equal validity.
+#
+# A TNT explosion is primarilly thermal chemical energy.  A nuclear explosion is primarilly
+# neutrons, gamma, and other particles released in a chain reaction ripping atoms apart.  
+# TNT is ~nothing~ like a nuclear explosion. 
+#
+# Using TNT as an energy 'equivalence' was probably a project/military decision to help 
+# explain and quantify the destructivness of the new bombs. 
+#
+# IMO we should stop using the 'imaginary' pile of TNT as a reference and start using joules or grams
+# as a measure of energy released. This is less subjective and everone knows what a gram is from e=mc^2.
+# Nagasaki released/transformed about 1 gram, so mass should be perfectly explainable unit of energy.
+ 
 nova            10^44 J  # A small super nova, ranges vary wildly depending on what you are talking about
 everestmass	357 trillion lb
 
@@ -41,9 +51,9 @@ everestmass	357 trillion lb
 # https://en.wikipedia.org/wiki/TNT_equivalent
 
 # The energy values of bomb tests are just best guesses by the scientists.
-# Current modern digitization of old shot footage is yeilding more accurate measurments
-# These yeild numbers are not necessarilly reliable or accurate. 
-# They may change as old films are analized with modern digital equipment.
+# Modern digitization of original shot footage is providing more 
+# accurate yeild estimates of these tests.
+# The measures below may change as the films are analized with modern digital equipment.
 
 trinity     19.0 kton_e # 04-16-45, near white sands New Mexico (Pu implosion)
 hiroshima   12.5 kton_e # 08-06-45,  3600 kg,  9ft  9in, littleboy, U-235, 118,661 killed,  12-18 kt
