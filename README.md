@@ -137,10 +137,14 @@ You want: kg
         15 TW  years = 5266.7723 kg
 ```
  In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release 
- approximately 20 Megatons of energy for a total cold war arsenal of about 6,000 Megatons 
- in this one weapon system. This was equal to 616 lbs of matter-energy conversion or ~7,000 
- Terra watt hours. Each of these bombs could have incinerated a large city and set fire
+ approximately 20 Megatons of energy for a total cold war arsenal of about 6,000 Megatons. 
+ Each of these bombs could convert 616 lbs of matter to energy or 7,000 
+ Terra watt hours each.
+ 
+ Every one of these bombs could have incinerated a large city and set fire
  to half a state the size of Washington.
+ 
+ They were retired in the late 1950's.
 ```
 You have: 20 Mton_e 300
 You want: lbs
@@ -174,3 +178,4 @@ You want: earthmass
 * Mass is NOT equivalent to energy:  **_Mass IS Energy_**
 * Matter is not the same thing as mass either. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... 
 * It seems that the mass attribute of matter can be seperated from matter's other attributes at the 'event horizon of a black hole leaving the remaining part of matter, it's 'information' components, behind while the energy/mass component becomes part of the singularity. 	_I will not pretend that I actually understand this._
+* There is a well written Wikipedia page that discusses the problems and politics of measuring the energy released by nuclear bombs here; https://en.wikipedia.org/wiki/Nuclear_weapon_yield
