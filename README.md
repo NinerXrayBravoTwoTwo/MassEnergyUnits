@@ -12,7 +12,6 @@ License
 Copyright (c) Jillian England, 1995, 2008, 2017. 
 
 GNU License.
-    CopyLeft if that is still in vogue 
 
 About Units
 -----------
