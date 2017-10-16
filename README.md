@@ -139,9 +139,8 @@ You want: kg
         15 TW  years = 5266.7723 kg
 ```
  In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release 
- approximately 20 Megatons of energy for a total cold war arsenal of about 6,000 Megatons. 
- Each of these bombs could convert 616 lbs of matter to energy or 7,000 
- Terra watt hours each.
+ approximately 20 Megatons of energy (23 terra watt hours, 0.91 kg) for a total cold war arsenal of 6,000 Megatons. 
+ In total these bombs would have released 616 lbs of matter as energy or 6,973 Tera watt hours.
  
  Every one of these bombs could have incinerated a large city and set fire
  to half a state the size of Washington.
