@@ -1,4 +1,4 @@
-[MassEnergy - Units](http://www.hyperfaceted.com/) - Energy to mass conversion
+MassEnergy - Units Energy to mass conversion
 ==============================================================================
 Summary
 -------
