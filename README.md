@@ -55,7 +55,7 @@ Annother essential book, a biography of Ted Taylor by John McPhee, will alter th
 
 Examples
 --------
- On gram is equal to about 21,480 tons of TNT or 21 kilotons.
+ One gram is equal to about 21,480 tons of TNT or 21 kilotons.
  Trinity and Fatman both liberated about a gram of energy
 ```
 You have: g
