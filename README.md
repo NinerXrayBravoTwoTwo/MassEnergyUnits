@@ -105,10 +105,6 @@ You want: nagasaki
 ```
  An hour is 670 million miles. 
 ```
-You have: 1 hour
-You want:
-        Definition: 1.0792528e+12 m
-
 You have: hour
 You want: kmiles
         1 hour = 670616.63 kmiles
@@ -116,10 +112,6 @@ You want: kmiles
 You have: 1 hour
 You want: au
         1 hour = 7.2143597 au
-
-You have: au
-You want:
-        Definition: astronomicalunit = 149597870700 m = 1.4959787e+11 m
 ```
  Are a year and a light year the same thing?  Depends on politics ;)
 ```
