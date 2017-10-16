@@ -112,12 +112,6 @@ You have: 1 hour
 You want: au
         1 hour = 7.2143597 au
 ```
- Are a year and a light year the same thing?  Depends on politics ;)
-```
-You have: year
-You want: ly
-        year = 0.99997864 ly
-```
  A tera watt hour is a whopping amount of energy, equivalent to 40 grams of mass! (thats about 40 fatman bombs)
 ```
 You have: tera watt hours
