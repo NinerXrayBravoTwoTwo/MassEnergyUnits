@@ -178,4 +178,4 @@ You want: earthmass
 * Mass is NOT equivalent to energy:  **_Mass IS Energy_**
 * Matter is not the same thing as mass either. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... 
 * It seems that the mass attribute of matter can be seperated from matter's other attributes at the 'event horizon of a black hole leaving the remaining part of matter, it's 'information' components, behind while the energy/mass component becomes part of the singularity. 	_I will not pretend that I actually understand this._
-* There is a well written Wikipedia page that discusses the problems and politics of measuring the energy released by nuclear bombs here; https://en.wikipedia.org/wiki/Nuclear_weapon_yield
+* **Calculating yields and controversy** There is a well written Wikipedia page that discusses the problems and politics of measuring the energy released by nuclear bombs here; https://en.wikipedia.org/wiki/Nuclear_weapon_yield
