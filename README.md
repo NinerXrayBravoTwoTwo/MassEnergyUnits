@@ -103,7 +103,7 @@ You have: 63 PJ
 You want: nagasaki
         63 PJ = 684.42552 nagasaki
 ```
- An hour is 670 thousand miles. 
+ An hour is 670 million miles. 
 ```
 You have: 1 hour
 You want:
