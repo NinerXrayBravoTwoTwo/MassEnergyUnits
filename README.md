@@ -2,9 +2,7 @@ MassEnergy - Units Energy to mass conversion
 ==============================================================================
 Summary
 -------
-
-An extension for the Unix units conversion files that changes 
-energy to mass and seconds to meters.  
+A file for the unit's mathematics utility that modifies core constants setting the second == to c and c == 1.  This effectivly allows the units tool to render mass to energy space time solutions.  Amazingly changing these constants does not effect calculation results though you will get mass for energy unless you specify that you want joules or watts.
     You will never see the universe exactly the same again.
 
 License
