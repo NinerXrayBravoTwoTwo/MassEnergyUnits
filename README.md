@@ -68,10 +68,16 @@ You have: nagasaki
 You want: g
         nagasaki = 1.0241721 g
 ```
+The bomb dropped on Nagasaki was 76% more powerful than the bomb dropped on Hiroshima the previous week.
+Little boy released 0.58 grams of energy
+```
+You have: nagasaki
+You want: hiroshima
+        nagasaki = 1.76 hiroshima
+```
 A person weighing 170 lbs (77 kg, 12.1 stone) is 1.65 thousand Megatons, or 110 SHRIMP bombs.
 OR just 77.11 kg of energy ... mass is energy there is really no need to convert it.
 ```
-~ Extra 'You have:' lines have been removed from this result for brevity ...
 You have: 170 lbs
 You want: stone
         170 lbs = 12.142857 stone
@@ -83,13 +89,6 @@ You want: Mton_e
         170 lbs = 1656.3968 Mton_e
 You want: shrimp
         170 lbs = 110.00578 shrimp
-```
-The bomb dropped on Nagasaki was almost twice as powerful as the bomb dropped on Hiroshima the previous week.
-Little boy released 0.58 grams of energy and fatman released 1.02.
-```
-You have: nagasaki
-You want: hiroshima
-        nagasaki = 1.76 hiroshima
 ```
  The Castle Bravo shot was most powerful H-bomb tested by the USA. 
  It released 63 peta joule (PJ), appoximately 15) Megatons.
