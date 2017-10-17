@@ -26,7 +26,9 @@ https://www.cygwin.com/
 
 There may be other ways of installing it on windows as well.
 
-This MassEnergy.units file project is *not* related to the Gnu unit's software project.`
+This MassEnergy.units file project is *not* related to the Gnu unit's software project.
+
+Units does have several manuals; UnitsWin.pdf, UnitsMKS.pdf, units.pdf 
 
 Usage
 -----
