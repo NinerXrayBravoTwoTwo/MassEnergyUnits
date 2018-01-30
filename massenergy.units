@@ -39,8 +39,8 @@ ton_tnt_energy          1e+9 calorie # calorie ktontnt =~ 4.184TJ
 # explain and quantify the destructivness of the new bombs. 
 #
 # IMO we should stop using the 'imaginary' pile of TNT as a reference and start using joules or grams
-# as a measure of energy released. This is less subjective and everone knows what a gram is from e=mc^2.
-# Nagasaki released/transformed about 1 gram, so mass should be perfectly explainable unit of energy.
+# as a measure of energy released. This is less subjective and everyone knows that a mass is energy from 'e=mc^2'
+# Nagasaki released/transformed about 1 gram. Mass should be perfectly understandable unit for energy as they are equivelent.
  
 nova            10^44 J  # A small super nova, ranges vary wildly depending on what you are talking about
 everestmass	357 trillion lb
