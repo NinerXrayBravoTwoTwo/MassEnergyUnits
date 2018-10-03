@@ -2,7 +2,7 @@ MassEnergy - Units Energy to mass conversion
 ==============================================================================
 Summary
 -------
-A file for the unit's mathematics utility that modifies core constants setting the second = c and c = 1.  This effectively allows the units tool to render mass to energy space time solutions.  Amazingly changing these constants does not effect calculation results though you will get mass for energy unless you specify that you want joules or watts.
+A file for the unit's mathematics utility that modifies core constants setting the second = c and c = 1.  This effectively allows the units tool to render mass to energy space time solutions.  Amazingly changing these fundemental constants does not effect calculation results or the usefulness of Units, although you will get mass for energy sometimes unless you specify that you want joules or watts.
     You will never see the universe exactly the same again.
 
 License
