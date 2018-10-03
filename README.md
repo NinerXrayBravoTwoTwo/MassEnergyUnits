@@ -83,8 +83,6 @@ You want: stone
         170 lbs = 12.142857 stone
 You want: kg
         170 lbs = 77.110703 kg
-You want: stone
-        170 lbs = 12.142857 stone
 You want: Mton_e
         170 lbs = 1656.3968 Mton_e
 You want: shrimp
