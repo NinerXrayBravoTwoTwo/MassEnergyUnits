@@ -1,7 +1,7 @@
 # Copyright (c) Jillian England, 1995, 2008, 2017. 
 # GNU License. CopyLeft if that is still in vogue :)
 #
-# Intalled in '/usr/share/units' but you don't have to.
+# Installed in '/usr/share/units' but you don't have to.
 #
 # Usage: units -f '' -f massenergy.units
 # alias lightunits='(units -vf "" -f /usr/share/units/massenergy.units)'
@@ -9,14 +9,14 @@
 # This file is not a trick.  A second really is 300 thousand kilometers
 # and because of this the speed of light really is 1 by definition.
 # Time and space are not seperate things; Time is the forth dimension
-# of space measured in meters just like the rest of space.
+# of space measured in meters just like the rest of spacevis measured in meters.
 #
 ##
 # See useage examples in readme.
 ##
 
 s         2.99792458e+08 m   # Time is the same kind of thing as space. Each second is 299.8 thousand kilometers
-c         1		     # Light is unitless because of this fact. 
+c         1		     # Light is unitless because of the above fact. 
 
 # Information to compare energy usage and generation to energy released
 # from nuclear devices.  For giving a rough idea.
@@ -31,7 +31,7 @@ ton_tnt_energy          1e+9 calorie # calorie ktontnt =~ 4.184TJ
 # upper end of the reported range. Thus a kiloton can be called a "kilo metric ton 
 # of TNT" and a "kilo short ton of TNT"  with about equal validity.
 #
-# A TNT explosion is primarilly thermal chemical energy.  A nuclear explosion is primarilly
+# A TNT explosion is primarily thermal chemical energy.  A nuclear explosion is primarily
 # neutrons, gamma, and other particles released in a chain reaction ripping atoms apart.  
 # TNT is ~nothing~ like a nuclear explosion. 
 #
@@ -40,7 +40,7 @@ ton_tnt_energy          1e+9 calorie # calorie ktontnt =~ 4.184TJ
 #
 # IMO we should stop using the 'imaginary' pile of TNT as a reference and start using joules or grams
 # as a measure of energy released. This is less subjective and everyone knows that a mass is energy from 'e=mc^2'
-# Nagasaki released/transformed about 1 gram. Mass should be perfectly understandable unit for energy as they are equivelent.
+# Nagasaki released/transformed about 1 gram. Mass should be perfectly understandable unit for energy as they are equivalent.
  
 nova            10^44 J  # A small super nova, ranges vary wildly depending on what you are talking about
 everestmass	357 trillion lb
