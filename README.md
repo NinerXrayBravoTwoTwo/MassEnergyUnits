@@ -169,7 +169,48 @@ You want: earthmass
         nova = 186.24123 earthmass
         nova = (1 / 0.0053693802) earthmass        
 ```
+4H -> He + 24MeV, Which brings up an interesting point. If the sun has been hot for 4 billion years how much mass has it lost in energy mass to energy conversion?
 
+Lets see; 4 billion years at (todays rate kg/hr conversion) ... oooo this is going to be fun :)
+
+The sun radiates uniformly in all directions, mainly visible light and infrared radiation, and we can calculate the total amount of energy radiated by measuring the quantity of solar energy/second reaching every square meter of Earth and then multiplying that by the total surface area of a sphere with radius equal to the radius of Earth orbit. We get the astonishingly huge amount of 400 trillion trillion watts. To put this into a crazy context, every second the sun produces the same energy as about a trillion 1 megaton bombs! In one second, our sun produces enough energy for almost 500,000 years of the current needs of our so-called civilization. If only we could collect it all and use it!
+
+http://www.boston.com/.../how_much_energy_does_the_sun.../
+
+Checking the work I discovered that the article was off by a factor of 10.
+
+Showing the actual work;
+
+1 megaton of energy is defined as 1.15 terra watt hours. Which means that every second the sun blows off energy equivelent to 0.1 trillion 1 megaton bombs not a trillion.
+
+ton_tnt_energy = 1e+9 calorie
+= 4.1868+09 watt sec
+so trillion trillion = yotta = 1e+24
+and 400 yotta watt sec = 9.553+16 ton_tnt_energy
+which is 95,538 trillion ton_tnt_energy
+which (divided by a million) is ~ 0.1 trillion 1 megaton bombs.
+
+Which is still only ~ 5 million tons of mass to energy conversion per second;
+
+work;
+
+400 yotta watt seconds = 4.905 million tons (mass/sec)
+= 294 million ton (mass/ min)
+= 17,661 million ton (mass/hour)
+= 423,873 million ton (mass/day)
+= 154 trillion ton (mass/year)
+
+times 4 billion years
+
+= 0.6 tera tera tons (mass/4 billion years)
+= 0.6 yotta tons (mass/4 billion years)
+
+if the earth weighs 6.59+21 ton then;
+The sun radiated a mass equivelent to 94.04 earths over it's 4 billion year life or .0003 current solar masses over it's life.
+
+This assumes constant solar radiation for four billion years which is certainly incorrect.
+
+That was fun ... what else can I convert to energy ?
 ##### End of examples
 ####  Errata
 * Freeman’s gift? It’s cosmic. He is able to see more interconnections between more things than almost anybody. He sees the interrelationships, whether it’s in some microscopic physical process or in a big complicated machine like Orion. He has been, from the time he was in his teens, capable of understanding essentially anything that he’s interested in. He’s the most intelligent person I know. — Ted Taylor
