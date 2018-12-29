@@ -8,7 +8,7 @@ You will never see the universe exactly the same again.
 
 License
 -------
-Copyright (c) Jillian England, 1995, 2008, 2017. 
+Copyright (c) Jillian England, 1995, 2008, 2017, 2018, 2019
 
 GNU License.
 
