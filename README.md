@@ -205,8 +205,8 @@ times 4 billion years
 = 0.6 tera tera tons (mass/4 billion years)
 = 0.6 yotta tons (mass/4 billion years)
 
-if the earth weighs 6.59+21 ton then;
-The sun radiated a mass equivelent to 94.04 earths over it's 4 billion year life or .0003 current solar masses over it's life.
+**if the earth weighs 6.59+21 ton then;
+The sun radiated a mass equivelent to 94.04 earths over it's 4 billion year life or .0003 current solar masses over it's life.**
 
 This assumes constant solar radiation for four billion years which is certainly incorrect.
 
