@@ -141,7 +141,7 @@ You want: kg
  In total these bombs would have released 616 lbs (279 kg) of matter as energy or 6,973 Tera watt hours.
  
  Every one of these bombs could have incinerated a large city while setting fire
- to half a state the size of Washington.  Real wrath of God type of stuff.
+ to half a state the size of Washington.  Real wrath of God type of stuff.  This is why the Ward Clevers of the era had nightmares. This is why he built backyard bomb shelters.  This is why Bever played duck and cover with his friends.  This is why nobody ever talked openly about it.
  
  They were all retired and dismantled in the late 1950's.
 ```
