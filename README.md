@@ -91,7 +91,7 @@ You want: shrimp
 ```
  The Castle Bravo shot was most powerful H-bomb tested by the USA. 
  It released 63 peta joule (PJ), appoximately 15) Megatons.
-	 The bomb components themselves were nicknamed 'SHRIMP' which may be an acronym.
+	 The bomb components themselves were nicknamed 'SHRIMP' which may be an acronym, "System for Hydrogen Radiation IMPlosion".
  This bomb was 684 times the energy release of Fatman which was used against Nagasaki. 
 ```
 You have: 63 PJ
@@ -138,12 +138,12 @@ You want: kg
 ```
  In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release 
  approximately 20 Megatons of energy (23 terra watt hours, 0.91 kg) for a total cold war arsenal of 6,000 Megatons. 
- In total these bombs would have released 616 lbs of matter as energy or 6,973 Tera watt hours.
+ In total these bombs would have released 616 lbs (279 kg) of matter as energy or 6,973 Tera watt hours.
  
- Every one of these bombs could have incinerated a large city and set fire
- to half a state the size of Washington.
+ Every one of these bombs could have incinerated a large city while setting fire
+ to half a state the size of Washington.  Real wrath of God type of stuff.
  
- They were retired in the late 1950's.
+ They were all retired and dismantled in the late 1950's.
 ```
 You have: 20 Mton_e 300
 You want: lbs
