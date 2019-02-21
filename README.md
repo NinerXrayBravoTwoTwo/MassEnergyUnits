@@ -138,7 +138,7 @@ You want: kg
 ```
  In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release 
  approximately 20 Megatons of energy (23 terra watt hours, 0.91 kg) for a total cold war arsenal of 6,000 Megatons. 
- In total these bombs would have released 616 lbs (279 kg) of matter as energy or 6,973 Tera watt hours.
+ In total these bombs would have released 616 lbs (279 kg) of mass as energy or 6,973 Tera watt hours.
  
  Every one of these bombs could have incinerated a large city while setting fire
  to half a state the size of Washington. True wrath of God type of stuff. These weapons and their counterparts in the Soviet Union are the reason people of the era dug bomb shelters in their back yards.  It was not mass hysteria there really was a world ending man made threat.
