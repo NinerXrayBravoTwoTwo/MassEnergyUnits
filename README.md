@@ -216,7 +216,7 @@ work;
 
 times 4 billion years
 
-= 0.59 tera tera tons (mass/4 billion years)You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
+= 0.59 tera tera tons (mass/4 billion years)
 = 0.59 yotta tons (mass/4 billion years)
 
 ```
@@ -224,11 +224,11 @@ You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: yotta ton
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.59542467 yotta ton
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = (1 / 1.6794736) yotta ton
+	
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: earthmass
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 90.414858 earthmass
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = (1 / 0.011060129) earthmass
-You have:
 ```
 **if the earth weighs 6.59+21 ton then;
 The sun radiated a mass equivelent to 90.41 earths over it's 4 billion year life or .0003 current solar masses over it's life.**
