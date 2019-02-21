@@ -240,8 +240,7 @@ You want: jupitermass
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.28441808 jupitermass
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = (1 / 3.5159509) jupitermass
 ```
-**if the earth weighs 6.59+21 ton then; The sun radiated a mass equivelent to 90.41 earths over it's 4 billion year life or .0003 current solar masses or .28 Jupiter masses over it's four billion year life.
-**
+**if the earth weighs 6.59+21 ton then; The sun radiated a mass equivelent to 90.41 earths over it's 4 billion year life or .0003 current solar masses or .28 Jupiter masses over it's four billion year life.**
 
 This assumes constant solar radiation for four billion years which is certainly incorrect.
 
