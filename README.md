@@ -247,7 +247,7 @@ You want: nova
 ```
 **if the earth weighs 6.59+21 ton then; The sun radiated a mass equivelent to 90.41 earths over it's 4 billion year life or .0003 current solar masses or .28 Jupiter masses over it's four billion year life.**
 
-** Interesting; 4 billion years star burn = Half of a Nova? **
+**Interesting; 4 billion years star burn = Half of a Nova?**
 
 This assumes constant solar radiation for four billion years which is certainly incorrect.
 
