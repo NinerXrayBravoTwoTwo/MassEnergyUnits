@@ -37,7 +37,7 @@ Can be installed in '/usr/share/units' but this is not required.
 
 ##### .bashrc
 ```
-alias lightunits = '(units -vf "" -f /usr/share/units/massenergy.units)'
+alias lightunits='(units -vf "" -f /usr/share/units/massenergy.units)'
 ```
 
 Will not help with Spacetime Physics
