@@ -239,8 +239,15 @@ You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: jupitermass
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.28441808 jupitermass
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = (1 / 3.5159509) jupitermass
+
+You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
+You want: nova
+        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.48547175 nova
+        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = (1 / 2.0598521) nova
 ```
 **if the earth weighs 6.59+21 ton then; The sun radiated a mass equivelent to 90.41 earths over it's 4 billion year life or .0003 current solar masses or .28 Jupiter masses over it's four billion year life.**
+
+** Interesting; 4 billion years star burn = Half of a Nova? **
 
 This assumes constant solar radiation for four billion years which is certainly incorrect.
 
