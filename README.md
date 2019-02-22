@@ -90,7 +90,7 @@ You want: shrimp
         170 lbs = 110.00578 shrimp
 ```
  The Castle Bravo shot was most powerful H-bomb tested by the USA. 
- It released 63 peta joule (PJ), appoximately 15) Megatons.
+ It released 63 peta joule (PJ), appoximately 15 megatons of TNT.
 	 The bomb components themselves were nicknamed 'SHRIMP' which may be an acronym, "System for Hydrogen Radiation IMPlosion".
  This bomb was 684 times the energy release of Fatman which was used against Nagasaki. 
 ```
@@ -169,7 +169,7 @@ You want: earthmass
         nova = 186.24123 earthmass
         nova = (1 / 0.0053693802) earthmass        
 ```
-4H -> He + 24MeV, Which brings up an interesting point. If the sun has been hot for 4 billion years how much mass has it lost in energy mass to energy conversion?
+4H -> He + 24MeV, Which brings up an interesting point. If the sun has been hot for 4 billion years how much mass has it lost in mass to energy conversion?
 
 Lets see; 4 billion years at (todays rate kg/hr conversion) ... oooo this is going to be fun :)
 
