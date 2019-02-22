@@ -2,7 +2,7 @@ MassEnergy - Units Energy to mass conversion
 ==============================================================================
 Summary
 -------
-A file for the unit's mathematics utility that modifies core constants setting the second = 299 thousand meters and c = 1.  This effectively allows the units tool to render mass to energy space time solutions.  Amazingly changing these fundemental constants does not effect calculation results or the usefulness of Units, although you will get mass for energy sometimes unless you specify that you want joules or watts.
+A conversion file for the "units" mathematics utility that modifies core constants setting the second = 299 thousand meters and c = 1.  This  simple change allows the units tool to render mass to energy space to time solutions.  Amazingly changing these fundemental constants does not effect calculation results or the usefulness of Units. If your conversion gives mass instead of energy like you were expecting you may sometimes need to specify that you want joules or watts.
 
 You will never see the universe exactly the same again.
 
@@ -180,15 +180,15 @@ From Old Article
 The exact amount of energy released by the Sun is not as solid a number as I had thought. It turns out values in literature have been as high as 400 yotta watts.  
 
 At the time of this writing I found a value of 
-382.8 yotta W on wiki and 
-384.6 yotta W on a nasa fact sheet.
+* 382.8 yotta W on wiki and 
+* 384.6 yotta W on a nasa fact sheet.
 
 For the best/latest value I suggest you research it looking for "Solar Luminosity".   Note: Luminosity is not the only radiation or energy transfer from the sun.  There are also magnetic, partical, solar wind energy transfers that are not accounted for in luminosity.
 
-NASA
+* NASA
 https://web.archive.org/web/20100715200549/http://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html
 
-Wikipedia
+* Wikipedia
 https://en.wikipedia.org/wiki/Sun
 
 Calculation Of Earth Masses Lost from Hydrogen Fusion over Sun's Lifetime
