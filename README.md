@@ -223,27 +223,22 @@ times 4 billion years
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: yotta ton
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.59542467 yotta ton
-        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = (1 / 1.6794736) yotta ton
-	
+        
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: earthmass
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 90.414858 earthmass
-        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = (1 / 0.011060129) earthmass
-
+	
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: solarmass
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.00027156009 solarmass
-        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = (1 / 3682.4263) solarmass
 	
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: jupitermass
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.28441808 jupitermass
-        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = (1 / 3.5159509) jupitermass
 
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: nova
         384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.48547175 nova
-        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = (1 / 2.0598521) nova
 ```
 **if the earth weighs 6.59+21 ton then; The sun radiated a mass equivelent to 90.41 earths over it's 4 billion year life or .0003 current solar masses or .28 Jupiter masses over it's four billion year life.**
 
@@ -255,8 +250,7 @@ That was fun ... what else can I convert to energy ?
 ##### End of examples
 ####  Errata
 * Freeman’s gift? It’s cosmic. He is able to see more interconnections between more things than almost anybody. He sees the interrelationships, whether it’s in some microscopic physical process or in a big complicated machine like Orion. He has been, from the time he was in his teens, capable of understanding essentially anything that he’s interested in. He’s the most intelligent person I know. — Ted Taylor
-* Space has four dimensions.  Time is one of those dimentions measured in meters just like the other three.  A *second* is in reality 300 thousand kilometers. (this of course means the speed of light is actually 1, without units)
+* Space has four dimensions.  Time is one of those dimentions measured in meters just like the other three.  A *second* is in reality 300 thousand kilometers. (this means the speed of light is actually 1, without units)
 * Mass is NOT equivalent to energy:  **_Mass IS Energy_**
-* Matter is not the same thing as mass either. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... 
-* It seems that the mass attribute of matter can be seperated from matter's other attributes at the 'event horizon of a black hole leaving the remaining part of matter, it's 'information' components, behind while the energy/mass component becomes part of the singularity. 	_I will not pretend that I actually understand this._
+* Matter is not the same thing as mass. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... _
 * **Calculating yields and controversy** There is a well written Wikipedia page that discusses the problems and politics of measuring the energy released by nuclear bombs here; https://en.wikipedia.org/wiki/Nuclear_weapon_yield
