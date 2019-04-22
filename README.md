@@ -246,7 +246,48 @@ You want: nova
 
 This assumes constant solar radiation for four billion years which is certainly incorrect.
 
-That was fun ... what else can I convert to energy ?
+That was fun ... what else can I convert to energy ? 
+
+#### CIA Factbook Energy
+Not complete, new edit coming soon
+Trying to make better sense of the energy requirements of our world is eaiser when converting electrical kW into kg.
+
+The World total production energy is (at the time of this doc edit) 
+```
+You have: 23.65 trillion kWh
+You want: TWh
+        23.65 trillion kWh = 23650 TWh
+You want: Mton_e
+        23.65 trillion kWh = 20348.948 Mton_e
+You want: kg
+        23.65 trillion kWh = 947.31026 kg
+```
+Installed generation capacity for world is listed as;
+
+6.386 billion kW (2015 est.)
+```
+ * document converting capacity to Annual TWh should be TW * year * 24
+```
+
+
+```
+TW prd  TW cap  Srpls rtio  country
+11.03   40.10   3.64    Italy
+10.36   37.18   3.59    Spain
+24.55   73.21   2.98    Germany
+121.89  342.34  2.81    European Union
+12.75   34.08   2.67    United Kingdom
+10.49   27.56   2.63    Turkey
+39.63   103.90  2.62    Japan
+10.91   27.25   2.50    Iran
+235.65  580.40  2.46    China
+947.31  2242.24 2.37    World
+55.52   129.14  2.33    India
+22.75   52.95   2.33    Brazil
+164.03  381.67  2.33    United States
+12.98   29.12   2.24    Saudi Arabia
+21.19   45.93   2.17    France
+```
 ##### End of examples
 ####  Errata
 * Freeman’s gift? It’s cosmic. He is able to see more interconnections between more things than almost anybody. He sees the interrelationships, whether it’s in some microscopic physical process or in a big complicated machine like Orion. He has been, from the time he was in his teens, capable of understanding essentially anything that he’s interested in. He’s the most intelligent person I know. — Ted Taylor
