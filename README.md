@@ -266,7 +266,14 @@ Installed generation capacity for world is listed as;
 
 6.386 billion kW (2015 est.)
 ```
- * document converting capacity to Annual TWh should be TW * year * 24
+ * Converting capacity to Annual TWh should be TW * year * 24
+
+ * Note; 
+	//C# -> $"{Igc.TW * 365.242198781 * 24 *TWh2kg}\t" 
+	// 365.242198781 day/year * 24 hr/day *.040055 TWh/kg 
+You have: 6.386 TW *year *24 hr/day
+Definition: 2242.2405 kg
+
 ```
 
 
