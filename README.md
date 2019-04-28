@@ -192,7 +192,7 @@ https://web.archive.org/web/20100715200549/http://nssdc.gsfc.nasa.gov/planetary/
 https://en.wikipedia.org/wiki/Sun
 
 Calculation Of Earth Masses Lost from Hydrogen Fusion over Sun's Lifetime
-=
+------------------------------------------------------------
 
 trillion trillion = yotta = 1e+24
 
@@ -265,14 +265,7 @@ You want: shrimp
 You want: kg
          23.65 trillion kWh = 947.31026 kg
 ```
-Installed generation capacity for world is listed as;
-
-6.386 billion kW (2015 est.)
-```
-You have: 6.386 TW *year *24 hr/day
-Definition: 2242.2405 kg
-```
-If calculate kg electric production for each country;
+Calculate kg electric production for each country;
 
 ```
 ProdTWh kg e   pop_M   kWh/pop  Country
@@ -286,6 +279,7 @@ ProdTWh kg e   pop_M   kWh/pop  Country
 649.6   26.0    36      18104   Canada
 612.8   24.5    80      7616    Germany
 567.9   22.7    209     2719    Brazil
+...
 ```
 ##### End of examples
 ####  Errata
