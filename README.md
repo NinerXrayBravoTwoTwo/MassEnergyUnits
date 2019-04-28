@@ -222,23 +222,22 @@ times 4 billion years
 ```
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: yotta ton
-        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.59542467 yotta ton
-        
-You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
+        384.6 yotta wa... = 0.59542467 yotta ton
+       
 You want: earthmass
-        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 90.414858 earthmass
+        384.6 yotta wa... = 90.414858 earthmass
 	
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: solarmass
-        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.00027156009 solarmass
+        384.6 yotta wa... = 0.00027156009 solarmass
 	
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: jupitermass
-        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.28441808 jupitermass
+        384.6 yotta wa...a = 0.28441808 jupitermass
 
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: nova
-        384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga = 0.48547175 nova
+        384.6 yotta wa... = 0.48547175 nova
 ```
 **if the earth weighs 6.59+21 ton then; The sun radiated a mass equivelent to 90.41 earths over it's 4 billion year life or .0003 current solar masses or .28 Jupiter masses over it's four billion year life.**
 
@@ -266,34 +265,23 @@ Installed generation capacity for world is listed as;
 
 6.386 billion kW (2015 est.)
 ```
- * Converting capacity to Annual TWh should be TW * year * 24
-
- * Note; 
-	//C# -> $"{Igc.TW * 365.242198781 * 24 *TWh2kg}\t" 
-	// 365.242198781 day/year * 24 hr/day *.040055 TWh/kg 
 You have: 6.386 TW *year *24 hr/day
 Definition: 2242.2405 kg
+```
+If calculate kg electric production for each country;
 
 ```
-
-
-```
-TW prd  TW cap  Srpls rtio  country
-11.03   40.10   3.64    Italy
-10.36   37.18   3.59    Spain
-24.55   73.21   2.98    Germany
-121.89  342.34  2.81    European Union
-12.75   34.08   2.67    United Kingdom
-10.49   27.56   2.63    Turkey
-39.63   103.90  2.62    Japan
-10.91   27.25   2.50    Iran
-235.65  580.40  2.46    China
-947.31  2242.24 2.37    World
-55.52   129.14  2.33    India
-22.75   52.95   2.33    Brazil
-164.03  381.67  2.33    United States
-12.98   29.12   2.24    Saudi Arabia
-21.19   45.93   2.17    France
+ProdTWh kg e   pop_M   kWh/pop  Country
+23650   947.3   7405    3194    World
+5883    235.6   1385    4249    China
+4095    164.0   329     12437   United States
+3043    121.9   517     5885    European Union
+1386    55.5    1297    1069    India
+1031    41.3    142     7254    Russia
+989.3   39.6    126     7841    Japan
+649.6   26.0    36      18104   Canada
+612.8   24.5    80      7616    Germany
+567.9   22.7    209     2719    Brazil
 ```
 ##### End of examples
 ####  Errata
