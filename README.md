@@ -249,18 +249,21 @@ That was fun ... what else can I convert to energy ?
 
 CIA Factbook Energy
 -------------------
-Not complete, new edit coming soon
 Trying to make better sense of the energy requirements of our world is eaiser when converting electrical kW into kg.
 
-The World total production energy is (at the time of this doc edit) 
+The World total production energy is (at the time of this edit)
+23,650 TWh or 947 kg
+
 ```
 You have: 23.65 trillion kWh
 You want: TWh
         23.65 trillion kWh = 23650 TWh
 You want: Mton_e
-        23.65 trillion kWh = 20348.948 Mton_e
+         23.65 trillion kWh = 20348.948 Mton_e
+You want: shrimp
+         23.65 trillion kWh = 1351.4286 shrimp
 You want: kg
-        23.65 trillion kWh = 947.31026 kg
+         23.65 trillion kWh = 947.31026 kg
 ```
 Installed generation capacity for world is listed as;
 
