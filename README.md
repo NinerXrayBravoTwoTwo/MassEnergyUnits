@@ -247,7 +247,8 @@ This assumes constant solar radiation for four billion years which is certainly 
 
 That was fun ... what else can I convert to energy ? 
 
-#### CIA Factbook Energy
+CIA Factbook Energy
+-------------------
 Not complete, new edit coming soon
 Trying to make better sense of the energy requirements of our world is eaiser when converting electrical kW into kg.
 
