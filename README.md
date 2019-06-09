@@ -91,7 +91,8 @@ You want: shrimp
 ```
  The Castle Bravo shot was most powerful H-bomb tested by the USA. 
  It released 63 peta joule (PJ), appoximately 15 megatons of TNT.
-	 The bomb components themselves were nicknamed 'SHRIMP' which may be an acronym, "System for Hydrogen Radiation IMPlosion".
+	 The bomb components themselves were nicknamed 'SHRIMP' an acronym;
+ "Staged Hydrogen Radiation IMPlosion".
  This bomb was 684 times the energy release of Fatman which was used against Nagasaki. 
 ```
 You have: 63 PJ
