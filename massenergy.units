@@ -1,4 +1,4 @@
-# Copyright (c) Jillian England, 1995, 2008, 2017. 
+Y# Copyright (c) Jillian England, 1995, 2008, 2017. 
 # GNU License. CopyLeft if that is still in vogue :)
 #
 # Installed in '/usr/share/units' but you don't have to.
@@ -63,5 +63,4 @@ castlebravo 63 PJ       # 03-04-54, 10432 kg, 14ft 12in, shrimp,    Pu-239 Li-6 
 gadget      trinity     #    0.8845 g (energy in grams)
 littleboy   hiroshima   #    0.5819 g 
 fatman      nagasaki    #    1.0241 g
-shrimp      castlebravo #  700.9695 g Nicknamed SHRIMP; May be acronym for "System for Hydrogen Radiation Implosion"
-
+shrimp      castlebravo #  700.9695 g Nicknamed SHRIMP;  "Staged Hydrogen Radiation IMPlosion"
