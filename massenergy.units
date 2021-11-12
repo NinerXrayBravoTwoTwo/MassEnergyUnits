@@ -1,4 +1,4 @@
-# Copyright (c) Jillian England, 1995, 2008, 2017. 
+# Copyright (c) Jillian England, 1995, 2008, 2017, 2021
 # GNU License. CopyLeft if that is still in vogue :)
 #
 # Installed in '/usr/share/units' but you don't have to.
@@ -42,7 +42,7 @@ ton_tnt_energy          1e+9 calorie # calorie ktontnt =~ 4.184TJ
 # as a measure of energy released. This is less subjective and everyone knows that a mass is energy from 'e=mc^2'
 # Nagasaki released/transformed about 1 gram. Mass should be perfectly understandable unit for energy as they are equivalent.
  
-nova            10^44 J  # A small super nova, ranges vary wildly depending on what you are talking about
+nova            10^44 J  # An "foe" Used to express the large amount of energy released by a supernova. An acronym for "Fifty One Ergs", the term was introduced by Gerald E. Brown of Stony Brook University
 everestmass	357 trillion lb
 
 # http://www.cartage.org.lb/en/themes/sciences/chemistry/NuclearChemistry/NuclearWeapons/FirstChainReaction/TypesofNuclear/UnitsMeasurement.htm
