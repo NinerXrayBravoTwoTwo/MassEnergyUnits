@@ -4,6 +4,10 @@ Summary
 -------
 A conversion file for the "units" mathematics utility that modifies core constants setting; second = 299 thousand meters and c = 1.  This  simple change allows the units tool to render mass to energy space to time solutions.  Amazingly changing these fundemental constants does not effect calculation results or the usefulness of Units. If your conversion gives mass instead of energy like you were expecting you may sometimes need to specify that you want joules or watts.
 
+Time and distance are the same thing.
+ergo
+mass and energy are the same thing.
+
 You will never see the universe exactly the same again.
 
 License
@@ -20,14 +24,14 @@ The Units program converts quantities expressed in various scales
 to their equivalents in other scales."
 See the units homepage; "http://www.gnu.org/software/units/"
 
-Units can be installed with cygwin on a windows systems.  
-https://www.cygwin.com/ 
+Units can be installed with cygwin on a windows systems.
+https://www.cygwin.com/
 
 There may be other ways of installing it on windows as well.
 
 This MassEnergy.units file project is *not* related to the Gnu unit's software project.
 
-Units does have several manuals; UnitsWin.pdf, UnitsMKS.pdf, units.pdf 
+Units does have several manuals; UnitsWin.pdf, UnitsMKS.pdf, units.pdf
 
 Usage
 -----
@@ -45,8 +49,8 @@ Will not help with Spacetime Physics
 
 This file will NOT help you with your Lorentz transformations or understanding
 the geometry of spacetime. To learn that time is really just a 4th dimension
-of space and that a second is actually 300 thousand kilometers (186,000 miles) 
-you need some spacetime physics. You can take an undergraduate STP class if one is 
+of space and that a second is actually 300 thousand kilometers (186,000 miles)
+you need some spacetime physics. You can take an undergraduate STP class if one is
 available or/and there are many books and videos that are fun and even necessary for continious
 immersion in this subject.
 
@@ -54,7 +58,7 @@ An excellent textbook is; "Spacetime Physics, Edwin Taylor and John Archibald Wh
 Both the first and second versions of this book are great.
 
 Annother essential book, a biography of Ted Taylor by John McPhee, will alter the way you see the world;
-"The Curve of Binding Energy: a Journey into the Awesome and Alarming world of Theodore B. Taylor, John McPhee, May 22nd 1974".  
+"The Curve of Binding Energy: a Journey into the Awesome and Alarming world of Theodore B. Taylor, John McPhee, May 22nd 1974".
 
 Examples
 --------
@@ -89,11 +93,11 @@ You want: Mton_e
 You want: shrimp
         170 lbs = 110.00578 shrimp
 ```
- The Castle Bravo shot was most powerful H-bomb tested by the USA. 
+ The Castle Bravo shot was most powerful H-bomb tested by the USA.
  It released 63 peta joule (PJ), appoximately 15 megatons of TNT.
 	 The bomb components themselves were nicknamed 'SHRIMP' an acronym;
  "Staged Hydrogen Radiation IMPlosion".
- This bomb was 684 times the energy release of Fatman which was used against Nagasaki. 
+ This bomb was 684 times the energy release of Fatman which was used against Nagasaki.
 ```
 You have: 63 PJ
 You want: Mton_e
@@ -103,7 +107,7 @@ You have: 63 PJ
 You want: nagasaki
         63 PJ = 684.42552 nagasaki
 ```
- An hour is 670 million miles. 
+ An hour is 670 million miles. Distance and time are measured in the same units. They are equivelent.  Seconds are actually VERY SLOW.  There is a lot of time in a second.
 ```
 You have: hour
 You want: kmiles
@@ -123,7 +127,7 @@ You want: g
   http://www.sandia.gov/~jytsao/Solar%20FAQs.pdf
 
  I find that all the numbers make more sense when I convert Terra watts into grams
- 
+
 ```
 You have: tera watt hour
 You want: g
@@ -137,19 +141,19 @@ You have: 15 TW  years
 You want: kg
         15 TW  years = 5266.7723 kg
 ```
- In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release 
- approximately 20 Megatons of energy (23 terra watt hours, 0.91 kg) for a total cold war arsenal of 6,000 Megatons. 
+ In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release
+ approximately 20 Megatons of energy (23 terra watt hours, 0.91 kg) for a total cold war arsenal of 6,000 Megatons.
  In total these bombs would have released 616 lbs (279 kg) of mass as energy or 6,973 Tera watt hours.
- 
+
  Every one of these bombs could have incinerated a large city while setting fire
  to half a state the size of Washington. True wrath of God type of stuff. These weapons and their counterparts in the Soviet Union are the reason people of the era dug bomb shelters in their back yards.  It was not mass hysteria there really was a world ending man made threat.
- 
+
  All of the American Mark 17 & 24's were removed from service and dismantled in the late 1950's.
 ```
 You have: 20 Mton_e 300
 You want: lbs
         20 Mton_e 300 = 615.79446 lbs
-    
+
 You have: 20 Mton_e 300
 You want: Twatt hours
         20 Mton_e 300 = 6973.3333 Twatt hours
@@ -157,18 +161,18 @@ You want: Twatt hours
 You have: 20 Mton_e 300
 You want: Twatt year
         20 Mton_e 300 = 0.79551475 Twatt year
-        
+
 You have: 20 Mton_e 300
 You want: thousand fatman
         20 Mton_e 300 = 272.72727 thousand fatman
 ```
-An exploding star releases the the mass of 186 earths. If the entire mass of the earth 
+An exploding star releases the the mass of 186 earths. If the entire mass of the earth
 was converted into energy it would only be 1/200'th that of an exploding star.
 ```
 You have: nova
 You want: earthmass
         nova = 186.24123 earthmass
-        nova = (1 / 0.0053693802) earthmass        
+        nova = (1 / 0.0053693802) earthmass
 ```
 4H -> He + 24MeV, Which brings up an interesting point. If the sun has been hot for 4 billion years how much mass has it lost in mass to energy conversion?
 
@@ -178,10 +182,10 @@ From Old Article
 
 "The sun radiates uniformly in all directions. We can calculate the total amount of energy radiated by measuring the quantity of solar energy/second reaching every square meter of Earth and then multiplying that by the total surface area of a sphere with radius equal to the radius of Earth orbit. We get the astonishingly huge amount of 400 trillion trillion watts."
 
-The exact amount of energy released by the Sun is not as solid a number as I had thought. It turns out values in literature have been as high as 400 yotta watts.  
+The exact amount of energy released by the Sun is not as solid a number as I had thought. It turns out values in literature have been as high as 400 yotta watts.
 
-At the time of this writing I found a value of 
-* 382.8 yotta W on wiki and 
+At the time of this writing I found a value of
+* 382.8 yotta W on wiki and
 * 384.6 yotta W on a nasa fact sheet.
 
 For the best/latest value I suggest you research it looking for "Solar Luminosity".   Note: Luminosity is not the only radiation or energy transfer from the sun.  There are also magnetic, partical, solar wind energy transfers that are not accounted for in luminosity.
@@ -224,14 +228,14 @@ times 4 billion years
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: yotta ton
         384.6 yotta wa... = 0.59542467 yotta ton
-       
+
 You want: earthmass
         384.6 yotta wa... = 90.414858 earthmass
-	
+
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: solarmass
         384.6 yotta wa... = 0.00027156009 solarmass
-	
+
 You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: jupitermass
         384.6 yotta wa...a = 0.28441808 jupitermass
@@ -246,7 +250,7 @@ You want: nova
 
 This assumes constant solar radiation for four billion years which is certainly incorrect.
 
-That was fun ... what else can I convert to energy ? 
+That was fun ... what else can I convert to energy ?
 
 CIA Factbook Energy
 -------------------

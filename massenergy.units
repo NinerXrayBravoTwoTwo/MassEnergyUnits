@@ -15,9 +15,16 @@
 # See useage examples in readme.
 ##
 
-s         2.99792458e+08 m   # Time is the same kind of thing as space. Each second is 299.8 thousand kilometers
+# time IS measured in meters, no such unique thing as 'seconds'
+# time and distance ARE the same thing.
+# THIS MEANS that mass and Energy are also the same thing.  No difference.
+# AND we do not have to do ANYTHING to the equations of energy, just realize 
+# that a second is ~300 thousand kilometers. Not a trick. Reality.
+
+s         2.99792458e+08 m   # Time is distance. Each second is 299.8 thousand kilometers
 c         1		     # Light is unitless because of the above fact. 
 
+## The rest of this file are conversion factors for fun & energy<->mass equivelence comparisons.
 # Information to compare energy usage and generation to energy released
 # from nuclear devices.  For giving a rough idea.
  
@@ -44,6 +51,11 @@ ton_tnt_energy          1e+9 calorie # calorie ktontnt =~ 4.184TJ
  
 nova            10^44 J  # A small super nova, ranges vary wildly depending on what you are talking about
 everestmass	357 trillion lb
+solarluminosity 382.8 yotta W  # Total solar power also 382.8 10^24 J/S
+chicxulub      418400 exa J    # 6 miles across, 100 trillion tons of TNT, cretaceous-paleogene extinction
+
+dinokill chicxulub
+sunpower solarluminosity
 
 # http://www.cartage.org.lb/en/themes/sciences/chemistry/NuclearChemistry/NuclearWeapons/FirstChainReaction/TypesofNuclear/UnitsMeasurement.htm
 # cartage.org.lb is gone as of 2014 it is available on the way back machine
