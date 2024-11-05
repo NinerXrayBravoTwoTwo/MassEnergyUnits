@@ -294,12 +294,12 @@ ProdTWh kg e   pop_M   kWh/pop  Country
 * Matter is not the same thing as mass. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... _
 * **Calculating yields and controversy** There is a well written Wikipedia page that discusses the problems and politics of measuring the energy released by nuclear bombs here; https://en.wikipedia.org/wiki/Nuclear_weapon_yield
 #### Light like / Time like equations
-```
+
 Approach	Interval Equation	Key Feature	Pros
 Standard (Real Time)	 $\Delta s^2 = c^2 \Delta t^2 - \Delta x^2$ 	Mixed sign for time and space	Familiar and intuitive in special relativity
 Divided by  c^2 	 $\Delta s^2 = \Delta t^2 - \left(\frac{\Delta x}{c}\right)^2$ 	Converts to time units for all terms	Allows time and space terms to be in the same units
 Imaginary Time	 \Delta s^2 = -\Delta x^2 - \Delta (ict)^2 	All terms with the same sign	Unifies time and space signs, useful in some theoretical frameworks
 Hyperbolic (Rapidity)	 \Delta s^2 = c^2 \Delta t^2 - \Delta x^2  with  \cosh  and  \sinh 	Uses rapidity instead of velocity	Avoids imaginary numbers; useful for Lorentz transformations and spacetime
-```
+
 Each approach provides a distinct way of understanding or calculating the spacetime interval, offering flexibility depending on the context and the desired interpretation.
 
