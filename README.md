@@ -293,6 +293,7 @@ ProdTWh kg e   pop_M   kWh/pop  Country
 * Mass is NOT equivalent to energy:  **_Mass IS Energy_**
 * Matter is not the same thing as mass. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... _
 * **Calculating yields and controversy** There is a well written Wikipedia page that discusses the problems and politics of measuring the energy released by nuclear bombs here; https://en.wikipedia.org/wiki/Nuclear_weapon_yield
+
 | Interval Equation                                   | Key Feature                             | Pros                                                                 |
 |-----------------------|----------------------------------------------------|-----------------------------------------|----------------------------------------------------------------------|
 | **Standard (Real Time)** | ![equation](https://latex.codecogs.com/png.latex?\Delta%20s^2%20=%20c^2%20\Delta%20t^2%20-%20\Delta%20x^2)         | Mixed sign for time and space           | Familiar and intuitive in special relativity                         |
