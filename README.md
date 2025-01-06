@@ -286,7 +286,7 @@ ProdTWh kg e   pop_M   kWh/pop  Country
 567.9   22.7    209     2719    Brazil
 ...
 ```
-##### End of examples
+##### End of examples😎
 ####  Errata
 * Richard Feynman's gift? It’s cosmic. He is able to see more interconnections between more things than almost anybody. He sees the interrelationships, whether it’s in some microscopic physical process or in a big complicated machine like Orion. He has been, from the time he was in his teens, capable of understanding essentially anything that he’s interested in. He’s the most intelligent person I know. — Ted Taylor
 * Space has four dimensions.  Time is one of those dimentions measured in meters just like the other three.  A *second* is in reality 300 thousand kilometers. (this means the speed of light is actually 1, without units)
@@ -294,7 +294,9 @@ ProdTWh kg e   pop_M   kWh/pop  Country
 * Matter is not the same thing as mass. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... _
 * **Calculating yields and controversy** There is a well written Wikipedia page that discusses the problems and politics of measuring the energy released by nuclear bombs here; https://en.wikipedia.org/wiki/Nuclear_weapon_yield
 
-| Interval Equation                                   | Key Feature                             | Pros                                                                 |
+#### Light-like / Time-like Equations
+
+| Approach              | Interval Equation                                   | Key Feature                             | Pros                                                                 |
 |-----------------------|----------------------------------------------------|-----------------------------------------|----------------------------------------------------------------------|
 | **Standard (Real Time)** | ![equation](https://latex.codecogs.com/png.latex?\Delta%20s^2%20=%20c^2%20\Delta%20t^2%20-%20\Delta%20x^2)         | Mixed sign for time and space           | Familiar and intuitive in special relativity                         |
 | **Divided by $c^2$**   | ![equation](https://latex.codecogs.com/png.latex?\Delta%20s^2%20=%20\Delta%20t^2%20-%20\left(\frac{\Delta%20x}{c}\right)^2) | Converts to time units for all terms   | Allows time and space terms to be in the same units                  |
