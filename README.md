@@ -298,9 +298,9 @@ ProdTWh kg e   pop_M   kWh/pop  Country
 
 | Approach              | Interval Equation                                   | Key Feature                             | Pros                                                                 |
 |-----------------------|----------------------------------------------------|-----------------------------------------|----------------------------------------------------------------------|
-| **Standard (Real Time)** | ![equation](https://latex.codecogs.com/png.latex?\Delta%20s^2%20=%20c^2%20\Delta%20t^2%20-%20\Delta%20x^2)         | Mixed sign for time and space           | Familiar and intuitive in special relativity                         |
-| **Divided by $c^2$**   | ![equation](https://latex.codecogs.com/png.latex?\Delta%20s^2%20=%20\Delta%20t^2%20-%20\left(\frac{\Delta%20x}{c}\right)^2) | Converts to time units for all terms   | Allows time and space terms to be in the same units                  |
-| **Imaginary Time**     | ![equation](https://latex.codecogs.com/png.latex?\Delta%20s^2%20=%20-\Delta%20x^2%20-%20\Delta%20(ict)^2)         | All terms with the same sign            | Unifies time and space signs, useful in some theoretical frameworks  |
-| **Hyperbolic (Rapidity)** | ![equation](https://latex.codecogs.com/png.latex?\Delta%20s^2%20=%20c^2%20\Delta%20t^2%20-%20\Delta%20x^2%20\text{with}%20\cosh%20\text{and}%20\sinh) | Uses rapidity instead of velocity | Avoids imaginary numbers; useful for Lorentz transformations and spacetime |
+| **Standard (Real Time)** | Δs² = c²Δt² - Δx²                                | Mixed sign for time and space           | Familiar and intuitive in special relativity                         |
+| **Divided by c²**      | Δs² = Δt² - (Δx/c)²                               | Converts to time units for all terms   | Allows time and space terms to be in the same units                  |
+| **Imaginary Time**     | Δs² = -Δx² - Δ(ict)²                              | All terms with the same sign            | Unifies time and space signs, useful in some theoretical frameworks  |
+| **Hyperbolic (Rapidity)** | Δs² = c²Δt² - Δx² with cosh and sinh             | Uses rapidity instead of velocity       | Avoids imaginary numbers; useful for Lorentz transformations and spacetime |
 
 Each approach provides a distinct way of understanding or calculating the spacetime interval, offering flexibility depending on the context and the desired interpretation.
