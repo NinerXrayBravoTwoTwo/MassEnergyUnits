@@ -60,6 +60,38 @@ Both the first and second versions of this book are great.
 Annother essential book, a biography of Ted Taylor by John McPhee, will alter the way you see the world;
 "The Curve of Binding Energy: a Journey into the Awesome and Alarming world of Theodore B. Taylor, John McPhee, May 22nd 1974".
 
+# Mass as a Unit of Energy: A More Intuitive Approach
+
+## Why Use Mass-Equivalent Energy?
+
+Most people struggle to comprehend energy values like **petajoules (PJ)** or **yottawatts (YW)**. However, mass is something we interact with daily, making it a more intuitive way to express energy. Since **E = mc²**, we can express energy in terms of its mass-equivalent.
+
+### 🔹 Benefits of Using Mass for Energy
+1. **Familiarity with Mass**  
+   - We deal with **grams (g), kilograms (kg), and tons** in everyday life.
+   - Saying "*Castle Bravo converted about **700 g** of mass into energy*" is easier to grasp than "*63 petajoules*."
+
+2. **Avoids Gigantic, Abstract Numbers**  
+   - "*The Sun converts **4.25 million tons of mass per second** into energy*" is clearer than "*3.828 × 10²⁶ J/s*."
+   - A nuclear bomb releasing "**1 gram of mass**" sounds more tangible than "**90 terajoules**."
+
+3. **Provides a Physical Reference**  
+   - **A grain of sand (~1 mg)** converted into pure energy releases **90 MJ** (enough to power a home for a day).  
+   - **A sugar cube (~5 g)** is equivalent to a **Hiroshima bomb (~60 TJ)**.  
+   - **A loaf of bread (~500 g)** converted to energy would match **global daily power consumption**.
+
+## 🔹 Potential Issues
+- People may not immediately grasp **how little mass is needed** for vast amounts of energy.
+- Saying "**4.65 kilotons of mass-energy**" for the Chicxulub impact still requires context.
+- **Joules and watts are essential for engineering and scientific precision.**
+
+## 🔹 The Best Approach: Use Both Units
+A hybrid approach works best for communication:
+- *"This nuclear bomb released **63 PJ** of energy (**700 g** of mass converted)."*
+- *"The Sun converts **4 million tons of mass per second** into energy (**3.8 × 10²⁶ J/s**)."*
+
+By presenting **both mass and traditional energy units**, we make energy scales **more relatable** while keeping scientific rigor.
+
 Examples
 --------
  One gram is equal to about 21,480 tons of TNT or 21 kilotons.
