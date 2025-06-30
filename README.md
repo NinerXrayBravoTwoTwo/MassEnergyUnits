@@ -1,416 +1,191 @@
-MassEnergy - Units Energy to mass conversion
-==============================================================================
-Summary
--------
-A conversion file for the "units" mathematics utility that modifies core constants setting; second = 299 thousand meters and c = 1.  This  simple change allows the units tool to render mass to energy space to time solutions.  Amazingly changing these fundemental constants does not effect calculation results or the usefulness of Units. If your conversion gives mass instead of energy like you were expecting you may sometimes need to specify that you want joules or watts.
+# MassEnergy: A Mass-Based Energy Conversion Layer for GNU Units
 
-Time and distance are the same thing.
-ergo
-mass and energy are the same thing.
+> "Mass is not equivalent to energy. Mass **is** energy."
 
-You will never see the universe exactly the same again.
+## Overview
 
-License
--------
-Copyright (c) Jillian England, 1995, 2008, 2017, 2018, 2019
+This project introduces a `massenergy.units` file for use with the GNU `units` utility, redefining the speed of light (`c = 1`) and rescaling the second to represent light travel distance (\~299,792 km). These changes allow you to directly convert between mass and energy, effectively treating them as the same unit.
 
-GNU License.
+Through this lens, a gram becomes 21 kilotons. A sugar cube is a city-level bomb. And the Sun, in its radiant glory, evaporates 4 million tons of mass every second.
 
-About Units
------------
-Units, version 2.14, is a mathematical "Console Unit Converter".
+You’ll never see the universe quite the same again.
 
-The Units program converts quantities expressed in various scales
-to their equivalents in other scales."
-See the units homepage; "http://www.gnu.org/software/units/"
+---
 
-Units can be installed with cygwin on a windows systems.
-https://www.cygwin.com/
+## Features
 
-There may be other ways of installing it on windows as well.
+- 🌍 Redefines core units: `second = 299792 km`, `c = 1`
+- 🔁 Enables seamless mass-energy conversions via `E = mc^2`
+- 🧠 Makes abstract energy quantities intuitive by expressing them in grams or kilograms
+- 📊 Includes real-world examples from physics, history, and geopolitics
 
-This MassEnergy.units file project is *not* related to the Gnu unit's software project.
+---
 
-Units does have several manuals; UnitsWin.pdf, UnitsMKS.pdf, units.pdf
+## Installation
 
-Usage
------
-units -f '' -f massenergy.units
+### Step 1: Install GNU Units
 
-Can be installed in '/usr/share/units' but this is not required.
+- On Linux/macOS:
+  ```bash
+  sudo apt install units     # Debian/Ubuntu
+  brew install units         # macOS (Homebrew)
+  ```
+- On Windows: Use [Cygwin](https://www.cygwin.com/) or WSL.
 
-##### .bashrc
-```
-alias lightunits='(units -vf "" -f /usr/share/units/massenergy.units)'
+### Step 2: Use the File
+
+```bash
+units -f "" -f /path/to/massenergy.units
 ```
 
-Will not help with Spacetime Physics
-------------------------------------
+For convenience, add an alias in your `.bashrc`:
 
-This file will NOT help you with your Lorentz transformations or understanding
-the geometry of spacetime. To learn that time is really just a 4th dimension
-of space and that a second is actually 300 thousand kilometers (186,000 miles)
-you need some spacetime physics. You can take an undergraduate STP class if one is
-available or/and there are many books and videos that are fun and even necessary for continious
-immersion in this subject.
-
-An excellent textbook is; "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992".
-Both the first and second versions of this book are great.
-
-Annother essential book, a biography of Ted Taylor by John McPhee, will alter the way you see the world;
-"The Curve of Binding Energy: a Journey into the Awesome and Alarming world of Theodore B. Taylor, John McPhee, May 22nd 1974".
-
-# Understanding Energy Equivalence Using Mass Units
-
-## 🔹 Converting Energy to Mass Using \( E = mc^2 \)
-
-We use the equation:
-
-\[
-m = \frac{E}{c^2}
-\]
-
-where:
-- \( E \) is energy (in joules),
-- \( c \) is the speed of light (\( 3.0 \times 10^8 \) m/s),
-- \( m \) is the mass-equivalent of the given energy.
-
-Since \( c^2 \) is a very large number, even **tiny amounts of mass** correspond to **huge amounts of energy**.
-
----
-
-## 🌟 Energy Equivalence of Various Events
-
-### **Supernova Energy (~\(10^{44}\) J)**
-\[
-m = \frac{10^{44} J}{c^2} = 1.11 \times 10^{27} \text{ g} = 1.11 \times 10^{24} \text{ kg}
-\]
-- Equivalent to **half a solar mass** (~\(2.2 \times 10^{30} \) kg).
-
----
-
-### **Mount Everest Mass (~357 Trillion lbs)**
-\[
-357 \times 10^{12} \times 0.4536 = 1.62 \times 10^{14} \text{ kg}
-\]
-- **Mass-energy equivalent**:
-\[
-E = 1.62 \times 10^{14} \times c^2 = 1.46 \times 10^{31} J
-\]
-- Much lower than a supernova but still an enormous amount of energy.
-
----
-
-### **Solar Luminosity (~\(3.828 \times 10^{26} \) W)**
-\[
-m = \frac{3.828 \times 10^{26} J/s}{c^2} = 4.25 \times 10^9 \text{ kg/s}
-\]
-- The Sun converts **4.25 million metric tons of mass into energy every second**.
-
----
-
-### **Chicxulub Impact (~\(4.184 \times 10^{23} \) J)**
-\[
-m = \frac{4.184 \times 10^{23} J}{c^2} = 4.65 \times 10^6 \text{ kg} = 4.65 \text{ kilotons}
-\]
-- The asteroid impact converted **4,650 metric tons** of mass into pure energy.
-
----
-
-## 💥 Nuclear Bomb Energy Equivalents
-
-| Event         | Energy (J)       | Mass Equivalent (g) |
-|--------------|----------------|---------------------|
-| Trinity (19 kt) | \(7.95 \times 10^{13}\) | **0.88 g** |
-| Hiroshima (12.5 kt) | \(5.24 \times 10^{13}\) | **0.58 g** |
-| Nagasaki (22 kt) | \(9.21 \times 10^{13}\) | **1.02 g** |
-| Castle Bravo (15 Mt) | \(6.3 \times 10^{16}\) | **700.97 g** |
-
-- **Castle Bravo's explosion converted about 700 g of mass into energy**.
-- Even a **single gram** of matter, fully converted, releases a **nuclear-scale** amount of energy.
-
----
-
-## 🔹 Conclusion
-- **Energy is more relatable when expressed in mass terms** rather than abstract joules.
-- **Tiny mass conversions** lead to **massive energy releases**.
-- **The Sun loses 4 million tons of mass per second**, while nuclear bombs convert only grams.
-
-This approach makes it easier to grasp the scale of energy involved in astrophysical and nuclear events.
-
-# Mass as a Unit of Energy: A More Intuitive Approach
-
-## Why Use Mass-Equivalent Energy?
-
-Most people struggle to comprehend energy values like **petajoules (PJ)** or **yottawatts (YW)**. However, mass is something we interact with daily, making it a more intuitive way to express energy. Since **E = mc²**, we can express energy in terms of its mass-equivalent.
-
-### 🔹 Benefits of Using Mass for Energy
-1. **Familiarity with Mass**  
-   - We deal with **grams (g), kilograms (kg), and tons** in everyday life.
-   - Saying "*Castle Bravo converted about **700 g** of mass into energy*" is easier to grasp than "*63 petajoules*."
-
-2. **Avoids Gigantic, Abstract Numbers**  
-   - "*The Sun converts **4.25 million tons of mass per second** into energy*" is clearer than "*3.828 × 10²⁶ J/s*."
-   - A nuclear bomb releasing "**1 gram of mass**" sounds more tangible than "**90 terajoules**."
-
-3. **Provides a Physical Reference**  
-   - **A grain of sand (~1 mg)** converted into pure energy releases **90 MJ** (enough to power a home for a day).  
-   - **A sugar cube (~5 g)** is equivalent to a **Hiroshima bomb (~60 TJ)**.  
-   - **A loaf of bread (~500 g)** converted to energy would match **global daily power consumption**.
-
-## 🔹 Potential Issues
-- People may not immediately grasp **how little mass is needed** for vast amounts of energy.
-- Saying "**4.65 kilotons of mass-energy**" for the Chicxulub impact still requires context.
-- **Joules and watts are essential for engineering and scientific precision.**
-
-## 🔹 The Best Approach: Use Both Units
-A hybrid approach works best for communication:
-- *"This nuclear bomb released **63 PJ** of energy (**700 g** of mass converted)."*
-- *"The Sun converts **4 million tons of mass per second** into energy (**3.8 × 10²⁶ J/s**)."*
-
-By presenting **both mass and traditional energy units**, we make energy scales **more relatable** while keeping scientific rigor.
-
-Examples
---------
- One gram is equal to about 21,480 tons of TNT or 21 kilotons.
- Trinity and Fatman both liberated about a gram of energy
+```bash
+alias lightunits='units -vf "" -f /usr/share/units/massenergy.units'
 ```
-You have: g
+
+---
+
+## What This File Does
+
+- Modifies speed of light to `1`
+- Rescales time to be distance-equivalent (`1 second = 299792.458 km`)
+- Preserves accuracy and dimensional integrity despite radical re-scaling
+
+By doing so, mass and energy, space and time, are brought into direct, calculable parity.
+
+> "Time and distance are the same thing. Ergo, mass and energy are the same thing."
+
+---
+
+## Usage Examples
+
+### Convert a gram to kilotons:
+
+```bash
+You have: 1 g
 You want: ton_e
-        g = 21480.764 ton_e
+        1 g = 21480.764 ton_e
+```
 
-You have: nagasaki
-You want: g
-        nagasaki = 1.0241721 g
-```
-The bomb dropped on Nagasaki was 76% more powerful than the bomb dropped on Hiroshima the previous week.
-Little boy released 0.58 grams of energy
-```
+### Compare nuclear yields:
+
+```bash
 You have: nagasaki
 You want: hiroshima
         nagasaki = 1.76 hiroshima
 ```
-A person weighing 170 lbs (77 kg, 12.1 stone) is 1.65 thousand Megatons, or 110 SHRIMP bombs.
-OR just 77.11 kg of energy ... mass is energy there is really no need to convert it.
-```
-You have: 170 lbs
-You want: stone
-        170 lbs = 12.142857 stone
-You want: kg
-        170 lbs = 77.110703 kg
-You want: Mton_e
-        170 lbs = 1656.3968 Mton_e
-You want: shrimp
-        170 lbs = 110.00578 shrimp
-```
- The Castle Bravo shot was most powerful H-bomb tested by the USA.
- It released 63 peta joule (PJ), appoximately 15 megatons of TNT.
-	 The bomb components themselves were nicknamed 'SHRIMP' an acronym;
- "Staged Hydrogen Radiation IMPlosion".
- This bomb was 684 times the energy release of Fatman which was used against Nagasaki.
-```
-You have: 63 PJ
-You want: Mton_e
-        63 PJ = 15.057361 Mton_e
 
-You have: 63 PJ
-You want: nagasaki
-        63 PJ = 684.42552 nagasaki
-```
- An hour is 670 million miles. Distance and time are measured in the same units. They are equivelent.  Seconds are actually VERY SLOW.  There is a lot of time in a second.
-```
-You have: hour
-You want: kmiles
-        1 hour = 670616.63 kmiles
+### How much energy is in a sugar cube (\~5 g)?
 
-You have: 1 hour
-You want: au
-        1 hour = 7.2143597 au
+```bash
+You have: 5 g
+You want: ton_tnt
+        5 g = 107,403.82 ton_tnt
 ```
- A tera watt hour is a whopping amount of energy, equivalent to 40 grams of mass! (thats about 40 fatman bombs)
-```
-You have: tera watt hours
-You want: g
-        tera watt hours = 40.055402 g
-```
- The following PDF gives lots of numbers to play with.
-  http://www.sandia.gov/~jytsao/Solar%20FAQs.pdf
 
- I find that all the numbers make more sense when I convert Terra watts into grams
+### Earth to Sun-scale conversions:
 
-```
-You have: tera watt hour
-You want: g
-        tera watt hour = 40.055402 g
-
-You have: 15 TW  years
-You want: g
-        15 TW  years = 5266772.3 g
-
-You have: 15 TW  years
-You want: kg
-        15 TW  years = 5266.7723 kg
-```
- In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release
- approximately 20 Megatons of energy (23 terra watt hours, 0.91 kg) for a total cold war arsenal of 6,000 Megatons.
- In total these bombs would have released 616 lbs (279 kg) of mass as energy or 6,973 Tera watt hours.
-
- Every one of these bombs could have incinerated a large city while setting fire
- to half a state the size of Washington. True wrath of God type of stuff. These weapons and their counterparts in the Soviet Union are the reason people of the era dug bomb shelters in their back yards.  It was not mass hysteria there really was a world ending man made threat.
-
- All of the American Mark 17 & 24's were removed from service and dismantled in the late 1950's.
-```
-You have: 20 Mton_e 300
-You want: lbs
-        20 Mton_e 300 = 615.79446 lbs
-
-You have: 20 Mton_e 300
-You want: Twatt hours
-        20 Mton_e 300 = 6973.3333 Twatt hours
-
-You have: 20 Mton_e 300
-You want: Twatt year
-        20 Mton_e 300 = 0.79551475 Twatt year
-
-You have: 20 Mton_e 300
-You want: thousand fatman
-        20 Mton_e 300 = 272.72727 thousand fatman
-```
-An exploding star releases the the mass of 186 earths. If the entire mass of the earth
-was converted into energy it would only be 1/200'th that of an exploding star.
-```
-You have: nova
+```bash
+You have: 384.6 yottawatt * 60 * 60 * 24 * 365.2422 * 4 giga
 You want: earthmass
-        nova = 186.24123 earthmass
-        nova = (1 / 0.0053693802) earthmass
+        = 90.414858 earthmass
 ```
-4H -> He + 24MeV, Which brings up an interesting point. If the sun has been hot for 4 billion years how much mass has it lost in mass to energy conversion?
 
-Lets see; 4 billion years at (todays rate kg/hr conversion) ... oooo this is going to be fun :)
+---
 
-From Old Article
+## Selected Events in Mass Equivalents
 
-"The sun radiates uniformly in all directions. We can calculate the total amount of energy radiated by measuring the quantity of solar energy/second reaching every square meter of Earth and then multiplying that by the total surface area of a sphere with radius equal to the radius of Earth orbit. We get the astonishingly huge amount of 400 trillion trillion watts."
+| Event                      | Energy (J)    | Mass Equivalent (g) |
+| -------------------------- | ------------- | ------------------- |
+| Trinity test (19 kt)       | 7.95 × 10^13  | 0.88 g              |
+| Hiroshima (12.5 kt)        | 5.24 × 10^13  | 0.58 g              |
+| Castle Bravo (15 Mt)       | 6.3 × 10^16   | 701 g               |
+| Solar luminosity (per sec) | 3.828 × 10^26 | 4.25 × 10^9 g       |
+| Chicxulub impact           | 4.184 × 10^23 | 4.65 × 10^6 g       |
 
-The exact amount of energy released by the Sun is not as solid a number as I had thought. It turns out values in literature have been as high as 400 yotta watts.
+---
 
-At the time of this writing I found a value of
-* 382.8 yotta W on wiki and
-* 384.6 yotta W on a nasa fact sheet.
+## Philosophy: Why Use Mass as a Unit of Energy?
 
-For the best/latest value I suggest you research it looking for "Solar Luminosity".   Note: Luminosity is not the only radiation or energy transfer from the sun.  There are also magnetic, partical, solar wind energy transfers that are not accounted for in luminosity.
+- **Relatable:** We interact with grams and kilograms daily.
+- **Tangible:** Saying "this bomb released 1 gram of energy" is easier to grasp than "63 petajoules".
+- **Intuitive Scaling:** Makes cosmic or geopolitical energy use easier to visualize.
+- **Physics-Aligned:** Mass and energy are literally interchangeable via `E = mc^2`.
 
-* NASA
-https://web.archive.org/web/20100715200549/http://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html
+> "A loaf of bread converted entirely to energy could power the Earth for a day."
 
-* Wikipedia
-https://en.wikipedia.org/wiki/Sun
+---
 
-Calculation Of Earth Masses Lost from Hydrogen Fusion over Sun's Lifetime
-------------------------------------------------------------
+## Advanced Concepts & Warnings
 
-trillion trillion = yotta = 1e+24
+- This file will not help you perform Lorentz transformations or spacetime tensor calculus.
+- For spacetime intuition, see *Spacetime Physics* by Edwin Taylor & John Wheeler.
+- This project is not affiliated with the GNU Units team.
+- Don't mix these unit definitions into unrelated calculations — they are contextually radical.
 
-Using value of 384.6 yotta W solar luminosity
+---
 
-384.6 yotta watt sec = 384.6 yotta J
+## Global Energy and Economic Relationships
 
-which is 91,922 trillion ton_tnt_energy
-which (divided by a million) is ~one tenth of a trillion Megaons
-or 91.9 Billion Mega tons per second
+| Independent (X)                 | Dependent (Y)                   | Correlation | Mean X  | Slope           |
+| ------------------------------- | ------------------------------- | ----------- | ------- | --------------- |
+| Electric Consumption            | Generating Capacity Fossil Fuel | 0.993       | 29.1    | 1.7 ekg/ekg     |
+| Generating Capacity Fossil Fuel | GDP                             | 0.984       | 46.9    | 64.8 ekg/G\$    |
+| Electric Production             | GDP                             | 0.982       | 31.5    | 102.0 ekg/G\$   |
+| Electric Production             | CO₂ Emissions (Tt)              | 0.977       | 31.5    | 44.3 ekg/TT     |
+| Fossil Fuel Gen Capacity        | CO₂ Emissions (Tt)              | 0.969       | 46.9    | 27.8 ekg/TT     |
+| Nat Gas Produced                | Nat Gas Consumed                | 0.955       | 102.8   | 0.8 Gcm/Gcm     |
+| Oil Reserves                    | Oil % GDP                       | 0.946       | 30974.6 | 0.0 Gbbl/%      |
+| GDP                             | CO₂ Emissions (Tt)              | 0.942       | 4090.6  | 0.4 G\$/TT      |
+| Electric Consumption            | Renewable Gen Capacity          | 0.934       | 29.1    | 0.4 ekg/ekg     |
+| Renewable Gen Capacity          | CO₂ Emissions (Tt)              | 0.932       | 12.9    | 97.9 ekg/TT     |
+| Oil Export                      | Oil % GDP                       | 0.927       | 0.9     | 1.3 Mbbl/%      |
+| Renewable Gen Capacity          | GDP                             | 0.923       | 12.9    | 222.1 ekg/G\$   |
+| Fossil Fuel Gen Capacity        | Renewable Gen Capacity          | 0.921       | 46.9    | 0.3 ekg/ekg     |
+| Refined Fuel Consumed           | GDP                             | 0.918       | 3.1     | 1193.9 Mbbl/G\$ |
+| Oil Import                      | GDP                             | 0.914       | 1.5     | 2432.9 Mbbl/G\$ |
+| Hydro Gen Capacity              | CO₂ Emissions (Tt)              | 0.909       | 11.4    | 101.5 ekg/TT    |
+| Fossil Fuel Gen Capacity        | Refined Fuel Consumed           | 0.903       | 46.9    | 0.0 ekg/Mbbl    |
+| Refined Export                  | Nat Gas Consumed                | 0.900       | 0.8     | 132.7 Mbbl/Gcm  |
+| Electric Consumption            | Refined Fuel Consumed           | 0.895       | 29.1    | 0.1 ekg/Mbbl    |
+| Electric Production             | Refined Fuel Consumed           | 0.893       | 31.5    | 0.1 ekg/Mbbl    |
+| Refined Fuel Produced           | GDP                             | 0.892       | 2.9     | 1132.5 Mbbl/G\$ |
+| Fossil Fuel Gen Capacity        | Oil Import                      | 0.889       | 46.9    | 0.0 ekg/Mbbl    |
+| Refined Fuel Produced           | Nat Gas Consumed                | 0.883       | 2.9     | 33.6 Mbbl/Gcm   |
+| Oil Export                      | Growth Rate                     | -0.545      | 0.9     | -0.6 Mbbl/%     |
 
-Which is only 4.7 million tons of mass to energy conversion per second;
+## Brief Relativity Summary
 
-work;
+Energy is very difficult for people to comprehend. We understand things we can hold, lift, and see. If you knew that the USA consumed 3,902 terawatt-hours in 2016 it seems incomprehensible. What if I told you that this could be loaded into the back of your truck and would weigh 344.6 lbs. (156.3 kg)?
 
-384.6 yotta watt seconds = 4.717 million tons (mass/sec)
-= 283 million ton (mass/ min)
-= 16,981 million ton (mass/hour)
-= 407,554 million ton (mass/day)
-= 148.9 trillion ton (mass/year)
+Time is not a special unit; it is part of space and should be measured in meters—specifically three hundred million meters. Substituting the new value for `s` makes the speed of light a unitless constant equal to one.
 
-times 4 billion years
+When you substitute `s = 300 Mm` into Newtonian physics, energy and mass become the same thing. A kg is 89.9 PJ or 25 TWh. This might take 186,000 miles to absorb.
 
-= 0.59 tera tera tons (mass/4 billion years)
-= 0.59 yotta tons (mass/4 billion years)
+Note: In AE's famous "E = mc²", `c²` is just a conversion factor, ergs to grams. The speed of light, `c = 1`, and 1 squared is still 1.
 
-```
-You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
-You want: yotta ton
-        384.6 yotta wa... = 0.59542467 yotta ton
+Our star radiates 385 yottawatts—about 0.1× the mass of Mt. Everest per hour or 15,000 trillion Nagasakis per hour. *(yotta = trillion trillion)*
 
-You want: earthmass
-        384.6 yotta wa... = 90.414858 earthmass
+How much energy the Earth absorbs and radiates per day seems to be a closely guarded secret. Clearly, absorption and radiation are in equilibrium because the Earth is not getting warmer or cooler within any margin of error we can currently measure.
 
-You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
-You want: solarmass
-        384.6 yotta wa... = 0.00027156009 solarmass
+Note: Mass is not matter; it is an attribute of matter.
 
-You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
-You want: jupitermass
-        384.6 yotta wa...a = 0.28441808 jupitermass
+Note: The Nagasaki bomb released 1 g of energy. A 21-megaton bomb releases a kg of energy—1000× Nagasaki. Annual world electricity production is about 24,000 TWh or 947 kg (947,000 Nagasaki-sized bombs). I am aware of the rounding error here but am trying to communicate—not get lost in the weeds. One Nagasaki is actually 1.0242 g.
 
-You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
-You want: nova
-        384.6 yotta wa... = 0.48547175 nova
-```
-**if the earth weighs 6.59+21 ton then; The sun radiated a mass equivelent to 90.41 earths over it's 4 billion year life or .0003 current solar masses or .28 Jupiter masses over it's four billion year life.**
+Castle Bravo, the most powerful nuclear test conducted by the United States, released **63 petajoules** of energy—equivalent to **700.97 grams** of mass. The device was nicknamed **SHRIMP**, an acronym for *Staged Hydrogen Radiation IMPlosion*.
 
-**Interesting; 4 billion years star burn = Half of a Nova?**
+This yield defines the custom unit `shrimp` in this project. For quick reference: **1 shrimp = 700 g**.
 
-This assumes constant solar radiation for four billion years which is certainly incorrect.
+## Appendix: Contextual Units and Yield Reference
 
-That was fun ... what else can I convert to energy ?
+| Name         | Yield (kt / PJ) | Mass-Energy (g) | Date       | Device Name | Design / Fuel                       | Notes                                 |
+| ------------ | --------------- | --------------- | ---------- | ----------- | ----------------------------------- | ------------------------------------- |
+| Trinity      | 19.0 kt         | 0.8845 g        | 1945-07-16 | Gadget      | Pu-239 implosion                    | First test near White Sands, NM       |
+| Hiroshima    | 12.5 kt         | 0.5819 g        | 1945-08-06 | Little Boy  | U-235 gun-type                      | \~118,661 killed                      |
+| Nagasaki     | 22.0 kt         | 1.0241 g        | 1945-08-09 | Fat Man     | Pu-239 implosion                    | \~73,884 killed                       |
+| Castle Bravo | 15 Mt / 63 PJ   | 700.97 g        | 1954-03-01 | Shrimp      | Pu-239, Li-6, U-238, Tritium staged | Largest U.S. test, Bikini Atoll       |
+| Chicxulub    | 418,400 EJ      | \~4.65×10⁶ g    | 66 MYA     | —           | Asteroid kinetic impact             | Cretaceous–Paleogene extinction event |
+| Solar (1 s)  | 3.828×10²⁶ J    | 4.25×10⁹ g      | Present    | —           | Hydrogen fusion                     | Current solar luminosity              |
+| Nova         | \~1.11×10⁴⁴ J   | \~1.11×10²⁷ g   | —          | —           | Small star thermonuclear explosion  | Contextual astrophysical reference    |
 
-CIA Factbook Energy
--------------------
-Trying to make better sense of the energy requirements of our world is eaiser when converting electrical kW into kg.
-
-The World total production energy is (at the time of this edit)
-23,650 TWh or 947 kg
-
-```
-You have: 23.65 trillion kWh
-You want: TWh
-        23.65 trillion kWh = 23650 TWh
-You want: Mton_e
-         23.65 trillion kWh = 20348.948 Mton_e
-You want: shrimp
-         23.65 trillion kWh = 1351.4286 shrimp
-You want: kg
-         23.65 trillion kWh = 947.31026 kg
-```
-Calculate kg electric production for each country;
-
-```
-ProdTWh kg e   pop_M   kWh/pop  Country
-23650   947.3   7405    3194    World
-5883    235.6   1385    4249    China
-4095    164.0   329     12437   United States
-3043    121.9   517     5885    European Union
-1386    55.5    1297    1069    India
-1031    41.3    142     7254    Russia
-989.3   39.6    126     7841    Japan
-649.6   26.0    36      18104   Canada
-612.8   24.5    80      7616    Germany
-567.9   22.7    209     2719    Brazil
-...
-```
-##### End of examples😎
-####  Errata
-* Richard Feynman's gift? It’s cosmic. He is able to see more interconnections between more things than almost anybody. He sees the interrelationships, whether it’s in some microscopic physical process or in a big complicated machine like Orion. He has been, from the time he was in his teens, capable of understanding essentially anything that he’s interested in. He’s the most intelligent person I know. — Ted Taylor
-* Space has four dimensions.  Time is one of those dimentions measured in meters just like the other three.  A *second* is in reality 300 thousand kilometers. (this means the speed of light is actually 1, without units)
-* Mass is NOT equivalent to energy:  **_Mass IS Energy_**
-* Matter is not the same thing as mass. Mass is just one attribute of matter. Other attributes of matter are charge, spin, time direction ... _
-* **Calculating yields and controversy** There is a well written Wikipedia page that discusses the problems and politics of measuring the energy released by nuclear bombs here; https://en.wikipedia.org/wiki/Nuclear_weapon_yield
-
-#### Light-like / Time-like Equations
-
-| Approach              | Interval Equation                                   | Key Feature                             | Pros                                                                 |
-|-----------------------|----------------------------------------------------|-----------------------------------------|----------------------------------------------------------------------|
-| **Standard (Real Time)** | Δs² = c²Δt² - Δx²                                | Mixed sign for time and space           | Familiar and intuitive in special relativity                         |
-| **Divided by c²**      | Δs² = Δt² - (Δx/c)²                               | Converts to time units for all terms   | Allows time and space terms to be in the same units                  |
-| **Imaginary Time**     | Δs² = -Δx² - Δ(ict)²                              | All terms with the same sign            | Unifies time and space signs, useful in some theoretical frameworks  |
-| **Hyperbolic (Rapidity)** | Δs² = c²Δt² - Δx² with cosh and sinh             | Uses rapidity instead of velocity       | Avoids imaginary numbers; useful for Lorentz transformations and spacetime |
-
-Each approach provides a distinct way of understanding or calculating the spacetime interval, offering flexibility depending on the context and the desired interpretation.
