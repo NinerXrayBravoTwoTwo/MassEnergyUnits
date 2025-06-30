@@ -125,7 +125,23 @@ You want: earthmass
 - Don't mix these unit definitions into unrelated calculations — they are contextually radical.
 
 ---
+### Summary of World Energy Usage and economics
 
+ElecProd ekg|Qx ekg/G$|Qx ekg/TT|CapFF ekg|Qx ekg/G$|Qx ekg/TT|EmissionTT TT|GDP G$|Country
+---:|---:|---:|---:|---:|---:|---:|---:|----:
+947.3|-28.154|17.312|1412.612|-32.698|11.967|33620.0|127800.0|World
+235.6|0.739|-2.564|359.847|0.085|-3.455|11670.0|23210.0|China
+164.0|-2.494|4.201|267.166|-1.970|4.601|5242.0|19490.0|United States
+121.9|-7.598|3.995|150.630|-9.990|1.506|3475.0|20850.0|European Union
+55.5|-3.440|0.157|91.690|-3.184|0.356|2383.0|9474.0|India
+41.3|0.176|-0.038|58.472|-0.206|-0.458|1847.0|4016.0|Russia
+39.6|-1.265|1.012|73.766|-0.599|1.646|1268.0|5443.0|Japan
+26.0|0.793|1.063|11.589|-0.922|-0.666|640.6|1774.0|Canada
+24.5|-1.530|0.497|30.015|-2.030|-0.025|847.6|4199.0|Germany
+22.7|-0.838|1.025|9.001|-2.400|-0.551|513.8|3248.0|Brazil
+21.2|-0.627|1.241|7.807|-2.116|-0.259|341.2|2856.0|France
+
+---
 ## Global Energy and Economic Relationships
 
 - The abreviation ekg means kg of energy, yes as in the antimatter equivelent kind.
