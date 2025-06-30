@@ -125,7 +125,7 @@ You want: earthmass
 - Don't mix these unit definitions into unrelated calculations — they are contextually radical.
 
 ---
-### Summary of World Energy Usage and economics
+### Summary of World Energy Usage and economics, CIA Factbook 2016
 
 ElecProd ekg|Qx ekg/G$|Qx ekg/TT|CapFF ekg|Qx ekg/G$|Qx ekg/TT|EmissionTT TT|GDP G$|Country
 ---:|---:|---:|---:|---:|---:|---:|---:|----:
