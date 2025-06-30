@@ -128,6 +128,11 @@ You want: earthmass
 
 ## Global Energy and Economic Relationships
 
+- The abreviation ekg means kg of energy, yes as in the antimatter equivelent kind.
+- GDP is gross domestic prodcut.
+
+This data came from the CIA Factbook in 2017.
+
 | Independent (X)                 | Dependent (Y)                   | Correlation | Mean X  | Slope           |
 | ------------------------------- | ------------------------------- | ----------- | ------- | --------------- |
 | Electric Consumption            | Generating Capacity Fossil Fuel | 0.993       | 29.1    | 1.7 ekg/ekg     |
@@ -185,7 +190,7 @@ This yield defines the custom unit `shrimp` in this project. For quick reference
 | Hiroshima    | 12.5 kt         | 0.5819 g        | 1945-08-06 | Little Boy  | U-235 gun-type                      | \~118,661 killed                      |
 | Nagasaki     | 22.0 kt         | 1.0241 g        | 1945-08-09 | Fat Man     | Pu-239 implosion                    | \~73,884 killed                       |
 | Castle Bravo | 15 Mt / 63 PJ   | 700.97 g        | 1954-03-01 | Shrimp      | Pu-239, Li-6, U-238, Tritium staged | Largest U.S. test, Bikini Atoll       |
-| Chicxulub    | 418,400 EJ      | \~4.65×10⁶ g    | 66 MYA     | —           | Asteroid kinetic impact             | Cretaceous–Paleogene extinction event |
+| Chicxulub    | 4655 years of current human energy use      | \~4.65×10⁶ g    | 66 MYA     | —           | Asteroid kinetic impact             | Cretaceous–Paleogene extinction event |
 | Solar (1 s)  | 3.828×10²⁶ J    | 4.25×10⁹ g      | Present    | —           | Hydrogen fusion                     | Current solar luminosity              |
 | Nova         | \~1.11×10⁴⁴ J   | \~1.11×10²⁷ g   | —          | —           | Small star thermonuclear explosion  | Contextual astrophysical reference    |
 
