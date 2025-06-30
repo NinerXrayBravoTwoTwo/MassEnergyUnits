@@ -166,9 +166,9 @@ Energy is very difficult for people to comprehend. We understand things we can h
 
 Time is not a special unit; it is part of space and should be measured in meters—specifically three hundred million meters. Substituting the new value for `s` makes the speed of light a unitless constant equal to one.
 
-When you substitute `s = 300 Mm` into Newtonian physics, energy and mass become the same thing. A kg is 89.9 PJ or 25 TWh. This might take 186,000 miles to absorb.
+When you substitute `s = 300 thousand km` into Newtonian physics, energy and mass become the same thing. A kg is 89.9 PJ or 25 TWh. This might take 186,000 miles to absorb.
 
-Note: In AE's famous "E = mc²", `c²` is just a conversion factor, ergs to grams. The speed of light, `c = 1`, and 1 squared is still 1.
+Note: In AE's famous "E = mc²", `c²` is just a conversion factor. The speed of light, `c = 1`, and 1 squared is still 1.
 
 Our star radiates 385 yottawatts—about 0.1× the mass of Mt. Everest per hour or 15,000 trillion Nagasakis per hour. *(yotta = trillion trillion)*
 
