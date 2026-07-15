@@ -1,6 +1,6 @@
 # MassEnergy: A Mass-Based Energy Conversion Layer for GNU Units
 
-> "Mass is not equivalent to energy. Mass **is** energy."
+> "Mass is not simplyequivalent to energy — Mass **is** energy."
 
 ## Overview
 
