@@ -181,11 +181,13 @@ You have: day
 You want: jupitersundist_max
         day = 31.728616 jupitersundist_max
 ```
+## The Cost of Electricity - in grams?
 <p align="center">
   <img src="images/utility-bill.png" width="650" alt="Seattle July 2026 Utility Bill">
 </p>
 
 ### My latest power bill in grams of mass-energy
+Total power used was 823.73 kW hours over 64 days, costing $135.06.
 
 ```text
 You have: 823.73 kW hours / 64 days
@@ -201,9 +203,12 @@ The city of Seattle charges me a dollar for every 0.15 micrograms of energy I us
 That is a lot $money for a speck of dust.
 
  On the other hand, perhaps you are stunned by the fact that the 
-amount of energy I use in my house each day can actually be measured at all at 0.156 micro grams per day
-or 32.995 micro grams for the entire 64 day billing period.  That is actually visible under a normal micoscope.
+amount of energy I use in my house each day can actually be measured in mass that is meaningfull at all -- at 0.156 micro grams per day
+or 32.995 micro grams for the entire 64 day billing period.  This is actually visible under a normal micoscope, at the scale of a diatom. A little bit smaller than the width of a human hair but close.
 
+ My take away is that we are not just passing by this energy gradient, we are wading through and into it.
+
+ > Calculate the mass-energy of your own power bill and see what you get.  You might be surprised.
 
 ``` plaintext
 You have: 823.73 kW hours
@@ -213,7 +218,7 @@ You want: micro grams
 | Organism/Stucture | Typical mass |W hours equivalent mass| Visible under microscope? |
 | ----------------- | ------------ | --------------------- |------------------------- |
 | Pollen grain      | 10–100 ng    | 0.24965 - 2.5 kW hrs  | Yes                       |
-| Tiny plat seeds   | 1–10 µg      | 25 - 249 kW hrs       | Yes                       |
+| Tiny plant seeds   | 1–10 µg      | 25 - 249 kW hrs       | Yes                       |
 | Diatom            | 2–200 µg     | 0.5 - 5 kW hrs        | Yes                       |
 | Tardigrade        | 100–500 µg   | 2.5 - 12.5 kW hrs     | Yes                       |
 | Human hair        | 50–100 µg    | 1.25 - 2.5 kW hrs     | Yes                       |
@@ -221,11 +226,11 @@ You want: micro grams
 | flax seed         | 1–2 mg       | 24.97 - 49.93  MW hrs | Yes                       |
 
 ### Brain energy usage in grams of mass-energy
-Converting mass to energy at 168.5 micrograms per year, the human brain uses about 20 watts uninterupted of power.
+Converting mass to energy at 168.5 µg per year, the human brain uses about 20 watts continious uninterupted of power.
 
- That is about 168.5 micrograms of mass-energy per year.
+ That is about 168.5 µg of mass-energy per year.
  
-  Insanely more efficient than a data center, which uses about 1.5 grams of mass-energy per year.  The human brain is about 30 times more efficient than a data center server.
+
 ```text
 You have: 20 watt / hour * day * siderealyear
 You want: micro g
