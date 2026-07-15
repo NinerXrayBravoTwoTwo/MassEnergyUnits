@@ -181,21 +181,78 @@ You have: day
 You want: jupitersundist_max
         day = 31.728616 jupitersundist_max
 ```
+<p align="center">
+  <img src="images/utility-bill.png" width="650" alt="Seattle July 2026 Utility Bill">
+</p>
+
 ### My latest power bill in grams of mass-energy
 
 ```text
-You have: 523.73 kW hours / 64days
-You want: micro g /day
-        523.73 kW hours / 64days = 0.328 micro g /day
+You have: 823.73 kW hours / 64 days
+You want: micro g per day
+        823.73 kW hours / 64 days = 0.51554432 micro g per day
 
-You have: 523.73 kW hours/135.06 dollars
-You want: micro g / dollar
-        523.73 kW hours/135.06 dollars = 0.15 micro g / dollar
+You have: 823.73 kW hours /135.06 dollars
+You want: micro g per dollar
+        823.73 kW hours /135.06 dollars = 0.24429762 micro g per dollar
 ```
 The city of Seattle charges me a dollar for every 0.15 micrograms of energy I use.
 
 That is a lot $money for a speck of dust.
 
+ On the other hand, perhaps you are stunned by the fact that the 
+amount of energy I use in my house each day can actually be measured at all at 0.156 micro grams per day
+or 32.995 micro grams for the entire 64 day billing period.  That is actually visible under a normal micoscope.
+
+
+``` plaintext
+You have: 823.73 kW hours
+You want: micro grams
+        823.73 kW hours = 32.994836 micro grams
+ ```
+| Organism/Stucture | Typical mass |W hours equivalent mass| Visible under microscope? |
+| ----------------- | ------------ | --------------------- |------------------------- |
+| Pollen grain      | 10–100 ng    | 0.24965 - 2.5 kW hrs  | Yes                       |
+| Tiny plat seeds   | 1–10 µg      | 25 - 249 kW hrs       | Yes                       |
+| Diatom            | 2–200 µg     | 0.5 - 5 kW hrs        | Yes                       |
+| Tardigrade        | 100–500 µg   | 2.5 - 12.5 kW hrs     | Yes                       |
+| Human hair        | 50–100 µg    | 1.25 - 2.5 kW hrs     | Yes                       |
+| Rotifer           | 50–500 µg    | 1.25 - 12.5 kW hrs    | Yes                       |
+| flax seed         | 1–2 mg       | 24.97 - 49.93  MW hrs | Yes                       |
+
+### Brain energy usage in grams of mass-energy
+Converting mass to energy at 168.5 micrograms per year, the human brain uses about 20 watts uninterupted of power.
+
+ That is about 168.5 micrograms of mass-energy per year.
+ 
+  Insanely more efficient than a data center, which uses about 1.5 grams of mass-energy per year.  The human brain is about 30 times more efficient than a data center server.
+```text
+You have: 20 watt / hour * day * siderealyear
+You want: micro g
+        20 watt / hour * day * siderealyear = 168.54325 micro g
+```
+
+### High end  NVidia AI data server power usage vs. a human brain power usage
+
+```text
+You have: 10000 watt / hour * day * siderealyear
+You want: 20 watt / hour * day * siderealyear
+        10000 watt / hour * day * siderealyear = 500 * 20 watt / hour * day * siderealyear
+                                                 ^^^ 500 human brains worth of power usage
+``` 
+* Human brain burns about 0.17 milligrams of mass-energy per year,
+* while a high end AI data server burns about 84 milligrams of mass-energy per year.
+
+ That is about 500 times more energy usage than a human brain.
+```text
+You have: 20 watt / hour * day * siderealyear
+You want: mg
+        20 watt / hour * day * siderealyear = 0.16854325 mg
+
+You have: 10000 watt / hour * day * siderealyear
+You want: mg
+        10000 watt / hour * day * siderealyear = 84.271624 mg
+```
 ### One-shot command line
 
 ```bash
