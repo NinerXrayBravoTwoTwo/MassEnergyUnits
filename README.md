@@ -1,6 +1,10 @@
 # MassEnergy: A Mass-Based Energy Conversion Layer for GNU Units
 
-> "Mass is not simply equivalent to energy — Mass **is** energy."
+##  "Mass is not simply equivalent to energy — Mass **is** energy."
+
+<p align="center">
+  <img src="images/IMG_2619.JPG" with="650" alt="Seattle July 2026 Utility Bill">
+</p>
 
 ## Overview
 
@@ -86,10 +90,10 @@ Then any normal `units` session picks up the definitions.
 
 ```bash
 # Linux / WSL
-alias lightunits='units -f /usr/share/units/definitions.units -f /path/to/MassEnergyUnits/massenergy.units'
+alias lightunits='units -vf /usr/share/units/definitions.units -f /path/to/MassEnergyUnits/massenergy.units'
 
 # macOS Homebrew
-alias lightunits='units -f "$(brew --prefix)/share/units/definitions.units" -f /path/to/MassEnergyUnits/massenergy.units'
+alias lightunits='units -vf "$(brew --prefix)/share/units/definitions.units" -f /path/to/MassEnergyUnits/massenergy.units'
 ```
 
 Add the alias to `~/.bashrc` or `~/.zshrc` as you prefer.
@@ -218,7 +222,7 @@ You want: micro grams
 | Organism/Stucture | Typical mass |W hours equivalent mass| Visible under microscope? |
 | ----------------- | ------------ | --------------------- |------------------------- |
 | Pollen grain      | 10–100 ng    | 0.24965 - 2.5 kW hrs  | Yes                       |
-| Tiny plant seeds   | 1–10 µg      | 25 - 249 kW hrs       | Yes                       |
+| Tiny plant seeds   | 1–10 µg     | 25 - 249 kW hrs       | Yes                       |
 | Diatom            | 2–200 µg     | 0.5 - 5 kW hrs        | Yes                       |
 | Tardigrade        | 100–500 µg   | 2.5 - 12.5 kW hrs     | Yes                       |
 | Human hair        | 50–100 µg    | 1.25 - 2.5 kW hrs     | Yes                       |
