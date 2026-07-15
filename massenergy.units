@@ -20,9 +20,13 @@ c    1                   # Speed of light is now 1 by definition
 
 # Energy ↔ Mass (via E=mc²) — grams of mass converted = energy released
 # TNT reference (thermochemical)
-ton_tnt    4.184e9 J
-kton       1e3 ton_tnt
-Mton       1e6 ton_tnt
+ton_tnt          4.184e9 J
+ton_e            ton_tnt
+ton_tnt_energy   ton_tnt
+kton             1e3 ton_tnt
+Mton             1e6 ton_tnt
+kt               kton
+Mt               Mton
 
 # Historical nuclear tests (best modern estimates)
 trinity      19 kton
@@ -36,17 +40,15 @@ littleboy        hiroshima
 fatman           nagasaki
 shrimp           castlebravo # "Staged Hydrogen Radiation IMPlosion"
 
-# Aliases for convenience
-kt     kton
-Mt     Mton
-
 # Large scales
 everestmass      357 trillion lb
-chicxulub    4.184e23 J     # ~100 Tt TNT equivalent
+chicxulub        4.184e23 J     # ~100 Tt TNT equivalent
+dinokill         chicxulub
 solarluminosity  382.8 yotta W
-nova         1e44 J          # order of magnitude
+sunpower         solarluminosity
+nova             1e44 J          # order of magnitude
 
-# Examples you can run after: units -f massenergy.units
-#   1 kton
-#   hiroshima in grams
-#   1 gram in joules
+# Example one-shots (load system definitions first):
+#   units -f /usr/share/units/definitions.units -f massenergy.units '1 g' 'kton'
+#   units -f /usr/share/units/definitions.units -f massenergy.units 'hiroshima' 'g'
+#   units -f /usr/share/units/definitions.units -f massenergy.units '1 g' 'J'

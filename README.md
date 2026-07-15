@@ -1,6 +1,6 @@
 # MassEnergy: A Mass-Based Energy Conversion Layer for GNU Units
 
-> "Mass is not simplyequivalent to energy — Mass **is** energy."
+> "Mass is not simply equivalent to energy — Mass **is** energy."
 
 ## Overview
 
@@ -165,17 +165,19 @@ units -f /usr/share/units/definitions.units -f ./massenergy.units '1 s' 'km'
 
 | Name | Definition |
 | ---- | ---------- |
+| `s`, `c` | Second as light-travel distance; speed of light = 1 |
+| `ton_tnt`, `ton_e`, `ton_tnt_energy` | 1 ton TNT = 4.184 GJ |
+| `kton`/`kt`, `Mton`/`Mt` | 10³ and 10⁶ tons TNT |
 | `trinity`, `gadget` | 19 kt |
 | `hiroshima`, `littleboy` | 15 kt |
 | `nagasaki`, `fatman` | 21 kt |
 | `castlebravo`, `shrimp` | 15 Mt |
-| `chicxulub`, `dinokill` | K–Pg impact energy |
-| `solarluminosity`, `sunpower` | Solar power |
-| `nova` | Order-of-magnitude supernova |
+| `chicxulub`, `dinokill` | K–Pg impact energy (~4.184×10²³ J) |
+| `solarluminosity`, `sunpower` | Solar power (382.8 yotta W) |
+| `nova` | Order-of-magnitude supernova (~10⁴⁴ J) |
 | `everestmass` | Mass of Mt. Everest (approx.) |
-| `ton_tnt`, `ton_e`, `kton`/`kt`, `Mton`/`Mt` | TNT scale |
 
-Yields are common public figures; historical estimates have ranges. Device names alias the yields so mass-energy stays consistent when `c = 1`.
+Yields are common public figures; historical estimates have ranges. Device and convenience names alias the primary units so mass-energy stays consistent when `c = 1`.
 
 ---
 
@@ -271,7 +273,7 @@ Energy is hard to grasp in abstract SI form. U.S. electricity use of about 3,900
 
 Time is not a special dimension separate from space; measuring the second as ~300,000 km makes `c = 1`. Substituting that into everyday energy formulas makes mass and energy the same unit. One kilogram is about 89.9 PJ or 25 TWh.
 
-In \(E = mc^2\), \(c^2\) is a conversion factor. With `c = 1`, that factor is 1.
+In the equation E = mc^2^,  c^2^ is actually just a conversion factor and not very interesting :grinning:
 
 The Sun radiates ~385 yottawatts — on the order of 0.1× the mass of Mt. Everest per hour. Annual world electricity production is roughly a tonne of mass-energy (order of magnitude: hundreds of kilograms). One Nagasaki-class yield is about one gram.
 
