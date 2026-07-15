@@ -1,47 +1,80 @@
 # Contributing to MassEnergyUnits
 
-Thank you for considering a contribution! This repository maintains a custom definition file for the `units` command-line tool that treats **time as distance** (c = 1 natural units) and makes mass-energy equivalence (E=mc²) easy to explore.
+Thank you for considering a contribution! This repository maintains a custom definition file for the GNU `units` tool that treats **time as distance** (`c = 1` natural units) and makes mass–energy equivalence (\(E = mc^2\)) easy to explore.
 
-## How to Contribute
+## How to contribute
 
-### 1. Reporting Issues or Suggestions
-- Open an [Issue](https://github.com/NinerXrayBravoTwoTwo/MassEnergyUnits/issues) for:
-  - Better unit definitions or aliases
-  - Updated values (e.g., more accurate bomb yield estimates, new astronomical references)
-  - Typos, broken links, or clarity improvements
-  - Ideas that tie into spacetime geometry, entropy, or relativity education
+### 1. Reporting issues or suggestions
 
-### 2. Submitting Changes (Pull Requests)
+Open an [Issue](https://github.com/NinerXrayBravoTwoTwo/MassEnergyUnits/issues) for:
+
+- Better unit definitions or aliases
+- Updated values (e.g. more accurate bomb yield estimates, new astronomical references)
+- Typos, broken links, or clarity improvements
+- Ideas that tie into spacetime geometry, entropy, or relativity education
+
+### 2. Submitting changes (pull requests)
+
 1. Fork the repository
-2. Create a new branch (`git checkout -b my-improvement`)
-3. Make your changes to `massenergy.units` (and/or documentation)
-4. Test locally:
+2. Create a branch (`git checkout -b my-improvement`)
+3. Change `massenergy.units` and/or the docs (`README.md`, this file, etc.)
+4. Test locally (load the **system** units database first, then this file):
+
    ```bash
-   units -f massenergy.units
-   # Try examples like:
-   #   1 kton
-   #   hiroshima in grams
-   #   1 gram in joules
+   # Interactive session
+   units -f /usr/share/units/definitions.units -f ./massenergy.units
+
+   # One-shot checks
+   units -f /usr/share/units/definitions.units -f ./massenergy.units '1 g' 'kton'
+   units -f /usr/share/units/definitions.units -f ./massenergy.units 'hiroshima' 'g'
+   units -f /usr/share/units/definitions.units -f ./massenergy.units 'nagasaki' 'hiroshima'
    ```
+
+   On macOS with Homebrew, use  
+   `"$(brew --prefix)/share/units/definitions.units"` instead of `/usr/share/units/definitions.units`.
+
 5. Commit with a clear message
-6. Open a Pull Request against the master branch
+6. Open a pull request against `master`
 
-### Guidelines
+## Guidelines
 
-* Keep the spirit of the project: educational, fun, and focused on the insight that time and space are the same geometric thing, making mass and energy interchangeable.
-* Prefer SI / natural units where possible.
-* Add comments explaining any new definitions.
-* Update the README if your changes affect usage examples.
-* Feel free to expand the philosophical or historical notes — this project grew out of explorations of entropy, causality, and spacetime.
+- Keep the spirit of the project: educational, approachable, and focused on the insight that time and space share geometry so mass and energy convert directly.
+- Prefer SI and natural units where possible.
+- Keep `massenergy.units` **small and commented**.
+- When adding or revising yields, link device names to the yield name (e.g. `gadget` → `trinity`) so mass–energy stays consistent under `c = 1`.
+- Prefer aliases for synonyms (`dinokill` → `chicxulub`, `ton_e` → `ton_tnt`) rather than duplicating numbers.
+- Add a short comment for any new definition (source or rationale if the value is an estimate).
+- Update `README.md` if usage examples, the built-in names table, or install steps change.
+- Philosophical or historical notes are welcome when they stay accurate and help non-specialists.
 
-### Development Setup
-You only need the standard units package (available via apt, brew, etc.).
-Example alias for convenience:
+## Development setup
+
+You only need [GNU Units](https://www.gnu.org/software/units/) (e.g. `apt install units`, `brew install units`).
+
+Optional convenience alias (adjust the path to your clone):
 
 ```bash
-alias lightunits='units -vf "" -f /path/to/massenergy.units'
+# Linux / WSL
+alias lightunits='units -f /usr/share/units/definitions.units -f /path/to/MassEnergyUnits/massenergy.units'
+
+# macOS Homebrew
+alias lightunits='units -f "$(brew --prefix)/share/units/definitions.units" -f /path/to/MassEnergyUnits/massenergy.units'
 ```
 
-### Questions or Discussions?
-Open an Issue or reach out via the repo. Contributions that help make these concepts more accessible to non-physicists (while staying accurate) are especially welcome.
+Or permanently include the file from your personal units data:
+
+```bash
+echo "!include /full/path/to/massenergy.units" >> ~/.units
+```
+
+See `README.md` for full install notes.
+
+## License
+
+By contributing, you agree that your contributions are licensed under the project’s [MIT License](LICENSE).
+
+## Questions or discussions?
+
+Open an Issue on the repo. Contributions that make these ideas more accessible to non-physicists—while staying accurate—are especially welcome.
+
 Happy hacking — may your conversions always be enlightening!

@@ -293,6 +293,8 @@ Castle Bravo released on the order of **63 petajoules** — about **700 grams**.
 
 ## Contributing / sharing
 
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** for issues, pull requests, and testing.
+
 - The core deliverable is `massenergy.units` — keep it small and commented.
 - Historical yield numbers may be updated when better public estimates appear; keep device aliases (`gadget`, `littleboy`, …) linked to the yield names.
 - Longer essay material and exercise ideas live in `README-original.md` and `Projects.md`.
