@@ -1,5 +1,5 @@
-# massenergy.units - Natural units where c = 1 (time as distance)
-# Copyright (c) Jillian England, 1995, 2008, 2017, 2026.
+# massenergy.units — Natural units with c=1 (time as distance)
+# Copyright (c) Jillian England, 1995–2026
 # SPDX-License-Identifier: MIT
 #
 # Load the system units database first, then this file:
@@ -8,26 +8,27 @@
 # Or add one line to your personal units file (~/.units):
 #   !include /full/path/to/massenergy.units
 #
-# In these units, time and space share a dimension.
-# One second = 299792.458 km (c = 1, unitless). Mass and energy convert directly.
+# Core idea: Time and space are the same geometric fabric and are measured in the same units of distance. 
+# This is the basis of Einstein's special relativity. 
+# The speed of light is a conversion factor between time and space, and we can set it to 1 by measuring time in units of distance (or vice versa). 
+# In this system, mass and energy are equivalent (E=mc²), so we can measure mass in units of energy (or vice versa).
+# This is the basis of nuclear physics.
+# 1 second = 299792.458 km exactly-- because we arbitrarily define the km unit (or the second) that way. Thus c = 1 (unitless).
 
-s         2.99792458e8 m     # 1 second ≈ 300,000 km
-c         1                  # speed of light is 1 (natural units)
+s    2.99792458e8 m      # One second of time = ~300,000 km of distance
+c    1                   # Speed of light is now 1 by definition
 
-# TNT energy reference (thermochemical ton of TNT)
-ton_tnt          4.184e9 J   # 1 ton TNT = 4.184 GJ
-ton_e            ton_tnt
-ton_tnt_energy   ton_tnt
-kton             1000 ton_tnt
-Mton             1e6 ton_tnt
-kt               kton
-Mt               Mton
+# Energy ↔ Mass (via E=mc²) — grams of mass converted = energy released
+# TNT reference (thermochemical)
+ton_tnt    4.184e9 J
+kton       1e3 ton_tnt
+Mton       1e6 ton_tnt
 
-# Nuclear weapons (common public estimates; historical ranges exist)
-trinity          19 kton     # 1945-07-16
-hiroshima        15 kton     # often cited ~15 kt (range ~12–18)
-nagasaki         21 kton     # often cited ~21 kt (range ~18–23)
-castlebravo      15 Mton     # 1954-03-01
+# Historical nuclear tests (best modern estimates)
+trinity      19 kton
+hiroshima    15 kton     # Little Boy, ~0.7 g mass-energy
+nagasaki     21 kton     # Fat Man,   ~1.0 g
+castlebravo  15 Mton     # Shrimp,   ~700 g
 
 # Device names alias the yields so mass-energy stays consistent (E = mc², c = 1)
 gadget           trinity
@@ -35,10 +36,17 @@ littleboy        hiroshima
 fatman           nagasaki
 shrimp           castlebravo # "Staged Hydrogen Radiation IMPlosion"
 
-# Large-scale references
+# Aliases for convenience
+kt     kton
+Mt     Mton
+
+# Large scales
 everestmass      357 trillion lb
+chicxulub    4.184e23 J     # ~100 Tt TNT equivalent
 solarluminosity  382.8 yotta W
-sunpower         solarluminosity
-chicxulub        4.184e23 J  # ~100 trillion tons TNT; K–Pg extinction
-dinokill         chicxulub
-nova             1e44 J      # order-of-magnitude supernova energy
+nova         1e44 J          # order of magnitude
+
+# Examples you can run after: units -f massenergy.units
+#   1 kton
+#   hiroshima in grams
+#   1 gram in joules
