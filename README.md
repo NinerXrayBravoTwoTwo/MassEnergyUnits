@@ -10,6 +10,9 @@ Through this lens, a gram is about 21 kilotons of TNT. A sugar cube is city-scal
 
 You’ll never see the universe quite the same again.
 
+### The Mind-Blowing Reframe
+A **[HYPERFACET.md](HYPERFACET.md)**
+
 ---
 
 ## Features
