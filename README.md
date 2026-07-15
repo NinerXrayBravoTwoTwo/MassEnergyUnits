@@ -208,7 +208,7 @@ or 32.995 micro grams for the entire 64 day billing period.  This is actually vi
 
  My take away is that we are not just passing by this energy gradient, we are wading through and into it.
 
- > Calculate the mass-energy of your own power bill and see what you get.  You might be surprised.
+ > Calculate the mass of your own power bill and see what you get.  You might be surprised.
 
 ``` plaintext
 You have: 823.73 kW hours
@@ -304,23 +304,26 @@ Yields are common public figures; historical estimates have ranges. Device and c
 - **Relatable:** Grams and kilograms are everyday units.
 - **Tangible:** “This release was about one gram” is easier than “25 giga watt hours”
 - **Intuitive scaling:** Cosmic and industrial energy use become comparable.
-- **Physics-aligned:** Mass and energy are interchangeable via \(E = mc^2\).
+- **Physics:** Mass and energy are interchangeable **\(E = mc^2\)**.
+    - Or just **\(E = m\)** in our case since we are using naural units
+    - Which is actually the fundenebtal insight of relativity, that mass and energy are the same thing, time and distance are the same units of measure. Not equilvent, the same with *'restrictions'*
 
 People have said; 
 > "A loaf of bread converted entirely to energy could power the Earth for a day."
 
-But is that really true? With this file, you can check.
+But is that really true? You now know how to actually check.
 
 1. If a loaf of bread is about 567g; 
-2. Electricity used by human in 2023 was about 27.047 PW hours (Petawatt hours)
+2. Electricity used by humans in 2023 was about 27.047 PW hours (Petawatt hours)
 
 ``` plaintext
-You have: 27.047 PW hours / 365.25 
-You want: 567g
-        27.047 PW hours / 365.25 = 5.23 * 567g
-       
+You have: 27.047 PW hr per 365.256360417
+You want: 567 g
+        27.047 PW hr per 365.256360417 = 5.2311762 * 567 g
+                                         ^^^^^ actual number of loaves of bread needed
 ```
-So no, it would take about 5.23 loaves of bread, converted entirely to energy, to power the human race for a day.'
+So No- They were incorrect, it would actually require  5.23 loaves of bread, converted to energy, to power the human race for a day. 
+> You may think that this is nitpicking, however this is extreenly precise math. There is a big difference between one loaf verses five times that amount.
 
 ---
 
@@ -338,7 +341,7 @@ where a second really is a distance measured in meters and electricity measured 
 
 ### Summary of world energy usage and economics (CIA Factbook ~2016)
 
-ElecProd ekg|Qx ekg/G$|Qx ekg/TT|CapFF ekg|Qx ekg/G$|Qx ekg/TT|EmissionTT TT|GDP G$|Country
+ElecProd ekg|Std x ekg/G$|Std x ekg/TT|CapFF ekg|Std x ekg/G$|Std x ekg/TT|EmissionTT TT|GDP G$|Country
 ---:|---:|---:|---:|---:|---:|---:|---:|----:
 947.3|-28.154|17.312|1412.612|-32.698|11.967|33620.0|127800.0|World
 235.6|0.739|-2.564|359.847|0.085|-3.455|11670.0|23210.0|China
@@ -350,7 +353,7 @@ ElecProd ekg|Qx ekg/G$|Qx ekg/TT|CapFF ekg|Qx ekg/G$|Qx ekg/TT|EmissionTT TT|GDP
 26.0|0.793|1.063|11.589|-0.922|-0.666|640.6|1774.0|Canada
 24.5|-1.530|0.497|30.015|-2.030|-0.025|847.6|4199.0|Germany
 22.7|-0.838|1.025|9.001|-2.400|-0.551|513.8|3248.0|Brazil
-21.2|-0.627|1.241|7.807|-2.116|-0.259|341.2|2856.0|Franced
+21.2|-0.627|1.241|7.807|-2.116|-0.259|341.2|2856.0|France
 
 ---
 
@@ -394,11 +397,29 @@ Energy is hard to grasp in abstract SI form. U.S. electricity use of about 3,900
 
 Time is not a special dimension separate from space; measuring the second as ~300,000 km makes `c = 1`. Substituting that into everyday energy formulas makes mass and energy the same unit. One kilogram is about 89.9 PJ or 25 TWh.
 
-In the equation E = mc^2^,  c^2^ is actually just a conversion factor and not very interesting :grinning:
+When you realize that time is just another distance, then in basic work-energy equations **time cancels out** and we are left with the realization that, as far as the math is concerned, Energy is equal to mass.
 
-The Sun radiates ~385 yottawatts — on the order of 0.1× the mass of Mt. Everest per hour. Annual world electricity production is roughly a tonne of mass-energy (order of magnitude: hundreds of kilograms). One Nagasaki-class yield is about one gram.
+ A single gram of mass is about 21 kilotons of TNT.
 
-Castle Bravo released on the order of **63 petajoules** — about **700 grams**. That yield is the custom unit `shrimp` in this file (`shrimp` = `castlebravo`).
+ ``` text
+ You have: g
+You want: kt
+        g = 21.480764 kt
+   
+You have: g
+You want: GW hr
+        g = 24.965422 GW hr
+
+You have: g
+You want: TJ
+        g = 89.875518 TJ
+
+# A tera watt hour is 40 grams of mass by the way.
+# I mention it because this conversion seems to come up often.
+You have: TW hr
+You want: g
+        TW hr = 40.055402 g
+ ```
 
 ## Appendix: contextual units and yield reference
 
