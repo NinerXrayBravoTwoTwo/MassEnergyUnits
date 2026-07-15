@@ -28,11 +28,14 @@ Mton             1e6 ton_tnt
 kt               kton
 Mt               Mton
 
-# Historical nuclear tests (best modern estimates)
-trinity      19 kton
-hiroshima    15 kton     # Little Boy, ~0.7 g mass-energy
-nagasaki     21 kton     # Fat Man,   ~1.0 g
-castlebravo  15 Mton     # Shrimp,   ~700 g
+# Nuclear weapons - best modern consensus yields
+# (mass-energy equivalents shown in grams via E=mc²)
+
+trinity     19 kton      # 1945, Gadget, ~0.88 g
+hiroshima   15 kton      # Little Boy, ~0.70 g
+nagasaki    21 kton      # Fat Man,   ~0.98 g
+castlebravo 15 Mton      # 1954 SHRIMP, ~15 Mt (≈63 PJ), ~701 g 
+
 
 # Device names alias the yields so mass-energy stays consistent (E = mc², c = 1)
 gadget           trinity
