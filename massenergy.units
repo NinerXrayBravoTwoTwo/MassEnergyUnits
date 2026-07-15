@@ -1,78 +1,44 @@
-# Copyright (c) Jillian England, 1995, 2008, 2017. 
-# GNU License. CopyLeft if that is still in vogue :)
+# massenergy.units - Natural units where c = 1 (time as distance)
+# Copyright (c) Jillian England, 1995, 2008, 2017, 2026.
+# SPDX-License-Identifier: MIT
 #
-# Installed in '/usr/share/units' but you don't have to.
+# Load the system units database first, then this file:
+#   units -f /usr/share/units/definitions.units -f massenergy.units
 #
-# Usage: units -f '' -f massenergy.units
-# alias lightunits='(units -vf "" -f /usr/share/units/massenergy.units)'
+# Or add one line to your personal units file (~/.units):
+#   !include /full/path/to/massenergy.units
 #
-# This file is not a trick.  A second really is 300 thousand kilometers
-# and because of this the speed of light really is 1 by definition.
-# Time and space are not seperate things; Time is the forth dimension
-# of space measured in meters just like the rest of space is measured in meters.
-#
-##
-# See useage examples in readme.
-##
+# In these units, time and space share a dimension.
+# One second = 299792.458 km (c = 1, unitless). Mass and energy convert directly.
 
-# time IS measured in meters, no such unique thing as 'seconds'
-# time and distance ARE the same thing.
-# THIS MEANS that mass and Energy are also the same thing.  No difference.
-# AND we do not have to do ANYTHING to the equations of energy, just realize 
-# that a second is ~300 thousand kilometers. Not a trick. Reality.
+s         2.99792458e8 m     # 1 second ≈ 300,000 km
+c         1                  # speed of light is 1 (natural units)
 
-s         2.99792458e+08 m   # Time is distance. Each second is 299.8 thousand kilometers
-c         1		     # Light is unitless because of the above fact. 
+# TNT energy reference (thermochemical ton of TNT)
+ton_tnt          4.184e9 J   # 1 ton TNT = 4.184 GJ
+ton_e            ton_tnt
+ton_tnt_energy   ton_tnt
+kton             1000 ton_tnt
+Mton             1e6 ton_tnt
+kt               kton
+Mt               Mton
 
-## The rest of this file are conversion factors for fun & energy<->mass equivelence comparisons.
-# Information to compare energy usage and generation to energy released
-# from nuclear devices.  For giving a rough idea.
- 
-tontnt			ton_e
-ton_e                   ton_tnt_energy
-ton_tnt_energy          1e+9 calorie # calorie ktontnt =~ 4.184TJ
+# Nuclear weapons (common public estimates; historical ranges exist)
+trinity          19 kton     # 1945-07-16
+hiroshima        15 kton     # often cited ~15 kt (range ~12–18)
+nagasaki         21 kton     # often cited ~21 kt (range ~18–23)
+castlebravo      15 Mton     # 1954-03-01
 
-# kton_e is 1e+12 calorie or 4.186 TJ kilotons as a metric mass measurement
-# (kilotonnes) of TNT gives a value of 1000 c/g, well within the reported range,
-# while treating it as "kilo short tons of TNT" gives 1102 c/g, at the extreme
-# upper end of the reported range. Thus a kiloton can be called a "kilo metric ton 
-# of TNT" and a "kilo short ton of TNT"  with about equal validity.
-#
-# A TNT explosion is primarily thermal chemical energy.  A nuclear explosion is primarily
-# neutrons, gamma, and other particles released in a chain reaction ripping atoms apart.  
-# TNT is ~nothing~ like a nuclear explosion. 
-#
-# Using TNT as an energy 'equivalence' was probably a project/military decision to help 
-# explain and quantify the destructivness of the new bombs. 
-#
-# IMO we should stop using the 'imaginary' pile of TNT as a reference and start using joules or grams
-# as a measure of energy released. This is less subjective and everyone knows that a mass is energy from 'e=mc^2'
-# Nagasaki released/transformed about 1 gram. Mass should be perfectly understandable unit for energy as they are equivalent.
- 
-nova            10^44 J  # A small super nova, ranges vary wildly depending on what you are talking about
-everestmass	357 trillion lb
-solarluminosity 382.8 yotta W  # Total solar power also 382.8 10^24 J/S
-chicxulub      418400 exa J    # 6 miles across, 100 trillion tons of TNT, cretaceous-paleogene extinction
+# Device names alias the yields so mass-energy stays consistent (E = mc², c = 1)
+gadget           trinity
+littleboy        hiroshima
+fatman           nagasaki
+shrimp           castlebravo # "Staged Hydrogen Radiation IMPlosion"
 
-dinokill chicxulub
-sunpower solarluminosity
-
-# http://www.cartage.org.lb/en/themes/sciences/chemistry/NuclearChemistry/NuclearWeapons/FirstChainReaction/TypesofNuclear/UnitsMeasurement.htm
-# cartage.org.lb is gone as of 2014 it is available on the way back machine
-# http://www.english.uiuc.edu/maps/poets/g_l/levine/bombing.htm
-# https://en.wikipedia.org/wiki/TNT_equivalent
-
-# The energy values of bomb tests are just best guesses by the scientists.
-# Modern digitization of original shot footage is providing more 
-# accurate yeild estimates of these tests.
-# The measures below may change as the films are analized with modern digital equipment.
-
-trinity     19.0 kton_e # 04-16-45, near white sands New Mexico (Pu implosion)
-hiroshima   12.5 kton_e # 08-06-45,  3600 kg,  9ft  9in, littleboy, U-235, 118,661 killed,  12-18 kt
-nagasaki    22.0 kton_e # 08-09-45,  4050 kg, 11ft  4in, fatman,    Pu-239, 73,884 killed,  18.9-23.1 kt
-castlebravo 63 PJ       # 03-04-54, 10432 kg, 14ft 12in, shrimp,    Pu-239 Li-6 U-238 tritum, 15 Mt
-
-gadget      trinity     #    0.8845 g (energy in grams)
-littleboy   hiroshima   #    0.5819 g 
-fatman      nagasaki    #    1.0241 g
-shrimp      castlebravo #  700.9695 g Nicknamed SHRIMP;  "Staged Hydrogen Radiation IMPlosion"
+# Large-scale references
+everestmass      357 trillion lb
+solarluminosity  382.8 yotta W
+sunpower         solarluminosity
+chicxulub        4.184e23 J  # ~100 trillion tons TNT; K–Pg extinction
+dinokill         chicxulub
+nova             1e44 J      # order-of-magnitude supernova energy

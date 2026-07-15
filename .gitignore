@@ -1,0 +1,9 @@
+# Editor / IDE
+.vs/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Local units cache or personal overrides
+*.units.local

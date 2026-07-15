@@ -4,9 +4,9 @@
 
 ## Overview
 
-This project introduces a `massenergy.units` file for use with the GNU `units` utility, redefining the speed of light (`c = 1`) and rescaling the second to represent light travel distance (\~299,792 km). These changes allow you to directly convert between mass and energy, effectively treating them as the same unit.
+This project provides a small `massenergy.units` file for [GNU Units](https://www.gnu.org/software/units/). It redefines the second as the distance light travels in one second and sets the speed of light `c = 1`. Mass and energy then convert directly via \(E = mc^2\).
 
-Through this lens, a gram becomes 21 kilotons. A sugar cube is a city-level bomb. And the Sun, in its radiant glory, evaporates 4 million tons of mass every second.
+Through this lens, a gram is about 21 kilotons of TNT. A sugar cube is city-scale. The Sun radiates roughly four million tons of mass every second.
 
 You’ll never see the universe quite the same again.
 
@@ -14,118 +14,206 @@ You’ll never see the universe quite the same again.
 
 ## Features
 
-- 🌍 Redefines core units: `second = 299792 km`, `c = 1`
-- 🔁 Enables seamless mass-energy conversions via `E = mc^2`
-- 🧠 Makes abstract energy quantities intuitive by expressing them in grams or kilograms
-- 📊 Includes real-world examples from physics, history, and geopolitics
+- Redefines core units: `second ≈ 299792 km`, `c = 1`
+- Mass ↔ energy conversions without extra factors
+- Named references for familiar nuclear yields and large-scale events
+- Real-world examples from physics, history, and energy economics
+
+---
+
+## Requirements
+
+- [GNU Units](https://www.gnu.org/software/units/) 2.x (tested with 2.23)
+- A Unix-like shell (Linux, macOS, WSL, or Cygwin)
 
 ---
 
 ## Installation
 
-### Step 1: Install GNU Units
-
-- On Linux/macOS:
-  ```bash
-  sudo apt install units     # Debian/Ubuntu
-  brew install units         # macOS (Homebrew)
-  ```
-- On Windows: Use [Cygwin](https://www.cygwin.com/) or WSL.
-
-### Step 2: Use the File
+### 1. Install GNU Units
 
 ```bash
-units -f "" -f /path/to/massenergy.units
+# Debian / Ubuntu / WSL
+sudo apt install units
+
+# Fedora / RHEL
+sudo dnf install units
+
+# macOS (Homebrew)
+brew install units
 ```
 
-For convenience, add an alias in your `.bashrc`:
+On Windows, use [WSL](https://learn.microsoft.com/en-us/windows/wsl/) or [Cygwin](https://www.cygwin.com/) and install `units` inside that environment.
+
+### 2. Get this file
 
 ```bash
-alias lightunits='units -vf "" -f /usr/share/units/massenergy.units'
+git clone https://github.com/NinerXrayBravoTwoTwo/MassEnergyUnits.git
+cd MassEnergyUnits
+```
+
+Or download `massenergy.units` alone from the repository.
+
+### 3. Run it (no system install required)
+
+Load the **system** units database first, then this file (so `m`, `J`, `g`, etc. still exist):
+
+```bash
+units -f /usr/share/units/definitions.units -f ./massenergy.units
+```
+
+Homebrew on macOS often uses:
+
+```bash
+units -f "$(brew --prefix)/share/units/definitions.units" -f ./massenergy.units
+```
+
+### 4. Optional: permanent setup
+
+**Personal units file** (recommended for multi-user machines — each person configures their own home directory):
+
+```bash
+# Use the absolute path to your clone
+echo "!include $PWD/massenergy.units" >> ~/.units
+```
+
+Then any normal `units` session picks up the definitions.
+
+**Shell alias** (repo-local, no install into `/usr`):
+
+```bash
+# Linux / WSL
+alias lightunits='units -f /usr/share/units/definitions.units -f /path/to/MassEnergyUnits/massenergy.units'
+
+# macOS Homebrew
+alias lightunits='units -f "$(brew --prefix)/share/units/definitions.units" -f /path/to/MassEnergyUnits/massenergy.units'
+```
+
+Add the alias to `~/.bashrc` or `~/.zshrc` as you prefer.
+
+**Shared install** (optional; needs admin rights):
+
+```bash
+sudo cp massenergy.units /usr/share/units/
 ```
 
 ---
 
 ## What This File Does
 
-- Modifies speed of light to `1`
-- Rescales time to be distance-equivalent (`1 second = 299792.458 km`)
-- Preserves accuracy and dimensional integrity despite radical re-scaling
+| Definition | Meaning |
+| ---------- | ------- |
+| `s = 2.99792458e8 m` | One second is the distance light travels in one second |
+| `c = 1` | Speed of light is unitless |
+| `ton_tnt = 4.184e9 J` | Standard thermochemical ton of TNT |
 
-By doing so, mass and energy, space and time, are brought into direct, calculable parity.
+Mass and energy, space and time, are brought into direct calculable parity.
 
 > "Time and distance are the same thing. Ergo, mass and energy are the same thing."
 
 ---
 
-## Usage Examples
+## Quick examples
 
-### Convert a gram to kilotons:
+Interactive session (`You have:` / `You want:` prompts):
 
-```bash
+### Gram → kilotons of TNT
+
+```text
 You have: 1 g
-You want: ton_e
-        1 g = 21480.764 ton_e
+You want: kton
+        * 21.480764
+        / 0.046553278
 ```
 
-### Compare nuclear yields:
+### Nuclear yield comparison
 
-```bash
+```text
 You have: nagasaki
 You want: hiroshima
-        nagasaki = 1.76 hiroshima
+        * 1.4
+        / 0.71428571
 ```
 
-### How much energy is in a sugar cube (\~5 g)?
+### Sugar cube (~5 g) in tons of TNT
 
-```bash
+```text
 You have: 5 g
 You want: ton_tnt
-        5 g = 107,403.82 ton_tnt
+        * 107403.82
+        / 9.3106556e-06
 ```
 
-### Earth to Sun-scale conversions:
+### Nagasaki in grams of mass-energy
+
+```text
+You have: nagasaki
+You want: g
+        * 0.97761885
+        / 1.0228935
+```
+
+### One-shot command line
 
 ```bash
-You have: 384.6 yottawatt * 60 * 60 * 24 * 365.2422 * 4 giga
-You want: earthmass
-        = 90.414858 earthmass
+units -f /usr/share/units/definitions.units -f ./massenergy.units '1 g' 'kton'
+units -f /usr/share/units/definitions.units -f ./massenergy.units 'castlebravo' 'g'
+units -f /usr/share/units/definitions.units -f ./massenergy.units '1 s' 'km'
 ```
 
+### Built-in names
+
+| Name | Definition |
+| ---- | ---------- |
+| `trinity`, `gadget` | 19 kt |
+| `hiroshima`, `littleboy` | 15 kt |
+| `nagasaki`, `fatman` | 21 kt |
+| `castlebravo`, `shrimp` | 15 Mt |
+| `chicxulub`, `dinokill` | K–Pg impact energy |
+| `solarluminosity`, `sunpower` | Solar power |
+| `nova` | Order-of-magnitude supernova |
+| `everestmass` | Mass of Mt. Everest (approx.) |
+| `ton_tnt`, `ton_e`, `kton`/`kt`, `Mton`/`Mt` | TNT scale |
+
+Yields are common public figures; historical estimates have ranges. Device names alias the yields so mass-energy stays consistent when `c = 1`.
+
 ---
 
-## Selected Events in Mass Equivalents
+## Selected events in mass equivalents
 
-| Event                      | Energy (J)    | Mass Equivalent (g) |
-| -------------------------- | ------------- | ------------------- |
-| Trinity test (19 kt)       | 7.95 × 10^13  | 0.88 g              |
-| Hiroshima (12.5 kt)        | 5.24 × 10^13  | 0.58 g              |
-| Castle Bravo (15 Mt)       | 6.3 × 10^16   | 701 g               |
-| Solar luminosity (per sec) | 3.828 × 10^26 | 4.25 × 10^9 g       |
-| Chicxulub impact           | 4.184 × 10^23 | 4.65 × 10^6 g       |
+| Event | Energy (J) | Mass equivalent (g) |
+| ----- | ---------- | ------------------- |
+| Trinity test (19 kt) | ~8.0 × 10¹³ | ~0.88 g |
+| Hiroshima (~15 kt) | ~6.3 × 10¹³ | ~0.70 g |
+| Nagasaki (~21 kt) | ~8.8 × 10¹³ | ~0.98 g |
+| Castle Bravo (15 Mt) | ~6.3 × 10¹⁶ | ~700 g |
+| Solar luminosity (per sec) | 3.828 × 10²⁶ | ~4.25 × 10⁹ g |
+| Chicxulub impact | 4.184 × 10²³ | ~4.65 × 10⁶ g |
 
 ---
 
-## Philosophy: Why Use Mass as a Unit of Energy?
+## Philosophy: why mass as energy?
 
-- **Relatable:** We interact with grams and kilograms daily.
-- **Tangible:** Saying "this bomb released 1 gram of energy" is easier to grasp than "63 petajoules".
-- **Intuitive Scaling:** Makes cosmic or geopolitical energy use easier to visualize.
-- **Physics-Aligned:** Mass and energy are literally interchangeable via `E = mc^2`.
+- **Relatable:** Grams and kilograms are everyday units.
+- **Tangible:** “This release was about one gram” is easier than “42 petajoules.”
+- **Intuitive scaling:** Cosmic and industrial energy use become comparable.
+- **Physics-aligned:** Mass and energy are interchangeable via \(E = mc^2\).
 
 > "A loaf of bread converted entirely to energy could power the Earth for a day."
 
 ---
 
-## Advanced Concepts & Warnings
+## Notes and warnings
 
-- This file will not help you perform Lorentz transformations or spacetime tensor calculus.
-- For spacetime intuition, see *Spacetime Physics* by Edwin Taylor & John Wheeler.
-- This project is not affiliated with the GNU Units team.
-- Don't mix these unit definitions into unrelated calculations — they are contextually radical.
+- This file is for intuition and conversion, not Lorentz transforms or tensor calculus.
+- For spacetime intuition, see *Spacetime Physics* (Taylor & Wheeler).
+- Not affiliated with the GNU Units project.
+- Do not mix these redefinitions into unrelated unit work without understanding that `s` and `c` have been changed.
+- Historical nuclear yields are estimates; modern analyses sometimes revise them.
 
 ---
-### Summary of World Energy Usage and economics, CIA Factbook 2016
+
+### Summary of world energy usage and economics (CIA Factbook ~2016)
 
 ElecProd ekg|Qx ekg/G$|Qx ekg/TT|CapFF ekg|Qx ekg/G$|Qx ekg/TT|EmissionTT TT|GDP G$|Country
 ---:|---:|---:|---:|---:|---:|---:|---:|----:
@@ -142,71 +230,71 @@ ElecProd ekg|Qx ekg/G$|Qx ekg/TT|CapFF ekg|Qx ekg/G$|Qx ekg/TT|EmissionTT TT|GDP
 21.2|-0.627|1.241|7.807|-2.116|-0.259|341.2|2856.0|France
 
 ---
-## Global Energy and Economic Relationships
 
-- The abreviation ekg means kg of energy, yes as in the antimatter equivelent kind.
-- GDP is gross domestic prodcut.
+## Global energy and economic relationships
 
-This data came from the CIA Factbook in 2017.
+- **ekg** means kilograms of mass-energy (the antimatter-equivalent sense).
+- **GDP** is gross domestic product.
 
-| Independent (X)                 | Dependent (Y)                   | Correlation | Mean X  | Slope           |
-| ------------------------------- | ------------------------------- | ----------- | ------- | --------------- |
-| Electric Consumption            | Generating Capacity Fossil Fuel | 0.993       | 29.1    | 1.7 ekg/ekg     |
-| Generating Capacity Fossil Fuel | GDP                             | 0.984       | 46.9    | 64.8 ekg/G\$    |
-| Electric Production             | GDP                             | 0.982       | 31.5    | 102.0 ekg/G\$   |
-| Electric Production             | CO₂ Emissions (Tt)              | 0.977       | 31.5    | 44.3 ekg/TT     |
-| Fossil Fuel Gen Capacity        | CO₂ Emissions (Tt)              | 0.969       | 46.9    | 27.8 ekg/TT     |
-| Nat Gas Produced                | Nat Gas Consumed                | 0.955       | 102.8   | 0.8 Gcm/Gcm     |
-| Oil Reserves                    | Oil % GDP                       | 0.946       | 30974.6 | 0.0 Gbbl/%      |
-| GDP                             | CO₂ Emissions (Tt)              | 0.942       | 4090.6  | 0.4 G\$/TT      |
-| Electric Consumption            | Renewable Gen Capacity          | 0.934       | 29.1    | 0.4 ekg/ekg     |
-| Renewable Gen Capacity          | CO₂ Emissions (Tt)              | 0.932       | 12.9    | 97.9 ekg/TT     |
-| Oil Export                      | Oil % GDP                       | 0.927       | 0.9     | 1.3 Mbbl/%      |
-| Renewable Gen Capacity          | GDP                             | 0.923       | 12.9    | 222.1 ekg/G\$   |
-| Fossil Fuel Gen Capacity        | Renewable Gen Capacity          | 0.921       | 46.9    | 0.3 ekg/ekg     |
-| Refined Fuel Consumed           | GDP                             | 0.918       | 3.1     | 1193.9 Mbbl/G\$ |
-| Oil Import                      | GDP                             | 0.914       | 1.5     | 2432.9 Mbbl/G\$ |
-| Hydro Gen Capacity              | CO₂ Emissions (Tt)              | 0.909       | 11.4    | 101.5 ekg/TT    |
-| Fossil Fuel Gen Capacity        | Refined Fuel Consumed           | 0.903       | 46.9    | 0.0 ekg/Mbbl    |
-| Refined Export                  | Nat Gas Consumed                | 0.900       | 0.8     | 132.7 Mbbl/Gcm  |
-| Electric Consumption            | Refined Fuel Consumed           | 0.895       | 29.1    | 0.1 ekg/Mbbl    |
-| Electric Production             | Refined Fuel Consumed           | 0.893       | 31.5    | 0.1 ekg/Mbbl    |
-| Refined Fuel Produced           | GDP                             | 0.892       | 2.9     | 1132.5 Mbbl/G\$ |
-| Fossil Fuel Gen Capacity        | Oil Import                      | 0.889       | 46.9    | 0.0 ekg/Mbbl    |
-| Refined Fuel Produced           | Nat Gas Consumed                | 0.883       | 2.9     | 33.6 Mbbl/Gcm   |
-| Oil Export                      | Growth Rate                     | -0.545      | 0.9     | -0.6 Mbbl/%     |
+Data from the CIA World Factbook (circa 2016–2017).
 
-## Brief Relativity Summary
+| Independent (X) | Dependent (Y) | Correlation | Mean X | Slope |
+| --------------- | ------------- | ----------- | ------ | ----- |
+| Electric Consumption | Generating Capacity Fossil Fuel | 0.993 | 29.1 | 1.7 ekg/ekg |
+| Generating Capacity Fossil Fuel | GDP | 0.984 | 46.9 | 64.8 ekg/G$ |
+| Electric Production | GDP | 0.982 | 31.5 | 102.0 ekg/G$ |
+| Electric Production | CO₂ Emissions (Tt) | 0.977 | 31.5 | 44.3 ekg/TT |
+| Fossil Fuel Gen Capacity | CO₂ Emissions (Tt) | 0.969 | 46.9 | 27.8 ekg/TT |
+| Nat Gas Produced | Nat Gas Consumed | 0.955 | 102.8 | 0.8 Gcm/Gcm |
+| Oil Reserves | Oil % GDP | 0.946 | 30974.6 | 0.0 Gbbl/% |
+| GDP | CO₂ Emissions (Tt) | 0.942 | 4090.6 | 0.4 G$/TT |
+| Electric Consumption | Renewable Gen Capacity | 0.934 | 29.1 | 0.4 ekg/ekg |
+| Renewable Gen Capacity | CO₂ Emissions (Tt) | 0.932 | 12.9 | 97.9 ekg/TT |
+| Oil Export | Oil % GDP | 0.927 | 0.9 | 1.3 Mbbl/% |
+| Renewable Gen Capacity | GDP | 0.923 | 12.9 | 222.1 ekg/G$ |
+| Fossil Fuel Gen Capacity | Renewable Gen Capacity | 0.921 | 46.9 | 0.3 ekg/ekg |
+| Refined Fuel Consumed | GDP | 0.918 | 3.1 | 1193.9 Mbbl/G$ |
+| Oil Import | GDP | 0.914 | 1.5 | 2432.9 Mbbl/G$ |
+| Hydro Gen Capacity | CO₂ Emissions (Tt) | 0.909 | 11.4 | 101.5 ekg/TT |
+| Fossil Fuel Gen Capacity | Refined Fuel Consumed | 0.903 | 46.9 | 0.0 ekg/Mbbl |
+| Refined Export | Nat Gas Consumed | 0.900 | 0.8 | 132.7 Mbbl/Gcm |
+| Electric Consumption | Refined Fuel Consumed | 0.895 | 29.1 | 0.1 ekg/Mbbl |
+| Electric Production | Refined Fuel Consumed | 0.893 | 31.5 | 0.1 ekg/Mbbl |
+| Refined Fuel Produced | GDP | 0.892 | 2.9 | 1132.5 Mbbl/G$ |
+| Fossil Fuel Gen Capacity | Oil Import | 0.889 | 46.9 | 0.0 ekg/Mbbl |
+| Refined Fuel Produced | Nat Gas Consumed | 0.883 | 2.9 | 33.6 Mbbl/Gcm |
+| Oil Export | Growth Rate | -0.545 | 0.9 | -0.6 Mbbl/% |
 
-Energy is very difficult for people to comprehend. We understand things we can hold, lift, and see. If you knew that the USA consumed 3,902 terawatt-hours in 2016 it seems incomprehensible. What if I told you that this could be loaded into the back of your truck and would weigh 344.6 lbs. (156.3 kg)?
+## Brief relativity summary
 
-Time is not a special unit; it is part of space and should be measured in meters—specifically three hundred million meters. Substituting the new value for `s` makes the speed of light a unitless constant equal to one.
+Energy is hard to grasp in abstract SI form. U.S. electricity use of about 3,900 TWh in 2016 is hard to picture — until you notice that as pure mass-energy it is only a few hundred pounds.
 
-When you substitute `s = 300 thousand km` into Newtonian physics, energy and mass become the same thing. A kg is 89.9 PJ or 25 TWh. This might take 186,000 miles to absorb.
+Time is not a special dimension separate from space; measuring the second as ~300,000 km makes `c = 1`. Substituting that into everyday energy formulas makes mass and energy the same unit. One kilogram is about 89.9 PJ or 25 TWh.
 
-Note: In AE's famous "E = mc²", `c²` is just a conversion factor. The speed of light, `c = 1`, and 1 squared is still 1.
+In \(E = mc^2\), \(c^2\) is a conversion factor. With `c = 1`, that factor is 1.
 
-Our star radiates 385 yottawatts—about 0.1× the mass of Mt. Everest per hour or 15,000 trillion Nagasakis per hour. *(yotta = trillion trillion)*
+The Sun radiates ~385 yottawatts — on the order of 0.1× the mass of Mt. Everest per hour. Annual world electricity production is roughly a tonne of mass-energy (order of magnitude: hundreds of kilograms). One Nagasaki-class yield is about one gram.
 
-How much energy the Earth absorbs and radiates per day seems to be a closely guarded secret. Clearly, absorption and radiation are in equilibrium because the Earth is not getting warmer or cooler within any margin of error we can currently measure.
+Castle Bravo released on the order of **63 petajoules** — about **700 grams**. That yield is the custom unit `shrimp` in this file (`shrimp` = `castlebravo`).
 
-Note: Mass is not matter; it is an attribute of matter.
+## Appendix: contextual units and yield reference
 
-Note: The Nagasaki bomb released 1 g of energy. A 21-megaton bomb releases a kg of energy—1000× Nagasaki. Annual world electricity production is about 24,000 TWh or 947 kg (947,000 Nagasaki-sized bombs). I am aware of the rounding error here but am trying to communicate—not get lost in the weeds. One Nagasaki is actually 1.0242 g.
+| Name | Yield | Mass-energy | Date | Device | Notes |
+| ---- | ----- | ----------- | ---- | ------ | ----- |
+| Trinity | 19 kt | ~0.88 g | 1945-07-16 | Gadget | First test, White Sands, NM |
+| Hiroshima | ~15 kt | ~0.70 g | 1945-08-06 | Little Boy | U-235 gun-type |
+| Nagasaki | ~21 kt | ~0.98 g | 1945-08-09 | Fat Man | Pu-239 implosion |
+| Castle Bravo | 15 Mt / ~63 PJ | ~701 g | 1954-03-01 | Shrimp | Largest U.S. test |
+| Chicxulub | 4.184×10²³ J | ~4.65×10⁶ g | 66 Ma | — | K–Pg extinction impact |
+| Solar (1 s) | 3.828×10²⁶ J | ~4.25×10⁹ g | Present | — | Solar luminosity |
+| Nova | ~10⁴⁴ J | ~10²⁷ g | — | — | Order-of-magnitude |
 
-Castle Bravo, the most powerful nuclear test conducted by the United States, released **63 petajoules** of energy—equivalent to **700.97 grams** of mass. The device was nicknamed **SHRIMP**, an acronym for *Staged Hydrogen Radiation IMPlosion*.
+## Contributing / sharing
 
-This yield defines the custom unit `shrimp` in this project. For quick reference: **1 shrimp = 700 g**.
+- The core deliverable is `massenergy.units` — keep it small and commented.
+- Historical yield numbers may be updated when better public estimates appear; keep device aliases (`gadget`, `littleboy`, …) linked to the yield names.
+- Longer essay material and exercise ideas live in `README-original.md` and `Projects.md`.
 
-## Appendix: Contextual Units and Yield Reference
+## License
 
-| Name         | Yield (kt / PJ) | Mass-Energy (g) | Date       | Device Name | Design / Fuel                       | Notes                                 |
-| ------------ | --------------- | --------------- | ---------- | ----------- | ----------------------------------- | ------------------------------------- |
-| Trinity      | 19.0 kt         | 0.8845 g        | 1945-07-16 | Gadget      | Pu-239 implosion                    | First test near White Sands, NM       |
-| Hiroshima    | 12.5 kt         | 0.5819 g        | 1945-08-06 | Little Boy  | U-235 gun-type                      | \~118,661 killed                      |
-| Nagasaki     | 22.0 kt         | 1.0241 g        | 1945-08-09 | Fat Man     | Pu-239 implosion                    | \~73,884 killed                       |
-| Castle Bravo | 15 Mt / 63 PJ   | 700.97 g        | 1954-03-01 | Shrimp      | Pu-239, Li-6, U-238, Tritium staged | Largest U.S. test, Bikini Atoll       |
-| Chicxulub    | 4655 years of current human energy use      | \~4.65×10⁶ g    | 66 MYA     | —           | Asteroid kinetic impact             | Cretaceous–Paleogene extinction event |
-| Solar (1 s)  | 3.828×10²⁶ J    | 4.25×10⁹ g      | Present    | —           | Hydrogen fusion                     | Current solar luminosity              |
-| Nova         | \~1.11×10⁴⁴ J   | \~1.11×10²⁷ g   | —          | —           | Small star thermonuclear explosion  | Contextual astrophysical reference    |
-
+[MIT](LICENSE) — Copyright (c) 1995, 2008, 2017, 2026 Jillian England.
