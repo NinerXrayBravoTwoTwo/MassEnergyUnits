@@ -306,7 +306,7 @@ Yields are common public figures; historical estimates have ranges. Device and c
 - **Intuitive scaling:** Cosmic and industrial energy use become comparable.
 - **Physics:** Mass and energy are interchangeable **\(E = mc^2\)**.
     - Or just **\(E = m\)** in our case since we are using naural units
-    - Which is actually the fundenebtal insight of relativity, that mass and energy are the same thing, time and distance are the same units of measure. Not equilvent, the same with *'restrictions'*
+    - Which is actually the fundemental insight of relativity, that mass and energy are the same thing, time and distance are the same units of measure. Not equilvent, the same with *'restrictions'*
 
 People have said; 
 > "A loaf of bread converted entirely to energy could power the Earth for a day."
