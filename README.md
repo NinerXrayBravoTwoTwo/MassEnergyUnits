@@ -123,38 +123,78 @@ Interactive session (`You have:` / `You want:` prompts):
 ### Gram → kilotons of TNT
 
 ```text
-You have: 1 g
+You have: g
 You want: kton
-        * 21.480764
-        / 0.046553278
+        g = 21.480764 kton
+        g = (1 / 0.046553278) kton
 ```
 
-### Nuclear yield comparison
+### Nuclear yield comparison, fatman was 1.4x hiroshima
 
 ```text
 You have: nagasaki
 You want: hiroshima
-        * 1.4
-        / 0.71428571
+        nagasaki = 1.4 hiroshima
 ```
 
-### Sugar cube (~5 g) in tons of TNT
+### Sugar cube (~5 g) in hiroshima's
 
 ```text
-You have: 5 g
-You want: ton_tnt
-        * 107403.82
-        / 9.3106556e-06
+You have: 5g
+You want: hiroshima
+        5g = 7.1602548 hiroshima
 ```
 
-### Nagasaki in grams of mass-energy
+### grams to  Nagasaki's
 
 ```text
-You have: nagasaki
-You want: g
-        * 0.97761885
-        / 1.0228935
+You have: g
+You want: nagasaki
+        g = 1.0228935 nagasaki
 ```
+
+### seconds to miles
+
+```text
+You have: g
+You want: nagasaki
+        g = 1.0228935 nagasaki
+```
+
+### jupiter distance to AU's
+```text 
+You have: jupitersundist_max
+You want: au
+        jupitersundist_max = 5.4570496 au
+```
+
+### AU's to hours
+```text 
+You have: jupitersundist_max
+You want: hours
+        jupitersundist_max = 0.75641496 hours
+```
+
+### day in AU's'
+```
+You have: day
+You want: jupitersundist_max
+        day = 31.728616 jupitersundist_max
+```
+### My latest power bill in grams of mass-energy
+
+```text
+You have: 523.73 kW hours / 64days
+You want: micro g /day
+        523.73 kW hours / 64days = 0.328 micro g /day
+
+You have: 523.73 kW hours/135.06 dollars
+You want: micro g / dollar
+        523.73 kW hours/135.06 dollars = 0.15 micro g / dollar
+```
+The city of Seattle charges me a dollar for every 0.15 micrograms of energy I use.
+
+That is a lot $money for a speck of dust.
 
 ### One-shot command line
 
@@ -200,11 +240,25 @@ Yields are common public figures; historical estimates have ranges. Device and c
 ## Philosophy: why mass as energy?
 
 - **Relatable:** Grams and kilograms are everyday units.
-- **Tangible:** “This release was about one gram” is easier than “42 petajoules.”
+- **Tangible:** “This release was about one gram” is easier than “25 giga watt hours”
 - **Intuitive scaling:** Cosmic and industrial energy use become comparable.
 - **Physics-aligned:** Mass and energy are interchangeable via \(E = mc^2\).
 
+People have said; 
 > "A loaf of bread converted entirely to energy could power the Earth for a day."
+
+But is that really true? With this file, you can check.
+
+1. If a loaf of bread is about 567g; 
+2. Electricity used by human in 2023 was about 27.047 PW hours (Petawatt hours)
+
+``` plaintext
+You have: 27.047 PW hours / 365.25 
+You want: 567g
+        27.047 PW hours / 365.25 = 5.23 * 567g
+       
+```
+So no, it would take about 5.23 loaves of bread, converted entirely to energy, to power the human race for a day.'
 
 ---
 
@@ -213,8 +267,10 @@ Yields are common public figures; historical estimates have ranges. Device and c
 - This file is for intuition and conversion, not Lorentz transforms or tensor calculus.
 - For spacetime intuition, see *Spacetime Physics* (Taylor & Wheeler).
 - Not affiliated with the GNU Units project.
-- Do not mix these redefinitions into unrelated unit work without understanding that `s` and `c` have been changed.
 - Historical nuclear yields are estimates; modern analyses sometimes revise them.
+
+At first you will doubt this reality. Have patience,and you will see the universe in a new light
+where a second really is a distance measured in meters and electricity measured in micrograms.
 
 ---
 
@@ -232,7 +288,7 @@ ElecProd ekg|Qx ekg/G$|Qx ekg/TT|CapFF ekg|Qx ekg/G$|Qx ekg/TT|EmissionTT TT|GDP
 26.0|0.793|1.063|11.589|-0.922|-0.666|640.6|1774.0|Canada
 24.5|-1.530|0.497|30.015|-2.030|-0.025|847.6|4199.0|Germany
 22.7|-0.838|1.025|9.001|-2.400|-0.551|513.8|3248.0|Brazil
-21.2|-0.627|1.241|7.807|-2.116|-0.259|341.2|2856.0|France
+21.2|-0.627|1.241|7.807|-2.116|-0.259|341.2|2856.0|Franced
 
 ---
 
