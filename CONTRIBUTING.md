@@ -55,10 +55,11 @@ Optional convenience alias (adjust the path to your clone):
 
 ```bash
 # Linux / WSL
-alias lightunits='units -f /usr/share/units/definitions.units -f /path/to/MassEnergyUnits/massenergy.units'
+alias lightunits='units -vf /usr/share/units/definitions.units -f /path/to/MassEnergyUnits/massenergy.units'
+alias lightunits='(units -vf "" -f /usr/share/units/massenergy.units)'
 
 # macOS Homebrew
-alias lightunits='units -f "$(brew --prefix)/share/units/definitions.units" -f /path/to/MassEnergyUnits/massenergy.units'
+alias lightunits='units -vf "$(brew --prefix)/share/units/definitions.units" -f /path/to/MassEnergyUnits/massenergy.units'
 ```
 
 Or permanently include the file from your personal units data:

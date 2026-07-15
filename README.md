@@ -397,7 +397,9 @@ Energy is hard to grasp in abstract SI form. U.S. electricity use of about 3,900
 
 Time is not a special dimension separate from space; measuring the second as ~300,000 km makes `c = 1`. Substituting that into everyday energy formulas makes mass and energy the same unit. One kilogram is about 89.9 PJ or 25 TWh.
 
-When you realize that time is just another distance, then in basic work-energy equations **time cancels out** and we are left with the realization that, as far as the math is concerned, Energy is equal to mass.
+When you realize that time is just another distance, then in basic work-energy equations **time cancels out** and we are left with the realization that, as far as the math is concerned,
+Energy is equal to mass.
+> There is no actual complicated math or even calculus required to see or use this. Just Algebra :smile:
 
  A single gram of mass is about 21 kilotons of TNT.
 
