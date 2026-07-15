@@ -129,7 +129,7 @@ You want: kton
         g = (1 / 0.046553278) kton
 ```
 
-### Nuclear yield comparison, fatman was 1.4x hiroshima
+### Nuclear yield comparison, fatman was 1.4x littleboy
 
 ```text
 You have: nagasaki
