@@ -156,9 +156,9 @@ You want: nagasaki
 ### seconds to miles
 
 ```text
-You have: g
-You want: nagasaki
-        g = 1.0228935 nagasaki
+You have: s
+You want: miles
+        s = 186282.4 miles
 ```
 
 ### jupiter distance to AU's
