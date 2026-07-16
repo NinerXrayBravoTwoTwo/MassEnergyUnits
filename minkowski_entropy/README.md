@@ -53,7 +53,10 @@ In units where **c = 1**, time and distance share dimensions. The interval **Δt
 Reference length (same as `massenergy.units`):
 
 $$
-1\ \mathrm{s} = 299\,792.458\ \mathrm{km}
+c = 1\ 
+$$
+$$
+\mathrm{s} = 299\,792.458\ \mathrm{km}
 $$
 
 (constant `LIGHT_SECOND_KM` in the Python module).
@@ -168,9 +171,9 @@ Thus “spacetime” and “space-entropy” are dual descriptions of the same s
 - Spacetime provides the arena and the distance.
 - Entropy production (in the general mathematical sense used here) is the process defined along that distance.
 
-When \(\Delta t\) is re-interpreted as \(d\), the two languages become interchangeable. The framework makes no stronger ontological claim; it keeps the mathematics consistent where time and space share dimensions.
+When \(Δ t\) is re-interpreted as \(d\), the two languages become interchangeable. The framework makes no stronger ontological claim; it keeps the mathematics consistent where time and space share dimensions.
 
-> **In tief Gedanken versunken**
+> ## **In tief Gedanken versunken**
 
 ---
 
