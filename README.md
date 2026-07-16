@@ -156,6 +156,10 @@ You have: g
 You want: nagasaki
         g = 1.0228935 nagasaki
 ```
+---
+<p align="center">
+  <img src="images/coffee-2.jpg" width="250" alt="Spacetime Coffee -- whitespace">
+</p>
 
 ### seconds to miles
 
@@ -185,6 +189,10 @@ You have: jupitersundist_max
 You want: hours
         jupitersundist_max = 0.75641496 hours
 ```
+---
+<p align="center">
+  <img src="images/coffee-3.jpg" width="250" alt="Spacetime coffee -- curiosity manifold :smile:">
+</p>
 
 ### How many Jupiter distance sol radi is a day?
 
