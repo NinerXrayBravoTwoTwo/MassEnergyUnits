@@ -46,20 +46,21 @@ $$
 V_2 = V_1 \cdot \left(\frac{1}{2}\right)^{(\Delta t / T_{\text{half}})}
 $$
 
-### Natural units: time as distance
+### Natural units: time as distance -- *key concept*
 
 In units where **c = 1**, time and distance share dimensions. The interval **Δt** can be read as a proper distance **d** along the timelike direction.
 
 Reference length (same as `massenergy.units`):
 
 $$
-c = 1\ 
-$$
-$$
 \mathrm{s} = 299\,792.458\ \mathrm{km}
 $$
+$$
+c = 1
 
-(constant `LIGHT_SECOND_KM` in the Python module).
+$$
+
+ (constant `LIGHT_SECOND_KM` in the Python module).
 
 This converts the exponential law into a function of **spacetime separation**:
 
