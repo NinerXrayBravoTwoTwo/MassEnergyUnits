@@ -156,7 +156,7 @@ flux = hybrid_inverse_square(v0=100, lambda_scale=7.0, d=14.0)
 
 ---
 
-## Philosophical Notes
+## Philosophical Notes -- Gedankenexperiment
 
 In natural units (**c = 1**), the spacetime interval \( ds \) is already a unified 4-distance. Any timelike separation from the origin \( t_0 \) is therefore a proper distance along the future light-cone.
 
@@ -171,6 +171,7 @@ Thus “spacetime” and “space-entropy” are dual descriptions of the same u
 
 When \( \Delta t \) is re-interpreted as \( d \), the two languages become interchangeable. The framework makes no stronger ontological claim; it simply renders the mathematics consistent and natural in units where time and space share dimensions.
 
+> **Tief in Gedanken versunken**
 ---
 
 ## Integration into massenergy Project
