@@ -195,6 +195,19 @@ When \(Δ t \) is  re-interpreted as \( d \), the two languages become interchan
 - Standard treatments of exponential growth/decay and characteristic times.
 - Minkowski spacetime geometry (any standard relativity text).
 
+
+---
+
+## Contributing / sharing
+
+See **[CONTRIBUTING.md](../CONTRIBUTING.md)** for issues, pull requests, and testing.
+
+Contributions and refinements welcome. Keep it mathematically rigorous.
+
+## License
+
+[MIT](../LICENSE) — Copyright (c) 2025-2026 Jillian England.
+
 ---
 
 **Status**: Core mathematical engine complete. Ready for extension with visualization, differential forms, or project-specific V interpretations.
