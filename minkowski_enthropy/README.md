@@ -156,6 +156,23 @@ flux = hybrid_inverse_square(v0=100, lambda_scale=7.0, d=14.0)
 
 ---
 
+## Philosophical Notes
+
+In natural units (**c = 1**), the spacetime interval \( ds \) is already a unified 4-distance. Any timelike separation from the origin \( t_0 \) is therefore a proper distance along the future light-cone.
+
+The module separates two tightly related but distinct layers:
+
+- **Geometry layer**: The Minkowski metric supplies the distance measure. Once \( c = 1 \), every statement about evolution “with time” is automatically a statement about evolution with 4-distance inside the light-cone.
+- **Process layer**: The exponential mapping \( V(d) = V_0 \cdot 2^{d/\lambda} \) (or the decaying counterpart) and the derived functions `entropy_production(d)` and `hybrid_inverse_square(d)` describe *how* a state variable spreads or differentiates as one moves away from \( t_0 \).
+
+Thus “spacetime” and “space-entropy” are dual descriptions of the same underlying reality:
+- Spacetime provides the arena and the distance.
+- Entropy production (in the general mathematical sense used here) is the process defined along that distance.
+
+When \( \Delta t \) is re-interpreted as \( d \), the two languages become interchangeable. The framework makes no stronger ontological claim; it simply renders the mathematics consistent and natural in units where time and space share dimensions.
+
+---
+
 ## Integration into massenergy Project
 
 1. Place `spacetime_entropy.py` in the `physics/` or `core/` directory.
