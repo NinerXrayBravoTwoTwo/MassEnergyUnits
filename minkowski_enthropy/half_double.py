@@ -22,6 +22,19 @@ def predict_v2_from_half(v1, t_half, delta_t):
     """Inverse: predict V2 given V1, half-life, and elapsed time"""
     return v1 * (0.5 ** (delta_t / t_half))
 
+# Deriving adaptive inverse squared law from compounding-halflife equation
+
+def v_at_distance(v0, lambda_scale, d, mode='growth'):
+    """V at distance d (c=1), lambda_scale = T_double or T_half"""
+    if mode == 'growth':
+        return v0 * (2 ** (d / lambda_scale))
+    elif mode == 'decay':
+        return v0 * (0.5 ** (d / lambda_scale))
+
+# Example with ntural units 
+s = 399800  # km c=1
+# ... convert your physical distances to multiples of s
+
 if __name__ == "__main__":
     print("=== Half-Life / Doubling Time Calculator ===")
     print("Commands:")
