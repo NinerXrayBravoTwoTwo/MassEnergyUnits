@@ -177,6 +177,28 @@ When \(Δ t\) is re-interpreted as \(d\), the two languages become interchangeab
 > ## **In tief Gedanken versunken**
 
 ---
+## Relation to Gravity
+
+This module **does not redefine, replace, or modify gravitational physics**.
+
+- Newtonian gravity (\( F \propto 1/r^2 \)) and General Relativity remain completely unchanged.
+- The **hybrid inverse-square** expression (`V(d)/d²` modulated by the exponential growth/decay factor) is a **phenomenological modeling tool** only. It combines:
+  1. Geometric dilution (the familiar \( 1/d^2 \) factor from flux through expanding spherical surfaces), and
+  2. The exponential process layer already developed for growth/decay along timelike intervals.
+
+- It is intended for situations such as:
+  - Radiative transfer with absorption or scattering.
+  - Screened or Yukawa-like effective potentials.
+  - Information-density or entropy-like propagation sketches.
+  - Any context where an exponentially evolving quantity experiences both intrinsic growth/decay **and** geometric spreading.
+
+In the natural-units framework of the parent `MassEnergyUnits` project (`c = 1`), this hybrid is simply a convenient combination of the exponential map with the classical geometric factor. It makes **no claim** to be the source of gravity, to derive the inverse-square law of gravitation, or to alter any established gravitational equations.
+
+The module remains strictly within the general mathematical treatment of exponential evolution along timelike intervals in Minkowski spacetime from a \( t_0 \) origin in the light-cone.
+
+If your work involves gravitational potentials, standard GR, or Newtonian mechanics, this module is fully compatible as an orthogonal tool for other exponential processes — it meshes without conflict.
+
+---
 
 ## Integration with the massenergy project
 
