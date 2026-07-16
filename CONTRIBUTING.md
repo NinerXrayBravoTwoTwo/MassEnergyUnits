@@ -17,8 +17,10 @@ Open an [Issue](https://github.com/NinerXrayBravoTwoTwo/MassEnergyUnits/issues) 
 
 1. Fork the repository
 2. Create a branch (`git checkout -b my-improvement`)
-3. Change `massenergy.units` and/or the docs (`README.md`, this file, etc.)
-4. Test locally (load the **system** units database first, then this file):
+3. Change `massenergy.units`, `minkowski_entropy/`, and/or the docs (`README.md`, this file, etc.)
+4. Test locally:
+
+   **GNU Units** (load the **system** units database first, then this file):
 
    ```bash
    # Interactive session
@@ -33,6 +35,13 @@ Open an [Issue](https://github.com/NinerXrayBravoTwoTwo/MassEnergyUnits/issues) 
    On macOS with Homebrew, use  
    `"$(brew --prefix)/share/units/definitions.units"` instead of `/usr/share/units/definitions.units`.
 
+   **Python package** (from the repository root):
+
+   ```bash
+   python minkowski_entropy/spacetime_entropy.py
+   python minkowski_entropy/half_double.py double 100 400 10
+   ```
+
 5. Commit with a clear message
 6. Open a pull request against `master`
 
@@ -44,7 +53,8 @@ Open an [Issue](https://github.com/NinerXrayBravoTwoTwo/MassEnergyUnits/issues) 
 - When adding or revising yields, link device names to the yield name (e.g. `gadget` → `trinity`) so mass–energy stays consistent under `c = 1`.
 - Prefer aliases for synonyms (`dinokill` → `chicxulub`, `ton_e` → `ton_tnt`) rather than duplicating numbers.
 - Add a short comment for any new definition (source or rationale if the value is an estimate).
-- Update `README.md` if usage examples, the built-in names table, or install steps change.
+- Keep the light-second scale consistent: **299792.458 km** (`LIGHT_SECOND_KM` in Python, `s` in the units file).
+- Update `README.md` (and module docs) if usage examples, the built-in names table, or install steps change.
 - Philosophical or historical notes are welcome when they stay accurate and help non-specialists.
 
 ## Development setup

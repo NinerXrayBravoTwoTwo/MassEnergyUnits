@@ -3,7 +3,7 @@
 ##  "Mass is not simply equivalent to energy — Mass **is** energy."
 
 <p align="center">
-  <img src="images/IMG_2619.JPG" with="650" alt="Seattle July 2026 Utility Bill">
+  <img src="images/IMG_2619.JPG" width="650" alt="Seattle July 2026 Utility Bill">
 </p>
 
 ## Overview
@@ -14,8 +14,12 @@ Through this lens, a gram is about 21 kilotons of TNT. A sugar cube is city-scal
 
 You’ll never see the universe quite the same again.
 
-### The Mind-Blowing Reframe
-A **[HYPERFACET.md](HYPERFACET.md)**
+### Related modules
+
+| Doc / package | What it is |
+| ------------- | ---------- |
+| **[HYPERFACET.md](HYPERFACET.md)** | Short “mind-blower” reframe of global energy as mass |
+| **[minkowski_entropy/](minkowski_entropy/)** | Python: growth/decay, entropy-like measures along timelike intervals (c = 1) |
 
 ---
 
@@ -25,6 +29,7 @@ A **[HYPERFACET.md](HYPERFACET.md)**
 - Mass ↔ energy conversions without extra factors
 - Named references for familiar nuclear yields and large-scale events
 - Real-world examples from physics, history, and energy economics
+- Optional **Minkowski / space-entropy** math package (`minkowski_entropy`)
 
 ---
 
@@ -252,7 +257,7 @@ You want: micro grams
 
 ---
 <p align="center">
-  <img src="images/brain-entrophy.gif" width="250" alt="Spacetime coffee -- curiosity manifold :smile:">
+  <img src="images/brain-entropy.gif" width="250" alt="Spacetime coffee -- curiosity manifold :smile:">
 </p>
 
 ### Brain energy usage in grams of mass-energy

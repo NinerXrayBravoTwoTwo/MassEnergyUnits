@@ -5,5 +5,12 @@
 *~
 .DS_Store
 
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
 # Local units cache or personal overrides
 *.units.local
