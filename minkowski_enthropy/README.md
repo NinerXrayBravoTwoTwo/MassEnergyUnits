@@ -171,7 +171,7 @@ Thus “spacetime” and “space-entropy” are dual descriptions of the same u
 
 When \( \Delta t \) is re-interpreted as \( d \), the two languages become interchangeable. The framework makes no stronger ontological claim; it simply renders the mathematics consistent and natural in units where time and space share dimensions.
 
-> **Tief in Gedanken versunken**
+> **In tief Gedanken versunken**
 ---
 
 ## Integration into massenergy Project
