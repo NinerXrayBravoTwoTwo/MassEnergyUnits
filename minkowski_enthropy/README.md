@@ -169,7 +169,7 @@ Thus “spacetime” and “space-entropy” are dual descriptions of the same u
 - Spacetime provides the arena and the distance.
 - Entropy production (in the general mathematical sense used here) is the process defined along that distance.
 
-When (Δ t ) is  re-interpreted as ( d ), the two languages become interchangeable. The framework makes no stronger ontological claim; it simply renders the mathematics consistent and natural in units where time and space share dimensions.
+When \(Δ t \) is  re-interpreted as \( d \), the two languages become interchangeable. The framework makes no stronger ontological claim; it simply renders the mathematics consistent and natural in units where time and space share dimensions.
 
 > **In tief Gedanken versunken**
 ---
