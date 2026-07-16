@@ -159,27 +159,37 @@ You want: nagasaki
 
 ### seconds to miles
 
+In spacetime the 'now' manifold requires 4D distance of 186282.4 miles
+
 ```text
 You have: s
 You want: miles
         s = 186282.4 miles
 ```
 
-### jupiter distance to AU's
+### jupiter distance from sol convert to AU's
+
+Jupiter is about 5.46 earth radi from the sun.
+
 ```text 
 You have: jupitersundist_max
 You want: au
         jupitersundist_max = 5.4570496 au
 ```
 
-### AU's to hours
+### Jupiter sol distance convert to hours from sun
+
+
 ```text 
 You have: jupitersundist_max
 You want: hours
         jupitersundist_max = 0.75641496 hours
 ```
 
-### day in AU's'
+### How many Jupiter distance sol radi is a day?
+
+It takes a day for the 'now'  spacetime cone manifold to reach a 4D spaceime diameter of 32 jupiter-sol radi.
+
 ```
 You have: day
 You want: jupitersundist_max
