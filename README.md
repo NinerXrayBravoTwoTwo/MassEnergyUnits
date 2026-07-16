@@ -271,6 +271,10 @@ You have: 20 watt / hour * day * siderealyear
 You want: micro g
         20 watt / hour * day * siderealyear = 168.54325 micro g
 ```
+ * I am 65.5 years old. ( 1960 - July 2026)
+ * At 0.17  micrograms mass per year, I have burned the equivelent of 11.04 mg of mass with just my brain in 65 years.
+ * Most of that energy scavanged from the solar gradiant was spent in fighting enthropy, the second law.
+ * Was it all worth it? :blush:
 
 ### High end  NVidia AI data server power usage vs. a human brain power usage
 
