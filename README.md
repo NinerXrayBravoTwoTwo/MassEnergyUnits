@@ -203,6 +203,9 @@ You have: day
 You want: jupitersundist_max
         day = 31.728616 jupitersundist_max
 ```
+
+---
+
 ## The Cost of Electricity - in grams?
 <p align="center">
   <img src="images/utility-bill.png" width="650" alt="Seattle July 2026 Utility Bill">
@@ -246,6 +249,11 @@ You want: micro grams
 | Human hair        | 50–100 µg    | 1.25 - 2.5 kW hrs     | Yes                       |
 | Rotifer           | 50–500 µg    | 1.25 - 12.5 kW hrs    | Yes                       |
 | flax seed         | 1–2 mg       | 24.97 - 49.93  MW hrs | Yes                       |
+
+---
+<p align="center">
+  <img src="images/brain-entrophy.gif" width="250" alt="Spacetime coffee -- curiosity manifold :smile:">
+</p>
 
 ### Brain energy usage in grams of mass-energy
 Converting mass to energy at 168.5 µg per year, the human brain uses about 20 watts continious uninterupted of power.
