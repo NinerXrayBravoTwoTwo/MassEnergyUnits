@@ -6,7 +6,13 @@ This module generalizes exponential growth/decay processes (doubling times, half
 
 The implementation is **purely mathematical** — no thermodynamic assumptions beyond the general case of a quantity **V** evolving exponentially along a timelike interval.
 
-Location in this repo: `minkowski_entropy/`
+
+## Located In: *`minkowski_entropy/`*
+---
+| Doc / package | What it is |
+| ------------- | ---------- |
+| **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)** | Classic problem looked at as an entropy reduction effect instead of a clock speed effect |
+| **Finance Examples** | Stops aging and does your dishes too! **finance-examples.py** |
 
 ---
 
@@ -108,6 +114,8 @@ python minkowski_entropy/half_double.py half 400 100 10
 python minkowski_entropy/half_double.py pred_double 100 5 10
 ```
 
+
+
 ### Import the package
 
 ```python
@@ -150,6 +158,47 @@ from spacetime_entropy import calculate_t_double, entropy_production
 
 ---
 
+## $ Finance; Same problems as enthropy
+
+Yes, this Python module is perfectly fit for calculating compounding interest (and any other exponential growth/decay scenario).
+The mathematics at its core is the same universal exponential law:
+
+Compound interest is simply exponential growth of a principal amount over discrete or continuous time.
+Your doubling-time / half-life functions and the inverse predictors are the general form used in finance, population dynamics, radioactive decay, pharmacokinetics, etc.
+
+### Quick Examples Using the Module for Banking
+
+
+```python
+from spacetime_entropy import (
+    predict_v2_growth,
+    calculate_t_double,
+)
+
+# Example: $10,000 at 5% annual compounding, after 10 years
+principal = 10000
+rate = 0.05          # 5% per year
+years = 10
+
+# Using the general exponential formula directly
+future_value = principal * (1 + rate) ** years
+print(f"Future value: ${future_value:,.2f}")   # → $16,288.95
+
+# Or using the module's doubling-time approach
+t_double = calculate_t_double(v1=principal, v2=principal*2, delta_t=math.log(2)/math.log(1+rate))
+print(f"Time to double: {t_double:.2f} years")  # ≈ 14.21 years (Rule of 72 approximation)
+
+# Predict future value using the module's growth function
+future = predict_v2_growth(
+    v1=principal,
+    t_double=t_double,      # characteristic doubling scale
+    delta_t=years
+)
+print(f"Predicted value: ${future:,.2f}")
+```
+
+---
+
 ## Theoretical context (mathematical only)
 
 - **Schrödinger (1944)** observed that living systems import “negentropy” to maintain order. This module treats the *general mathematical case* of a quantity V that can grow or decay exponentially from an origin.
@@ -158,7 +207,7 @@ from spacetime_entropy import calculate_t_double, entropy_production
 
 ---
 
-## Philosophical notes — Gedankenexperiment
+## Philosophical notes (Gedankenexperiment)
 
 In natural units (**c = 1**), the spacetime interval \(ds\) is already a unified 4-distance. Any timelike separation from the origin \(t_0\) is a proper distance along the future light-cone.
 

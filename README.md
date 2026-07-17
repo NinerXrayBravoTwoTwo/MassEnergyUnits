@@ -14,12 +14,15 @@ Through this lens, a gram is about 21 kilotons of TNT. A sugar cube is city-scal
 
 You’ll never see the universe quite the same again.
 
-### Related modules
+### Related documentation and Spacetime -> SpaceEnthropy math 
 
 | Doc / package | What it is |
 | ------------- | ---------- |
 | **[HYPERFACET.md](HYPERFACET.md)** | Short “mind-blower” reframe of global energy as mass |
-| **[minkowski_entropy/](minkowski_entropy/)** | Python: growth/decay, entropy-like measures along timelike intervals (c = 1) |
+| **[minkowski_entropy/](minkowski_entropy/)** | Space-etropy, python doing what unit's alone cannot.' Geometric compouding along timelike intervals (c = 1) ... *and yes it still does componding finance.* |
+| **[Spacetime-Entropy  Package(md)](minkowski_entropy/README.md)**| Spacetime Entropy & Growth/Decay Module |
+| **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)** | Classic problem looked at as an entropy reduction effect instead of a clock speed effect |
+| **Finance Examples** | Stops aging and it does your dishes too!|
 
 ---
 
@@ -232,9 +235,13 @@ The city of Seattle charges me a dollar for every 0.15 micrograms of energy I us
 
 That is a lot $money for a speck of dust.
 
+<p>
+  <img src="images/magnified-pollen-grains-under-the-light-microscope-white-background-peter-hermes-furian.jpg" width="450" alt="Bacteria">
+</p>
+
  On the other hand, perhaps you are stunned by the fact that the 
 amount of energy I use in my house each day can actually be measured in mass that is meaningfull at all -- at 0.156 micro grams per day
-or 32.995 micro grams for the entire 64 day billing period.  This is actually visible under a normal micoscope, at the scale of a diatom. A little bit smaller than the width of a human hair but close.
+or 32.995 micro grams for the entire 64 day billing period.  This is actually visible under a normal light micoscope, at the scale of a bacteria or diatom. A little bit smaller than the width of a human hair but close.
 
  My take away is that we are not just passing by this energy gradient, we are wading through and into it.
 
@@ -271,10 +278,16 @@ You have: 20 watt / hour * day * siderealyear
 You want: micro g
         20 watt / hour * day * siderealyear = 168.54325 micro g
 ```
- * I am 65.5 years old. ( 1960 - July 2026)
- * At 0.17  micrograms mass per year, I have burned the equivelent of 11.04 mg of mass with just my brain in 65 years.
+ * I am 65.5 years old. (1960 - 2026)
+ * At ~0.17  (168.5 micro g) mg mass per year, I have burned the equivelent of ~11.04 mg of mass with just my brain in 65 years.
  * Most of that energy scavanged from the solar gradiant was spent in fighting enthropy, the second law.
  * Was it all worth it? :blush:
+ 
+ ```bash
+ You have: 20 watt / hour * day * siderealyear * 65.5
+You want: milligrams
+        20 watt / hour * day * siderealyear * 65.5 = 11.039583 milligrams
+ ````
 
 ### High end  NVidia AI data server power usage vs. a human brain power usage
 

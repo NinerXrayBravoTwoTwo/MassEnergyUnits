@@ -38,7 +38,7 @@ Load the file. Play with the numbers. Let the math smile back at you.
 
 ```bash
 # From the MassEnergyUnits repo (system units + this file)
-units -f /usr/share/units/definitions.units -f ./massenergy.units
+units -vf /usr/share/units/definitions.units -f ./massenergy.units
 ```
 
 For growth/decay and entropy-like measures along timelike intervals, see **[minkowski_entropy/](minkowski_entropy/)**.
