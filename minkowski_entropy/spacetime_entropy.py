@@ -35,7 +35,7 @@ from __future__ import annotations
 import math
 from typing import Literal
 
-# Light-travel distance in one second, is exactly (massenergy.units: s = 2.99792458e8 m)
+# Light-travel distance in one second,is exactly 2.99792458e8 m
 LIGHT_SECOND_KM = 299792.458
 
 
