@@ -128,6 +128,17 @@ Mass and energy, space and time, are brought into direct calculable parity.
 
 ---
 
+<p align="center">
+  <img src="images/gaget.jpg" width="650" alt="Seattle July 2026 Utility Bill">
+</p>
+
+``` text
+  * *
+ * * *   Oh, We're having so much fun, making itty bitty suns!'
+  * *      
+  -- wengland@stephsf.com 1989
+```
+
 ## Quick examples
 
 Interactive session (`You have:` / `You want:` prompts):
@@ -287,7 +298,7 @@ You want: micro g
  You have: 20 watt / hour * day * siderealyear * 65.5
 You want: milligrams
         20 watt / hour * day * siderealyear * 65.5 = 11.039583 milligrams
- ````
+ ```
 
 ### High end  NVidia AI data server power usage vs. a human brain power usage
 
