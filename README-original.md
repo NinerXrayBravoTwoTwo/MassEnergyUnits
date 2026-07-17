@@ -217,7 +217,7 @@ You have: 63 PJ
 You want: nagasaki
         63 PJ = 684.42552 nagasaki
 ```
- An hour is 670 million miles. Distance and time are measured in the same units. They are equivelent.  Seconds are actually VERY SLOW.  There is a lot of time in a second.
+ An hour is 670 million miles. Distance and time are measured in the same units. They are equivalent.  Seconds are actually VERY SLOW.  There is a lot of time in a second.
 ```
 You have: hour
 You want: kmiles
@@ -354,7 +354,7 @@ You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: nova
         384.6 yotta wa... = 0.48547175 nova
 ```
-**if the earth weighs 6.59+21 ton then; The sun radiated a mass equivelent to 90.41 earths over it's 4 billion year life or .0003 current solar masses or .28 Jupiter masses over it's four billion year life.**
+**if the earth weighs 6.59+21 ton then; The sun radiated a mass equivalent to 90.41 earths over it's 4 billion year life or .0003 current solar masses or .28 Jupiter masses over it's four billion year life.**
 
 **Interesting; 4 billion years star burn = Half of a Nova?**
 
