@@ -495,7 +495,7 @@ You want: TJ
         g = 89.875518 TJ
 
 # A tera watt hour is 40 grams of mass by the way.
-# I mention it because this conversion seems to come up often.
+# I mention it only because this conversion seems to come up often.
 You have: TW hr
 You want: g
         TW hr = 40.055402 g
