@@ -14,7 +14,7 @@ Through this lens, a gram is about 21 kilotons of TNT. A sugar cube is city-scal
 
 You’ll never see the universe quite the same again.
 
-### Related documentation and Spacetime -> SpaceEnthropy math 
+### Related documentation and Spacetime -> Spaceentropy math 
 
 | Doc / package | What it is |
 | ------------- | ---------- |
@@ -236,12 +236,12 @@ The city of Seattle charges me a dollar for every 0.15 micrograms of energy I us
 That is a lot $money for a speck of dust.
 
 <p>
-  <img src="images/magnified-pollen-grains-under-the-light-microscope-white-background-peter-hermes-furian.jpg" width="450" alt="Bacteria">
+  <img src="images/pollen-grains-light-microscope-peter-furian.jpg" width="450" alt="Pollen">
 </p>
 
  On the other hand, perhaps you are stunned by the fact that the 
-amount of energy I use in my house each day can actually be measured in mass that is meaningfull at all -- at 0.156 micro grams per day
-or 32.995 micro grams for the entire 64 day billing period.  This is actually visible under a normal light micoscope, at the scale of a bacteria or diatom. A little bit smaller than the width of a human hair but close.
+amount of energy I use in my house each day can actually be measured in mass that is meaningfull at all -- at 0.156 micro gram per day
+or 32.995 μg for the entire 64 day billing period.  This is actually visible under a normal light micoscope, at the scale of a bacteria or diatom. A little bit smaller than the width of a human hair but close.
 
  My take away is that we are not just passing by this energy gradient, we are wading through and into it.
 
@@ -250,12 +250,12 @@ or 32.995 micro grams for the entire 64 day billing period.  This is actually vi
 ``` plaintext
 You have: 823.73 kW hours
 You want: micro grams
-        823.73 kW hours = 32.994836 micro grams
+        823.73 kW hours = 32.994836 micro gram
  ```
 | Organism/Stucture | Typical mass |W hours equivalent mass| Visible under microscope? |
 | ----------------- | ------------ | --------------------- |------------------------- |
 | Pollen grain      | 10–100 ng    | 0.24965 - 2.5 kW hrs  | Yes                       |
-| Tiny plant seeds   | 1–10 µg     | 25 - 249 kW hrs       | Yes                       |
+| Tiny plant seeds  | 1–10 µg      | 25 - 249 kW hrs       | Yes                       |
 | Diatom            | 2–200 µg     | 0.5 - 5 kW hrs        | Yes                       |
 | Tardigrade        | 100–500 µg   | 2.5 - 12.5 kW hrs     | Yes                       |
 | Human hair        | 50–100 µg    | 1.25 - 2.5 kW hrs     | Yes                       |
@@ -279,8 +279,8 @@ You want: micro g
         20 watt / hour * day * siderealyear = 168.54325 micro g
 ```
  * I am 65.5 years old. (1960 - 2026)
- * At ~0.17  (168.5 micro g) mg mass per year, I have burned the equivelent of ~11.04 mg of mass with just my brain in 65 years.
- * Most of that energy scavanged from the solar gradiant was spent in fighting enthropy, the second law.
+ * At ~0.17  (168.5 μg) mg mass per year, I have burned the equivalent of ~11.04 mg of mass with just my brain in 65 years.
+ * Most of that energy scavenged from the solar gradiant was spent in fighting entropy, the second law.
  * Was it all worth it? :blush:
  
  ```bash
