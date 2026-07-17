@@ -158,7 +158,7 @@ from spacetime_entropy import calculate_t_double, entropy_production
 
 ---
 
-## $ Finance; Same problems as enthropy
+## $ Finance; Same problems as entropy
 
 Yes, this Python module is perfectly fit for calculating compounding interest (and any other exponential growth/decay scenario).
 The mathematics at its core is the same universal exponential law:

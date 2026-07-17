@@ -28,18 +28,36 @@ Since entropy compounds along the proper-time interval (the actual “distance�
 
 > Their internal biological and experiential “compounding clock” runs slower relative to their Earth-bound sibling — not because time itself is weird, but because they traveled a shorter proper distance in spacetime.
 
-## Simple Analogy
+### The Beach-Ball Analogy
 
-Imagine two hikers leaving the same trailhead.
+Imagine spacetime as a big, stretchy beach ball.  
+You want to travel to a distant star and back within roughly 10 Earth years, so you say to yourself:
 
-- One hiker walks straight up a mountain on a short, steep trail.
-- The other takes a long, winding route that covers more ground horizontally but has less total elevation gain.
+> “I’ll just get my pet elephant to stand on the ball and squish the diameter smaller.”
 
-When they meet at the summit, the hiker on the winding route has done more walking (more “steps”), even though both reached the same height.
+This works beautifully for your journey — the path through the squished ball is much shorter, so you get there and back faster.
 
-In the twin paradox, the stay-at-home twin walks the “straight” spacetime path.  
-The traveling twin takes the long spatial detour but a **shorter proper-time path**.  
-They accumulate fewer “entropy steps.”
+But here’s the catch: **you are also inside the beach ball**. Every atom in your body, every clock, every biological process takes that same shorter path. You get “squished” too — your personal proper-time interval becomes shorter.
+
+Back on Earth, your twin sister’s beach ball was never squished by the elephant. She followed the normal, unstretched path through spacetime and therefore accumulated the full “life mileage” over those 10 years.
+
+- The traveler squished spacetime (via high velocity) and took a shorter proper-time path.
+- The stay-at-home twin never squished their ball and experienced the longer path.
+
+The result? The traveling twin returns noticeably younger.
+
+### Why This Works
+
+The “elephant squish” is a playful stand-in for relativistic effects (velocity and acceleration) that shorten the traveler’s **proper time** — the actual spacetime interval they experience. Everything that ages us (metabolism, cellular repair, memory formation, entropy production) compounds along that proper-time path. A shorter path means less compounding.
+
+In the language of the module: the traveler’s worldline has a shorter integrated proper distance `d`, so `entropy_production(d)` yields a smaller total value.
+
+### Why the Traveling Twin Doesn’t “Feel” Time Slowing
+
+From inside their own squished beach ball, everything feels normal. Their clocks tick at the usual rate, their biology proceeds normally. The difference only appears when the two worldlines reunite and the accumulated proper times (and therefore accumulated entropy) are compared.
+
+It is not that “time slowed down” for one twin.  
+It is that the two twins followed **different-length paths** through the same spacetime — just as two routes on a map can have very different mileages even if they connect the same two cities.
 
 ## Connection to Exponential Mathematics
 
