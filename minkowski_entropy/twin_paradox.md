@@ -72,16 +72,6 @@ The traveling twin’s shorter proper time means a shorter integration interval 
 
 This is why they age less.
 
-## Why the Traveling Twin Doesn’t “Feel” Time Slowing
-
-From the traveler’s perspective, their own clocks and biology feel completely normal.  
-They experience the usual compounding of entropy along their own worldline.
-
-The difference only becomes apparent when the two worldlines reunite and the accumulated proper times (and therefore accumulated entropy) are compared.
-
-It is not that “time slowed down” for one twin.  
-It is that the two twins followed **different-length paths** through the same spacetime, just as two routes on a map have different mileages.
-
 ## Summary
 
 **The traveling twin ages less because their entropy-compounding interval is shorter.**
