@@ -136,7 +136,7 @@ Mass and energy, space and time, are brought into direct calculable parity.
   * *
  * * *   Oh, We're having so much fun, making itty bitty suns!
   * *      
-  -- wengland@stephsf.com 1989
+  -- wengland@stephsft.com 1989
 ```
 
 ## Quick examples
