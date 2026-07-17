@@ -11,8 +11,8 @@ The implementation is **purely mathematical** — no thermodynamic assumptions b
 ---
 | Doc / package | What it is |
 | ------------- | ---------- |
-| **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)** | Classic problem looked at as an entropy reduction effect instead of a clock speed effect |
-| **[Finance Examples](minkowski_entropy/finance-examples.py)** | Stops aging and does your dishes too! **finance-examples.py** |
+| **[Twin Paradox Redux](twin_paradox.md)** | Classic problem looked at as an entropy reduction effect instead of a clock speed effect |
+| **[Finance examples](#finance)** | Same exponential math for compounding interest (readable help section below) |
 
 ---
 
@@ -158,7 +158,11 @@ from spacetime_entropy import calculate_t_double, entropy_production
 
 ---
 
-## Finance; Same problems as entropy
+<a id="finance"></a>
+
+## Finance examples
+
+Same exponential growth/decay math — compound interest, inflation, loans, etc.
 
 Yes, this Python module is perfectly fit for calculating compounding interest (and any other exponential growth/decay scenario).
 The mathematics at its core is the same universal exponential law:
@@ -166,7 +170,9 @@ The mathematics at its core is the same universal exponential law:
 Compound interest is simply exponential growth of a principal amount over discrete or continuous time.
 Your doubling-time / half-life functions and the inverse predictors are the general form used in finance, population dynamics, radioactive decay, pharmacokinetics, etc.
 
-### Quick Examples Using the Module for Banking
+Runnable demos: run `python finance-examples.py` from this directory (source is optional; this section is the readable guide).
+
+### Quick examples using the module for banking
 
 
 ```python

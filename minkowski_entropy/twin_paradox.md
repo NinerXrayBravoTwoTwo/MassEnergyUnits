@@ -96,4 +96,4 @@ This reframing makes the twin paradox intuitive without requiring deep technical
 
 ---
 
-**Related code**: See `spacetime_entropy.py` and `finance-examples.py` in this repository for the shared exponential mathematics that makes this connection precise.
+**Related reading / code**: [Finance examples](README.md#finance) (readable help), `spacetime_entropy.py`, and optional runnable `finance-examples.py`.

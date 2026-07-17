@@ -22,7 +22,7 @@ You’ll never see the universe quite the same again.
 | **[minkowski_entropy/](minkowski_entropy/)**                      | Space-etropy, python doing what unit's alone cannot.' Geometric compouding along timelike intervals (c = 1) ... *and yes it still does componding finance.* |
 | **[Spacetime-Entropy  Package(md)](minkowski_entropy/README.md)** | Spacetime Entropy & Growth/Decay Module                                                                                                                     |
 | **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)**       | Classic problem looked at as an entropy reduction effect instead of a clock speed effect                                                                    |
-| **Finance Examples**                                              | Stops aging and it does your dishes too!                                                                                                                    |
+| **[Finance examples](minkowski_entropy/README.md#finance)**       | Same math as entropy for compounding interest (readable help in the module README)                                                                          |
 
 ---
 
