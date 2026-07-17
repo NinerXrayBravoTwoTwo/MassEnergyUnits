@@ -267,7 +267,10 @@ The city of Seattle charges me $1 for every 0.2443 **μg** of energy I use.
 amount of energy I use in my house each day can actually be measured in mass that is meaningfull *at all*.
 
  ... at 0.156 micro gram per day
-or 32.995 μg for the entire 64 day billing period.  This is actually visible under a normal light micoscope, at the scale of a bacteria or diatom. A little bit smaller than the width of a human hair but close.
+or 32.995 μg for the entire 64 day billing period.
+This is actually visible under a normal light micoscope, 
+at the scale of a bacteria or grain of polon.
+A little bit smaller than the width of a human hair but close.
 
  My take away is that we are not just passing by this energy gradient, we are wading through and into it.
 
@@ -395,10 +398,10 @@ But is that really true? You now know how to actually check.
 2. Electricity used by humans in 2023 was about 27.047 PW hours (Petawatt hours)
 
 ``` plaintext
-You have: 27.047 PW hr per 365.256360417
+You have: 27.047 PW hr per (siderealyear/day)
 You want: 567 g
-        27.047 PW hr per 365.256360417 = 5.2311762 * 567 g
-                                         ^^^^^ actual number of loaves of bread needed
+        27.047 PW hr per (siderealyear/day) = 5.2311762 * 567 g
+                                              ^^^^^ actual number of loaves of bread needed
 ```
 So No- They were incorrect, it would actually require  5.23 loaves of bread, converted to energy, to power the human race for a day. 
 > You may think that this is nitpicking, however this is extreenly precise math. There is a big difference between one loaf verses five times that amount.
