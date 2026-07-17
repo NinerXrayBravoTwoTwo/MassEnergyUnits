@@ -39,7 +39,8 @@ This works beautifully for your journey — the path through the squished ball i
 
 But here’s the catch: **you are also inside the beach ball**. Every atom in your body, every clock, every biological process takes that same shorter path. You get “squished” too — your personal proper-time interval becomes shorter.
 
-Back on Earth, your twin sister’s beach ball was never squished by the elephant. She followed the normal, unstretched path through spacetime and therefore accumulated the full “life mileage” over those 10 years.
+Back on Earth, your twin sister’s view of the same beach ball was never squished by an elephant.
+She followed the normal, unstretched path through spacetime and therefore accumulated the full “life mileage” over those 10 years.
 
 - The traveler squished spacetime (via high velocity) and took a shorter proper-time path.
 - The stay-at-home twin never squished their ball and experienced the longer path.
@@ -54,10 +55,14 @@ In the language of the module: the traveler’s worldline has a shorter integrat
 
 ### Why the Traveling Twin Doesn’t “Feel” Time Slowing
 
-From inside their own squished beach ball, everything feels normal. Their clocks tick at the usual rate, their biology proceeds normally. The difference only appears when the two worldlines reunite and the accumulated proper times (and therefore accumulated entropy) are compared.
+From inside their view of the beach ball, everything looks normal. Their clocks tick at the usual rate, their biology proceeds normally.
+The difference only appears when the two worldlines reunite and the accumulated proper times (and therefore accumulated entropy) are compared.
 
 It is not that “time slowed down” for one twin.  
-It is that the two twins followed **different-length paths** through the same spacetime — just as two routes on a map can have very different mileages even if they connect the same two cities.
+It is that the two twins followed **different-length paths** through the same spacetime 
+— just as two routes on a map can have very different mileages even if they connect the same two cities.
+
+> ### **There is only one spacetime, but many paths through it** 
 
 ## Connection to Exponential Mathematics
 
