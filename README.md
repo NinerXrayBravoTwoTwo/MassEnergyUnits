@@ -16,13 +16,13 @@ You’ll never see the universe quite the same again.
 
 ### Related documentation and Spacetime -> Spaceentropy math 
 
-| Doc / package | What it is |
-| ------------- | ---------- |
-| **[HYPERFACET.md](HYPERFACET.md)** | Short “mind-blower” reframe of global energy as mass |
-| **[minkowski_entropy/](minkowski_entropy/)** | Space-etropy, python doing what unit's alone cannot.' Geometric compouding along timelike intervals (c = 1) ... *and yes it still does componding finance.* |
-| **[Spacetime-Entropy  Package(md)](minkowski_entropy/README.md)**| Spacetime Entropy & Growth/Decay Module |
-| **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)** | Classic problem looked at as an entropy reduction effect instead of a clock speed effect |
-| **Finance Examples** | Stops aging and it does your dishes too!|
+| Doc / package                                                     | What it is                                                                                                                                                  |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[HYPERFACET.md](HYPERFACET.md)**                                | Short “mind-blower” reframe of global energy as mass                                                                                                        |
+| **[minkowski_entropy/](minkowski_entropy/)**                      | Space-etropy, python doing what unit's alone cannot.' Geometric compouding along timelike intervals (c = 1) ... *and yes it still does componding finance.* |
+| **[Spacetime-Entropy  Package(md)](minkowski_entropy/README.md)** | Spacetime Entropy & Growth/Decay Module                                                                                                                     |
+| **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)**       | Classic problem looked at as an entropy reduction effect instead of a clock speed effect                                                                    |
+| **Finance Examples**                                              | Stops aging and it does your dishes too!                                                                                                                    |
 
 ---
 
@@ -116,11 +116,11 @@ sudo cp massenergy.units /usr/share/units/
 
 ## What This File Does
 
-| Definition | Meaning |
-| ---------- | ------- |
-| `s = 2.99792458e8 m` | One second is the distance light travels in one second |
-| `c = 1` | Speed of light is unitless |
-| `ton_tnt = 4.184e9 J` | Standard thermochemical ton of TNT |
+| Definition            | Meaning                                                |
+| --------------------- | ------------------------------------------------------ |
+| `s = 2.99792458e8 m`  | One second is the distance light travels in one second |
+| `c = 1`               | Speed of light is unitless                             |
+| `ton_tnt = 4.184e9 J` | Standard thermochemical ton of TNT                     |
 
 Mass and energy, space and time, are brought into direct calculable parity.
 
@@ -132,9 +132,9 @@ Mass and energy, space and time, are brought into direct calculable parity.
   <img src="images/gaget.jpg" width="650" alt="Seattle July 2026 Utility Bill">
 </p>
 
-``` text
+``` perl
   * *
- * * *   Oh, We're having so much fun, making itty bitty suns!'
+ * * *   Oh, We're having so much fun, making itty bitty suns!
   * *      
   -- wengland@stephsf.com 1989
 ```
@@ -150,6 +150,14 @@ You have: g
 You want: kton
         g = 21.480764 kton
         g = (1 / 0.046553278) kton
+```
+### Trinity yeild, at White Sands test range NM, aka. GADGET 
+
+``` plaintext
+You have: gadget
+You want: kt
+        gadget = 19 kt
+        gadget = 0.8845 g
 ```
 
 ### Nuclear yield comparison, fatman was 1.4x littleboy
@@ -215,7 +223,7 @@ You want: hours
 
 ### How many Jupiter distance sol radi is a day?
 
-It takes a day for the 'now'  spacetime cone manifold to reach a 4D spaceime diameter of 32 jupiter-sol radi.
+It takes a day for the 'now'  spacetime cone manifold to reach a 4D spaceime diameter of 31.7 jupiter-sol radi.
 
 ```
 You have: day
@@ -242,16 +250,23 @@ You have: 823.73 kW hours /135.06 dollars
 You want: micro g per dollar
         823.73 kW hours /135.06 dollars = 0.24429762 micro g per dollar
 ```
-The city of Seattle charges me a dollar for every 0.15 micrograms of energy I use.
+The city of Seattle charges me $1 for every 0.2443 **μg** of energy I use.
+ (0.0002443 mg / $)
 
-That is a lot $money for a speck of dust.
+> ### *That is a lot $money for a speck of dust.*
+<div align="center"
+<p align="center">
+  <img src="images/Fire_lily_pollens_on_an_insect's_hair-Aquinaus..jpg" 
+  width="550" alt="Pollen" >
+<p><strong>Image: Pollen</strong></p>
 
-<p>
-  <img src="images/pollen-grains-light-microscope-peter-furian.jpg" width="450" alt="Pollen">
 </p>
+</div>
 
  On the other hand, perhaps you are stunned by the fact that the 
-amount of energy I use in my house each day can actually be measured in mass that is meaningfull at all -- at 0.156 micro gram per day
+amount of energy I use in my house each day can actually be measured in mass that is meaningfull *at all*.
+
+ ... at 0.156 micro gram per day
 or 32.995 μg for the entire 64 day billing period.  This is actually visible under a normal light micoscope, at the scale of a bacteria or diatom. A little bit smaller than the width of a human hair but close.
 
  My take away is that we are not just passing by this energy gradient, we are wading through and into it.
@@ -263,15 +278,15 @@ You have: 823.73 kW hours
 You want: micro grams
         823.73 kW hours = 32.994836 micro gram
  ```
-| Organism/Stucture | Typical mass |W hours equivalent mass| Visible under microscope? |
-| ----------------- | ------------ | --------------------- |------------------------- |
-| Pollen grain      | 10–100 ng    | 0.24965 - 2.5 kW hrs  | Yes                       |
-| Tiny plant seeds  | 1–10 µg      | 25 - 249 kW hrs       | Yes                       |
-| Diatom            | 2–200 µg     | 0.5 - 5 kW hrs        | Yes                       |
-| Tardigrade        | 100–500 µg   | 2.5 - 12.5 kW hrs     | Yes                       |
-| Human hair        | 50–100 µg    | 1.25 - 2.5 kW hrs     | Yes                       |
-| Rotifer           | 50–500 µg    | 1.25 - 12.5 kW hrs    | Yes                       |
-| flax seed         | 1–2 mg       | 24.97 - 49.93  MW hrs | Yes                       |
+| Organism/Stucture | Typical mass | W hours equivalent mass | Visible under microscope? |
+| ----------------- | ------------ | ----------------------- | ------------------------- |
+| Pollen grain      | 10–100 ng    | 0.24965 - 2.5 kW hrs    | Yes                       |
+| Tiny plant seeds  | 1–10 µg      | 25 - 249 kW hrs         | Yes                       |
+| Diatom            | 2–200 µg     | 0.5 - 5 kW hrs          | Yes                       |
+| Tardigrade        | 100–500 µg   | 2.5 - 12.5 kW hrs       | Yes                       |
+| Human hair        | 50–100 µg    | 1.25 - 2.5 kW hrs       | Yes                       |
+| Rotifer           | 50–500 µg    | 1.25 - 12.5 kW hrs      | Yes                       |
+| flax seed         | 1–2 mg       | 24.97 - 49.93  MW hrs   | Yes                       |
 
 ---
 <p align="center">
@@ -331,19 +346,19 @@ units -f /usr/share/units/definitions.units -f ./massenergy.units '1 s' 'km'
 
 ### Built-in names
 
-| Name | Definition |
-| ---- | ---------- |
-| `s`, `c` | Second as light-travel distance; speed of light = 1 |
-| `ton_tnt`, `ton_e`, `ton_tnt_energy` | 1 ton TNT = 4.184 GJ |
-| `kton`/`kt`, `Mton`/`Mt` | 10³ and 10⁶ tons TNT |
-| `trinity`, `gadget` | 19 kt |
-| `hiroshima`, `littleboy` | 15 kt |
-| `nagasaki`, `fatman` | 21 kt |
-| `castlebravo`, `shrimp` | 15 Mt |
-| `chicxulub`, `dinokill` | K–Pg impact energy (~4.184×10²³ J) |
-| `solarluminosity`, `sunpower` | Solar power (382.8 yotta W) |
-| `nova` | Order-of-magnitude supernova (~10⁴⁴ J) |
-| `everestmass` | Mass of Mt. Everest (approx.) |
+| Name                                 | Definition                                          |
+| ------------------------------------ | --------------------------------------------------- |
+| `s`, `c`                             | Second as light-travel distance; speed of light = 1 |
+| `ton_tnt`, `ton_e`, `ton_tnt_energy` | 1 ton TNT = 4.184 GJ                                |
+| `kton`/`kt`, `Mton`/`Mt`             | 10³ and 10⁶ tons TNT                                |
+| `trinity`, `gadget`                  | 19 kt                                               |
+| `hiroshima`, `littleboy`             | 15 kt                                               |
+| `nagasaki`, `fatman`                 | 21 kt                                               |
+| `castlebravo`, `shrimp`              | 15 Mt                                               |
+| `chicxulub`, `dinokill`              | K–Pg impact energy (~4.184×10²³ J)                  |
+| `solarluminosity`, `sunpower`        | Solar power (382.8 yotta W)                         |
+| `nova`                               | Order-of-magnitude supernova (~10⁴⁴ J)              |
+| `everestmass`                        | Mass of Mt. Everest (approx.)                       |
 
 Yields are common public figures; historical estimates have ranges. Device and convenience names alias the primary units so mass-energy stays consistent when `c = 1`.
 
@@ -351,14 +366,14 @@ Yields are common public figures; historical estimates have ranges. Device and c
 
 ## Selected events in mass equivalents
 
-| Event | Energy (J) | Mass equivalent (g) |
-| ----- | ---------- | ------------------- |
-| Trinity test (19 kt) | ~8.0 × 10¹³ | ~0.88 g |
-| Hiroshima (~15 kt) | ~6.3 × 10¹³ | ~0.70 g |
-| Nagasaki (~21 kt) | ~8.8 × 10¹³ | ~0.98 g |
-| Castle Bravo (15 Mt) | ~6.3 × 10¹⁶ | ~700 g |
-| Solar luminosity (per sec) | 3.828 × 10²⁶ | ~4.25 × 10⁹ g |
-| Chicxulub impact | 4.184 × 10²³ | ~4.65 × 10⁶ g |
+| Event                      | Energy (J)   | Mass equivalent (g) |
+| -------------------------- | ------------ | ------------------- |
+| Trinity test (19 kt)       | ~8.0 × 10¹³  | ~0.88 g             |
+| Hiroshima (~15 kt)         | ~6.3 × 10¹³  | ~0.70 g             |
+| Nagasaki (~21 kt)          | ~8.8 × 10¹³  | ~0.98 g             |
+| Castle Bravo (15 Mt)       | ~6.3 × 10¹⁶  | ~700 g              |
+| Solar luminosity (per sec) | 3.828 × 10²⁶ | ~4.25 × 10⁹ g       |
+| Chicxulub impact           | 4.184 × 10²³ | ~4.65 × 10⁶ g       |
 
 ---
 
@@ -404,19 +419,19 @@ where a second really is a distance measured in meters and electricity measured 
 
 ### Summary of world energy usage and economics (CIA Factbook ~2016)
 
-ElecProd ekg|Std x ekg/G$|Std x ekg/TT|CapFF ekg|Std x ekg/G$|Std x ekg/TT|EmissionTT TT|GDP G$|Country
----:|---:|---:|---:|---:|---:|---:|---:|----:
-947.3|-28.154|17.312|1412.612|-32.698|11.967|33620.0|127800.0|World
-235.6|0.739|-2.564|359.847|0.085|-3.455|11670.0|23210.0|China
-164.0|-2.494|4.201|267.166|-1.970|4.601|5242.0|19490.0|United States
-121.9|-7.598|3.995|150.630|-9.990|1.506|3475.0|20850.0|European Union
-55.5|-3.440|0.157|91.690|-3.184|0.356|2383.0|9474.0|India
-41.3|0.176|-0.038|58.472|-0.206|-0.458|1847.0|4016.0|Russia
-39.6|-1.265|1.012|73.766|-0.599|1.646|1268.0|5443.0|Japan
-26.0|0.793|1.063|11.589|-0.922|-0.666|640.6|1774.0|Canada
-24.5|-1.530|0.497|30.015|-2.030|-0.025|847.6|4199.0|Germany
-22.7|-0.838|1.025|9.001|-2.400|-0.551|513.8|3248.0|Brazil
-21.2|-0.627|1.241|7.807|-2.116|-0.259|341.2|2856.0|France
+| ElecProd ekg | Std x ekg/G$ | Std x ekg/TT | CapFF ekg | Std x ekg/G$ | Std x ekg/TT | EmissionTT TT |   GDP G$ |        Country |
+| -----------: | -----------: | -----------: | --------: | -----------: | -----------: | ------------: | -------: | -------------: |
+|        947.3 |      -28.154 |       17.312 |  1412.612 |      -32.698 |       11.967 |       33620.0 | 127800.0 |          World |
+|        235.6 |        0.739 |       -2.564 |   359.847 |        0.085 |       -3.455 |       11670.0 |  23210.0 |          China |
+|        164.0 |       -2.494 |        4.201 |   267.166 |       -1.970 |        4.601 |        5242.0 |  19490.0 |  United States |
+|        121.9 |       -7.598 |        3.995 |   150.630 |       -9.990 |        1.506 |        3475.0 |  20850.0 | European Union |
+|         55.5 |       -3.440 |        0.157 |    91.690 |       -3.184 |        0.356 |        2383.0 |   9474.0 |          India |
+|         41.3 |        0.176 |       -0.038 |    58.472 |       -0.206 |       -0.458 |        1847.0 |   4016.0 |         Russia |
+|         39.6 |       -1.265 |        1.012 |    73.766 |       -0.599 |        1.646 |        1268.0 |   5443.0 |          Japan |
+|         26.0 |        0.793 |        1.063 |    11.589 |       -0.922 |       -0.666 |         640.6 |   1774.0 |         Canada |
+|         24.5 |       -1.530 |        0.497 |    30.015 |       -2.030 |       -0.025 |         847.6 |   4199.0 |        Germany |
+|         22.7 |       -0.838 |        1.025 |     9.001 |       -2.400 |       -0.551 |         513.8 |   3248.0 |         Brazil |
+|         21.2 |       -0.627 |        1.241 |     7.807 |       -2.116 |       -0.259 |         341.2 |   2856.0 |         France |
 
 ---
 
@@ -427,32 +442,32 @@ ElecProd ekg|Std x ekg/G$|Std x ekg/TT|CapFF ekg|Std x ekg/G$|Std x ekg/TT|Emiss
 
 Data from the CIA World Factbook (circa 2016–2017).
 
-| Independent (X) | Dependent (Y) | Correlation | Mean X | Slope |
-| --------------- | ------------- | ----------- | ------ | ----- |
-| Electric Consumption | Generating Capacity Fossil Fuel | 0.993 | 29.1 | 1.7 ekg/ekg |
-| Generating Capacity Fossil Fuel | GDP | 0.984 | 46.9 | 64.8 ekg/G$ |
-| Electric Production | GDP | 0.982 | 31.5 | 102.0 ekg/G$ |
-| Electric Production | CO₂ Emissions (Tt) | 0.977 | 31.5 | 44.3 ekg/TT |
-| Fossil Fuel Gen Capacity | CO₂ Emissions (Tt) | 0.969 | 46.9 | 27.8 ekg/TT |
-| Nat Gas Produced | Nat Gas Consumed | 0.955 | 102.8 | 0.8 Gcm/Gcm |
-| Oil Reserves | Oil % GDP | 0.946 | 30974.6 | 0.0 Gbbl/% |
-| GDP | CO₂ Emissions (Tt) | 0.942 | 4090.6 | 0.4 G$/TT |
-| Electric Consumption | Renewable Gen Capacity | 0.934 | 29.1 | 0.4 ekg/ekg |
-| Renewable Gen Capacity | CO₂ Emissions (Tt) | 0.932 | 12.9 | 97.9 ekg/TT |
-| Oil Export | Oil % GDP | 0.927 | 0.9 | 1.3 Mbbl/% |
-| Renewable Gen Capacity | GDP | 0.923 | 12.9 | 222.1 ekg/G$ |
-| Fossil Fuel Gen Capacity | Renewable Gen Capacity | 0.921 | 46.9 | 0.3 ekg/ekg |
-| Refined Fuel Consumed | GDP | 0.918 | 3.1 | 1193.9 Mbbl/G$ |
-| Oil Import | GDP | 0.914 | 1.5 | 2432.9 Mbbl/G$ |
-| Hydro Gen Capacity | CO₂ Emissions (Tt) | 0.909 | 11.4 | 101.5 ekg/TT |
-| Fossil Fuel Gen Capacity | Refined Fuel Consumed | 0.903 | 46.9 | 0.0 ekg/Mbbl |
-| Refined Export | Nat Gas Consumed | 0.900 | 0.8 | 132.7 Mbbl/Gcm |
-| Electric Consumption | Refined Fuel Consumed | 0.895 | 29.1 | 0.1 ekg/Mbbl |
-| Electric Production | Refined Fuel Consumed | 0.893 | 31.5 | 0.1 ekg/Mbbl |
-| Refined Fuel Produced | GDP | 0.892 | 2.9 | 1132.5 Mbbl/G$ |
-| Fossil Fuel Gen Capacity | Oil Import | 0.889 | 46.9 | 0.0 ekg/Mbbl |
-| Refined Fuel Produced | Nat Gas Consumed | 0.883 | 2.9 | 33.6 Mbbl/Gcm |
-| Oil Export | Growth Rate | -0.545 | 0.9 | -0.6 Mbbl/% |
+| Independent (X)                 | Dependent (Y)                   | Correlation | Mean X  | Slope          |
+| ------------------------------- | ------------------------------- | ----------- | ------- | -------------- |
+| Electric Consumption            | Generating Capacity Fossil Fuel | 0.993       | 29.1    | 1.7 ekg/ekg    |
+| Generating Capacity Fossil Fuel | GDP                             | 0.984       | 46.9    | 64.8 ekg/G$    |
+| Electric Production             | GDP                             | 0.982       | 31.5    | 102.0 ekg/G$   |
+| Electric Production             | CO₂ Emissions (Tt)              | 0.977       | 31.5    | 44.3 ekg/TT    |
+| Fossil Fuel Gen Capacity        | CO₂ Emissions (Tt)              | 0.969       | 46.9    | 27.8 ekg/TT    |
+| Nat Gas Produced                | Nat Gas Consumed                | 0.955       | 102.8   | 0.8 Gcm/Gcm    |
+| Oil Reserves                    | Oil % GDP                       | 0.946       | 30974.6 | 0.0 Gbbl/%     |
+| GDP                             | CO₂ Emissions (Tt)              | 0.942       | 4090.6  | 0.4 G$/TT      |
+| Electric Consumption            | Renewable Gen Capacity          | 0.934       | 29.1    | 0.4 ekg/ekg    |
+| Renewable Gen Capacity          | CO₂ Emissions (Tt)              | 0.932       | 12.9    | 97.9 ekg/TT    |
+| Oil Export                      | Oil % GDP                       | 0.927       | 0.9     | 1.3 Mbbl/%     |
+| Renewable Gen Capacity          | GDP                             | 0.923       | 12.9    | 222.1 ekg/G$   |
+| Fossil Fuel Gen Capacity        | Renewable Gen Capacity          | 0.921       | 46.9    | 0.3 ekg/ekg    |
+| Refined Fuel Consumed           | GDP                             | 0.918       | 3.1     | 1193.9 Mbbl/G$ |
+| Oil Import                      | GDP                             | 0.914       | 1.5     | 2432.9 Mbbl/G$ |
+| Hydro Gen Capacity              | CO₂ Emissions (Tt)              | 0.909       | 11.4    | 101.5 ekg/TT   |
+| Fossil Fuel Gen Capacity        | Refined Fuel Consumed           | 0.903       | 46.9    | 0.0 ekg/Mbbl   |
+| Refined Export                  | Nat Gas Consumed                | 0.900       | 0.8     | 132.7 Mbbl/Gcm |
+| Electric Consumption            | Refined Fuel Consumed           | 0.895       | 29.1    | 0.1 ekg/Mbbl   |
+| Electric Production             | Refined Fuel Consumed           | 0.893       | 31.5    | 0.1 ekg/Mbbl   |
+| Refined Fuel Produced           | GDP                             | 0.892       | 2.9     | 1132.5 Mbbl/G$ |
+| Fossil Fuel Gen Capacity        | Oil Import                      | 0.889       | 46.9    | 0.0 ekg/Mbbl   |
+| Refined Fuel Produced           | Nat Gas Consumed                | 0.883       | 2.9     | 33.6 Mbbl/Gcm  |
+| Oil Export                      | Growth Rate                     | -0.545      | 0.9     | -0.6 Mbbl/%    |
 
 ## Brief relativity summary
 
@@ -488,15 +503,15 @@ You want: g
 
 ## Appendix: contextual units and yield reference
 
-| Name | Yield | Mass-energy | Date | Device | Notes |
-| ---- | ----- | ----------- | ---- | ------ | ----- |
-| Trinity | 19 kt | ~0.88 g | 1945-07-16 | Gadget | First test, White Sands, NM |
-| Hiroshima | ~15 kt | ~0.70 g | 1945-08-06 | Little Boy | U-235 gun-type |
-| Nagasaki | ~21 kt | ~0.98 g | 1945-08-09 | Fat Man | Pu-239 implosion |
-| Castle Bravo | 15 Mt / ~63 PJ | ~701 g | 1954-03-01 | Shrimp | Largest U.S. test |
-| Chicxulub | 4.184×10²³ J | ~4.65×10⁶ g | 66 Ma | — | K–Pg extinction impact |
-| Solar (1 s) | 3.828×10²⁶ J | ~4.25×10⁹ g | Present | — | Solar luminosity |
-| Nova | ~10⁴⁴ J | ~10²⁷ g | — | — | Order-of-magnitude |
+| Name         | Yield          | Mass-energy | Date       | Device     | Notes                       |
+| ------------ | -------------- | ----------- | ---------- | ---------- | --------------------------- |
+| Trinity      | 19 kt          | ~0.88 g     | 1945-07-16 | Gadget     | First test, White Sands, NM |
+| Hiroshima    | ~15 kt         | ~0.70 g     | 1945-08-06 | Little Boy | U-235 gun-type              |
+| Nagasaki     | ~21 kt         | ~0.98 g     | 1945-08-09 | Fat Man    | Pu-239 implosion            |
+| Castle Bravo | 15 Mt / ~63 PJ | ~701 g      | 1954-03-01 | Shrimp     | Largest U.S. test           |
+| Chicxulub    | 4.184×10²³ J   | ~4.65×10⁶ g | 66 Ma      | —          | K–Pg extinction impact      |
+| Solar (1 s)  | 3.828×10²⁶ J   | ~4.25×10⁹ g | Present    | —          | Solar luminosity            |
+| Nova         | ~10⁴⁴ J        | ~10²⁷ g     | —          | —          | Order-of-magnitude          |
 
 ## Contributing / sharing
 
