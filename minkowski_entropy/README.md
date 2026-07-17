@@ -12,7 +12,7 @@ The implementation is **purely mathematical** — no thermodynamic assumptions b
 | Doc / package | What it is |
 | ------------- | ---------- |
 | **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)** | Classic problem looked at as an entropy reduction effect instead of a clock speed effect |
-| **Finance Examples** | Stops aging and does your dishes too! **finance-examples.py** |
+| **[Finance Examples](minkowski_entropy/finance-examples.py)** | Stops aging and does your dishes too! **finance-examples.py** |
 
 ---
 
