@@ -12,7 +12,15 @@ When the traveling twin comes home, they are younger than the twin who stayed be
 This is the famous **Twin Paradox** of special relativity.
 
 ## The Entropy-Compounding Reframing
-
+---
+> “The twin paradox isn’t about clocks magically slowing down. It’s simpler: the traveling 
+twin takes a shorter path through spacetime. Since everything that makes us age 
+— metabolism, cellular repair, memory formation, entropy production 
+— *grows at compound rates*
+along that path, the traveler simply accumulates less ‘life mileage.’ 
+Their internal entropy clock runs slower because they traveled a shorter 
+proper distance in 4D spacetime, even though they went very far in space.”
+---
 Instead of thinking in terms of “clocks slowing down,” think in terms of **entropy production** — the natural compounding of disorder, biological wear-and-tear, cellular aging, memory formation, and the general “life mileage” we accumulate.
 
 Everything that makes us age compounds along our personal path through spacetime.
