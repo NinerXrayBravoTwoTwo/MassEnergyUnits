@@ -378,6 +378,28 @@ Yields are common public figures; historical estimates have ranges. Device and c
 | Solar luminosity (per sec) | 3.828 × 10²⁶ | ~4.25 × 10⁹ g       |
 | Chicxulub impact           | 4.184 × 10²³ | ~4.65 × 10⁶ g       |
 
+The nunits authors have since incorported these constants
+into the default "/units/definitions.units" data file. Several additional 'shots' are defined.
+``` plaintext
+$ grep -i tnt /usr/share/units/definitions.units
+
+# The unit "tnt" is defined so that you can write "tons tnt".  The
+#     explosive energy released by TNT range from 900 to 1,100 calories per
+#     "kiloton" of TNT referred to a short kiloton (2*10^6 pounds), a metric
+#     equivalent to 1 short kiloton of TNT if the energy release is 1,102
+#     per gram of TNT.
+# It is therefore not well-defined how much energy a "gram of tnt" is,
+tnt                     1e9 cal_th / ton   # Defined exact value
+davycrocket             10 ton tnt         # lightest US tactical nuclear weapon
+hiroshima               15.5 kiloton tnt   # Uranium-235 fission bomb
+nagasaki                21 kiloton tnt     # Plutonium-239 fission bomb
+ivyking                 500 kiloton tnt    # most powerful fission bomb
+castlebravo             15 megaton tnt     # most powerful US test
+tsarbomba               50 megaton tnt     # most powerful test ever: USSR,
+b53bomb                 9 megaton tnt
+trinity                 18 kiloton tnt     # July 16, 1945
+```
+
 ---
 
 ## Philosophy: why mass as energy?

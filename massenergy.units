@@ -20,7 +20,10 @@ c    1                   # Speed of light is now 1 by definition
 
 # Energy ↔ Mass (via E=mc²) — grams of mass converted = energy released
 # TNT reference (thermochemical)
-ton_tnt          4.184e9 J
+# tnt		 1e9 cal_th    # new definition in nunits
+                           # The 1949 definition of "ton of tnt" is supposed to be a measure of energy, watt s,
+                           #   horsepower s, J -- it is not supposed to be a unitless conversion ratio.
+ton_tnt          4.184e9 J # 1950 definition of energy in a scale that military stratigists could understand and talk about.
 ton_e            ton_tnt
 ton_tnt_energy   ton_tnt
 kton             1e3 ton_tnt
@@ -28,6 +31,7 @@ Mton             1e6 ton_tnt
 kt               kton
 Mt               Mton
 
+# --
 # kton_e is 1e+12 calorie or 4.186 TJ kilotons as a metric mass measurement
 # (kilotonnes) of TNT gives a value of 1000 c/g, well within the reported range,
 # while treating it as "kilo short tons of TNT" gives 1102 c/g, at the extreme
@@ -42,10 +46,11 @@ Mt               Mton
 # Using TNT as an energy 'equivalence' was probably a project/military decision to help 
 # explain and quantify the destructivness of the new bombs. 
 #
-# IMO we should stop using the 'imaginary' pile of TNT as a reference and start using joules or grams
+# IMO we should stop using the 'imaginary' pile of TNT as a reference and start using joules or grams for energy - JAE
 # as a measure of energy released. This is less subjective and everyone knows that a mass is energy from 'e=mc^2'
 # Nagasaki released/transformed about 1 gram. 
 # Mass should be perfectly understandable unit for energy as they are equivalent.
+# --
  
 # Nuclear weapons - best modern consensus yields
 # (mass-energy equivalents shown in grams via E=mc²)
@@ -61,6 +66,7 @@ gadget           trinity
 littleboy        hiroshima
 fatman           nagasaki
 shrimp           castlebravo # "Staged Hydrogen Radiation IMPlosion"
+# There are few additonal shot definitions in the default units definitions file.
 
 # Large scales
 everestmass      357 trillion lb
