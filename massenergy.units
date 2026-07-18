@@ -20,9 +20,11 @@ c    1                   # Speed of light is now 1 by definition
 
 # Energy ↔ Mass (via E=mc²) — grams of mass converted = energy released
 # TNT reference (thermochemical)
-# tnt		 1e9 cal_th    # new definition in nunits
+# tnt		 1e9 cal_th / ton   # new conversion definition in nunits
                            # The 1949 definition of "ton of tnt" is supposed to be a measure of energy, watt s,
                            #   horsepower s, J -- it is not supposed to be a unitless conversion ratio.
+#ton_tnt         ton tnt   # uncoment this, to use the default units definition and comment out the below  ton_tnt definition
+
 ton_tnt          4.184e9 J # 1950 definition of energy in a scale that military stratigists could understand and talk about.
 ton_e            ton_tnt
 ton_tnt_energy   ton_tnt
@@ -41,12 +43,12 @@ Mt               Mton
 # A TNT explosion is primarily thermal chemical energy.  A nuclear explosion is primarily
 # neutrons, gamma, and other particles released in a chain reaction ripping atoms apart.  
 #
-# TNT is ~nothing~ like a nuclear explosion. 
+# TNT is actually ~nothing~ like a nuclear explosion. 
 #
 # Using TNT as an energy 'equivalence' was probably a project/military decision to help 
 # explain and quantify the destructivness of the new bombs. 
 #
-# IMO we should stop using the 'imaginary' pile of TNT as a reference and start using joules or grams for energy - JAE
+# JAE 2005-- IMO we should stop using the 'imaginary' pile of TNT as a reference and start using joules or grams for energy
 # as a measure of energy released. This is less subjective and everyone knows that a mass is energy from 'e=mc^2'
 # Nagasaki released/transformed about 1 gram. 
 # Mass should be perfectly understandable unit for energy as they are equivalent.
@@ -66,7 +68,7 @@ gadget           trinity
 littleboy        hiroshima
 fatman           nagasaki
 shrimp           castlebravo # "Staged Hydrogen Radiation IMPlosion"
-# There are few additonal shot definitions in the default units definitions file.
+# There are few additonal shot definitions in the default definitions file.
 
 # Large scales
 everestmass      357 trillion lb
