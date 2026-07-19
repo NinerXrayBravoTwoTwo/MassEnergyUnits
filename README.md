@@ -269,7 +269,7 @@ amount of energy I use in my house each day can actually be measured in mass tha
  ... at 0.156 micro gram per day
 or 32.995 μg for the entire 64 day billing period.
 This is actually visible under a normal light micoscope, 
-at the scale of a bacteria or grain of polon.
+at the scale of a bacteria or grain of pollen.
 A little bit smaller than the width of a human hair but close.
 
  My take away is that we are not just passing by this energy gradient, we are wading through and into it.
