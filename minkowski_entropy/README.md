@@ -36,6 +36,8 @@ $$
 
 These are symmetric: the formulas share structure; only the ratio test (V₂/V₁ ≷ 1) selects which to apply.
 
+---
+
 ### Inverse: predicting future/past values
 
 Given a characteristic scale (T_double or T_half) and elapsed interval Δt:
@@ -52,20 +54,23 @@ $$
 V_2 = V_1 \cdot \left(\frac{1}{2}\right)^{(\Delta t / T_{\text{half}})}
 $$
 
+---
+
 ### Natural units: time as distance -- *key concept*
 
 In units where **c = 1**, time and distance share dimensions. The interval **Δt** can be read as a proper distance **d** along the timelike direction.
 
-Reference length (same as `massenergy.units`):
+Reference length (same as `massenergy.units`):$\
 
 $$
-\mathrm{s} = 299\,792.458\ \mathrm{km}
+\mathrm{s} = 299\,792.458\ \mathrm{km}\
 $$
 
 $$
-c = 1
-
+\mathrm{c} = 1\
 $$
+
+
 
  (constant `LIGHT_SECOND_KM` in the Python module).
 
@@ -77,6 +82,8 @@ $$
 
 where **λ** is the characteristic doubling or half-life length.
 
+---
+
 ### Entropy production in the spacetime cone
 
 We model a general quantity **V** evolving from an origin **t₀** (or d = 0) outward in a Minkowski light-cone. Entropy-like growth is quantified by the logarithmic spread:
@@ -86,6 +93,8 @@ S(d) \propto \ln \left( \frac{V(d)}{V_0} \right)
 $$
 
 Positive for growth, negative for decay (change in log-state, not a claim of Clausius entropy).
+
+---
 
 ### Hybrid geometric + exponential behavior
 
