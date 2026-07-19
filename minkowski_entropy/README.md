@@ -60,7 +60,7 @@ $$
 
 In units where **c = 1**, time and distance share dimensions. The interval **Δt** can be read as a proper distance **d** along the timelike direction.
 
-Reference length (same as `massenergy.units`):$\
+Reference length (same as `massenergy.units`):
 
 $$
 \mathrm{s} = 299\,792.458\ \mathrm{km}\
