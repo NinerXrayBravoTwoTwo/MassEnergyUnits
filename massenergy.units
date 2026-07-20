@@ -74,9 +74,11 @@ shrimp           castlebravo # "Staged Hydrogen Radiation IMPlosion"
 everestmass             357 trillion lb
 chicxulub               4.184e23 J      # ~100 Tt TNT equivalent
 dinokill                chicxulub
-blackholecollision      5.3e47 J        #GW150914 first measured. Total luminodity ~50 times the output of the entire universe for a moment
+
+# universe significant - intersteller
+nova                    1e44 J          # order of magnitude
+blackholecollision      5.3e47 J        # GW150914 first measured. Total luminodity ~50 times the output of the entire universe for a moment
 sirisluminosity         9.5e27 W        # 25 times the sun 
-# nutronstarcollision
 quasar                  1e42 W
 galaxy                  8ew8 W          # For milkyway, 20-40 billion suns
 
@@ -94,8 +96,6 @@ earthsolarabsorbed     1.22e17 W        # Energy that makes it deeper into the a
 ESI     earthsolarincident              
 ESA     earthsolarabsorbed
 
-# universe significant - intersteller
-nova             1e44 J          # order of magnitude
 
 # Example one-shots (load system definitions first):
 #   units -f /usr/share/units/definitions.units -f massenergy.units '1 g' 'kton'
