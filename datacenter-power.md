@@ -1,8 +1,7 @@
 # Data Centers -- A *hot* topic :wink:
 <p align="center">
-  <img src="images/data-center-1.jpg" width="650" alt="Seattle July 2026 Utility Bill">
+  <img src="images/data-center-1.jpg" width="650" alt="Data Center - Grok generate">
 <h3 align="center">Data Center Power and Waste Heat Comparison</h2>
-
 </p>
 
 ---

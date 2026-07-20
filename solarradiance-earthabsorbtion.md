@@ -1,5 +1,11 @@
 
 # Solar Radiance and Earth Absorption
+<p align="center">
+  <img src="images/soho-july20-2026.jpg" width="450" alt="Sun">
+<h3 align="center">Sol - July 20, 2026</h4>
+</p>
+
+---
 
 **Earth receives about 1.51 × 10²² joules per day** at the top of the atmosphere from the Sun (using the given average solar luminosity of 384.6 yottawatts).
 
