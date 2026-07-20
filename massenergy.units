@@ -62,7 +62,6 @@ hiroshima   15 kton      # Little Boy, ~0.70 g
 nagasaki    21 kton      # Fat Man,   ~0.98 g
 castlebravo 15 Mton      # 1954 SHRIMP, ~15 Mt (≈63 PJ), ~701 g 
 
-
 # Device names alias the yields so mass-energy stays consistent (E = mc², c = 1)
 gadget           trinity
 littleboy        hiroshima
@@ -80,22 +79,21 @@ nova                    1e44 J          # order of magnitude
 blackholecollision      5.3e47 J        # GW150914 first measured. Total luminodity ~50 times the output of the entire universe for a moment
 sirisluminosity         9.5e27 W        # 25 times the sun 
 quasar                  1e42 W
-galaxy                  8ew8 W          # For milkyway, 20-40 billion suns
+galaxy                  8e36 W          # For milkyway, 20-40 billion suns
 
 # sun-power output (Our class G sun-sol)
 solarluminosity         382.6 yotta W    # total power output of sun
 solarconstant           1368 W / m^3     #
 
 sunpower                solarluminosity
+sirispower              sirisluminosity
 
 # earths solar energy received from sun (day received - night radiated at atmospher)
 earthsolarincident     1.74e17 W        # incudes radiation that is reflected immediatly back into space
 earthsolarabsorbed     1.22e17 W        # Energy that makes it deeper into the atmosphere, surface
 
-
 ESI     earthsolarincident              
 ESA     earthsolarabsorbed
-
 
 # Example one-shots (load system definitions first):
 #   units -f /usr/share/units/definitions.units -f massenergy.units '1 g' 'kton'
