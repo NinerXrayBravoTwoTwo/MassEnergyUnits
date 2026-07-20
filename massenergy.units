@@ -74,8 +74,28 @@ shrimp           castlebravo # "Staged Hydrogen Radiation IMPlosion"
 everestmass      357 trillion lb
 chicxulub        4.184e23 J     # ~100 Tt TNT equivalent
 dinokill         chicxulub
-solarluminosity  382.8 yotta W
+
+# sun-power output (Our class G sun-sol)
+solarluminosity  382.8 yotta W    # total power output of sun
+L solarluminosity 
+solarconstant    1368 W / m^3     #
+
 sunpower         solarluminosity
+
+# earths solar energy received from sun (day received - night radiated at atmospher)
+earthsolarincident     1.74e17 W
+earthsolarabsorbed     1.22e17 W
+
+
+ESI     earthsolarincident
+ESA     earthsolarabsorbed
+
+# blackholecollision
+# nutronstarcollision
+# quasar
+# galaxy
+
+# universe significant - intersteller
 nova             1e44 J          # order of magnitude
 
 # Example one-shots (load system definitions first):

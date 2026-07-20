@@ -1,0 +1,90 @@
+
+# Solar Radiance and Earth Absorption
+
+**Earth receives about 1.51 × 10²² joules per day** at the top of the atmosphere from the Sun (using the given average solar luminosity of 384.6 yottawatts).
+
+## Step-by-Step Breakdown
+
+1. **Solar luminosity (L)**: 384.6 × 10²⁴ W (total power output of the Sun).
+2. **Solar constant** (average flux at Earth’s distance): ~1,367–1,370 W/m². This is L spread over the surface of a sphere with radius = 1 AU.
+3. **Power intercepted by Earth**: ~1.74 × 10¹⁷ W (using Earth’s cross-sectional area πR², where R ≈ 6,371 km). This is the total incoming power.
+4. **Energy per day**: Multiply by 86,400 seconds/day → **~1.51 × 10²² joules/day** arriving at the top of the atmosphere.
+
+## Absorption and Radiation (Energy Balance)
+
+- Earth reflects ~30% (albedo from clouds, ice, etc.), so it **absorbs roughly 70%** or ~1.06 × 10²² J/day.
+- **In long-term equilibrium,** Earth **radiates essentially the same amount back to space** (~1.06 × 10²² J/day on average) as thermal infrared radiation to maintain its average temperature.
+- **Imbalances** drive warming/cooling over time but are insignificant at these scales and time intervals. Earths climat is extreemly resilient and resistant to large flucutations because of the massive solar inflow and equal daily radiation.
+- **Earth's** massive oceans and atmosphere act as sabalizing heat sinks, radiating heat to space at night, absorbing during day.
+
+## Context & Scale
+
+- This is an enormous number — human civilization uses on the order of ~10¹⁸–10¹⁹ J/day globally (many orders of magnitude less).
+- The value is an average; actual daily insolation varies by latitude, season, and cloud cover. Equatorial regions get far more per square meter than poles.
+
+These figures align with standard NASA/NOAA values for Earth’s energy budget.
+
+*Note: Calculations performed using solar luminosity of 384.6 yottawatts and standard Earth parameters (1 AU ≈ 1.496 × 10¹¹ m, Earth radius ≈ 6.371 × 10⁶ m).*
+
+---
+## Solar Radiance Equivlences
+
+Energy release from sun per second
+
+``` plaintext
+You have: solarluminosity second
+You want: Gcastlebravo
+        solarluminosity second = 6.0994264 Gcastlebravo
+```
+
+Energy emitted by sun per day (measured in mass-energy conversion)
+
+Converting 2.3 mountains of mass to energy each day and radiating it into space.
+
+
+``` plaintext
+You have: solarluminosity day
+You want: everestmass
+        solarluminosity day = 2.2725336 everestmass
+ ```
+ 
+ ---
+
+ ## Sun --> Earth --> The Abyss
+
+ Each day the Earth receives 1.50336 J of Solar energy.  It manages to radiate the same each day.
+ ``` plaintext
+You have: earthsolarincident day
+You want: J
+        earthsolarincident day = 1.50336e+22 J
+```
+
+Sunlight on earth daily is equivelent to 239 =k Castle Bravo (Shrimp) bombs -- Yes, per day ...
+
+ Which is the number of Mk-24 bombs we had in our arsenol at one time.
+ 
+  Estimates of the energy that would be released in WW3 are in this range. So an extra day of sunshine that year -- if it ever occurs.
+
+``` plaintext
+You have: ESI day
+You want: kcastlebravo
+        ESI day = 239.54111 kcastlebravo
+```
+One year of sun shine on Earth is eneregy equivelent to 26 Million Tsar-Bomba's.
+
+ I know that sounds terrifying but it happens every year for billions of years here on earth.
+
+``` text
+You have: ESI siderealyear
+You want: Mtsarbomba
+        ESI siderealyear = 26.248174 Mtsarbomba
+```
+---
+## Data Centers -- A *hot* topic :wink:
+
+Data centers are being built all over the world in sizes up to 1 mega watt power consumption.
+
+ To go power these procution centers we ae building matching power plants.
+
+ All this energy is eventually converted to heat and must be radiated away from the serers or they would catch fire and be destroyed.
+

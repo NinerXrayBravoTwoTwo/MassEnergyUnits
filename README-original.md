@@ -236,7 +236,7 @@ You want: g
  The following PDF gives lots of numbers to play with.
   http://www.sandia.gov/~jytsao/Solar%20FAQs.pdf
 
- I find that all the numbers make more sense when I convert Terra watts into grams
+ I find that all the numbers make more sense when I convert tera watts into grams
 
 ```
 You have: tera watt hour
