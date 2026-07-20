@@ -18,7 +18,7 @@ You’ll never see the universe quite the same again.
 
 | Doc / package                                                     | What it is                                                                                                                                                  |
 | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[HYPERFACET.md](HYPERFACET.md)**                                | Short “mind-blower” reframe of global energy as mass                                                                                                        |
+| **[HYPERFACET.md](HYPERFACET.md)**                                | Two-line core, project backstory, and “mind-blower” reframe of global energy as mass                                                                        |
 | **[Data center power](datacenter-power.md)**                      | Power plants + data centers, waste heat vs Earth solar absorption — usage examples with `units`                                                             |
 | **[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)** | Solar luminosity, daily insolation, absorbed/radiated balance, and mass-energy equivalences                                                       |
 | **[minkowski_entropy/](minkowski_entropy/)**                      | Space-entropy: Python doing what units alone cannot. Geometric compounding along timelike intervals (c = 1) … *and yes, it still does compounding finance.* |

@@ -16,6 +16,32 @@ With those two lines, **time becomes distance** and mass becomes energy.
 
 **E = mc²** turns energy into something you can actually touch, or carry.
 
+---
+
+## Backstory: the whole project is two lines
+
+There was a time — for years — when it seemed possible to get away with a units file of only those two lines.
+
+And in an important sense, that was never wrong. Those two lines still *are* the package. Everything else is commentary, context, and convenience so other people can land in the same place without already knowing the punchline.
+
+| Layer | Role |
+| ----- | ---- |
+| **Core** | Time as distance → mass **is** energy |
+| **Named yields, TNT scale, solar / Earth units** | “Show me Nagasaki in grams,” “show me a data center vs sunshine” |
+| **Topic notes** | Data centers, solar radiance, Earth absorption — scale for current arguments |
+| **minkowski_entropy, twin paradox, finance** | Same exponential map, other stories |
+| **README, CONTRIBUTING, license** | Packaging so the insight can travel without the author in the room |
+
+The file got longer. The center of mass did not move.
+
+For a long time the two lines were enough because *one person* already knew what they meant. The expanded repo is what happens when that knowledge has to travel: strangers, students, campaign notes, late-night rabbit holes — people who need the ladder, not just the rooftop.
+
+> **The whole project is two lines. Everything else is so you don’t have to already believe them.**
+
+You still can’t get away with *only* two lines if you want others to use the idea. You also never abandoned them. Open `massenergy.units` and the first real definitions are still the same move: measure the second as light-travel distance, set \(c = 1\), and watch mass and energy stop pretending to be different things.
+
+---
+
 ## The mind-blower
 
 Global electricity consumption in 2023: **27.047 trillion kWh** (27.047 PWh).
@@ -38,7 +64,15 @@ Load the file. Play with the numbers. Let the math smile back at you.
 
 ```bash
 # From the MassEnergyUnits repo (system units + this file)
-units -vf /usr/share/units/definitions.units -f ./massenergy.units
+units -f /usr/share/units/definitions.units -f ./massenergy.units
 ```
 
-For growth/decay and entropy-like measures along timelike intervals, see **[minkowski_entropy/](minkowski_entropy/)**.
+### Keep exploring
+
+| Next | What you get |
+| ---- | ------------ |
+| [massenergy.units](massenergy.units) | The two lines, plus the aliases that make them easy to use |
+| [README.md](README.md) | Install, examples, full index |
+| [datacenter-power.md](datacenter-power.md) | Waste heat vs Earth solar absorption |
+| [solarradiance-earthabsorption.md](solarradiance-earthabsorption.md) | Daily sunshine at planetary scale |
+| [minkowski_entropy/](minkowski_entropy/) | Growth/decay, entropy-like measures along timelike intervals |
