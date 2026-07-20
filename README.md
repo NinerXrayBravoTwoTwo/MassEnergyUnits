@@ -19,6 +19,8 @@ You’ll never see the universe quite the same again.
 | Doc / package                                                     | What it is                                                                                                                                                  |
 | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[HYPERFACET.md](HYPERFACET.md)**                                | Short “mind-blower” reframe of global energy as mass                                                                                                        |
+| **[Data center power](datacenter-power.md)**                      | Power plants + data centers, waste heat vs Earth solar absorption — usage examples with `units`                                                             |
+| **[Solar radiance & Earth absorption](solarradiance-earthabsorbtion.md)** | Solar luminosity, daily insolation, absorbed/radiated balance, and mass-energy equivalences                                                       |
 | **[minkowski_entropy/](minkowski_entropy/)**                      | Space-etropy, python doing what unit's alone cannot.' Geometric compouding along timelike intervals (c = 1) ... *and yes it still does componding finance.* |
 | **[Spacetime-Entropy  Package(md)](minkowski_entropy/README.md)** | Spacetime Entropy & Growth/Decay Module                                                                                                                     |
 | **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)**       | Classic problem looked at as an entropy reduction effect instead of a clock speed effect                                                                    |
@@ -32,6 +34,7 @@ You’ll never see the universe quite the same again.
 - Mass ↔ energy conversions without extra factors
 - Named references for familiar nuclear yields and large-scale events
 - Real-world examples from physics, history, and energy economics
+- Topic notes: [data center power](datacenter-power.md), [solar radiance / Earth absorption](solarradiance-earthabsorbtion.md)
 - Optional **Minkowski / space-entropy** math package (`minkowski_entropy`)
 
 ---
