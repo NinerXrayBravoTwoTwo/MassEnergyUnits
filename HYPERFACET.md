@@ -50,11 +50,22 @@ Converted to mass-equivalent: ≈ **1,083 kg**
 
 That’s roughly the payload of a single large pickup truck.
 
-All the power plants on Earth — coal, gas, nuclear, hydro, wind, solar — running full tilt for an entire year amount to about one ton of mass converted into energy.
+All the power plants on Earth — coal, gas, nuclear, hydro, wind, solar — 
+running full tilt for an entire year amount to about one ton of mass converted into energy.
 
-Now hold that against the Sun blasting energy onto Earth every second. Or the planet’s total energy gradient.
+Now hold that against the Sun blasting energy onto Earth every second.
+Or the planet’s total energy gradient.
 
-Even the entire peak Cold War nuclear stockpile (including the massive Mark 17 & 24 H-bombs) would have been just a momentary sparkle against that abyss — noticeable for a few hours at most, then gone.
+Even the entire peak Cold War nuclear stockpile (including the massive Mark 17 & 24 H-bombs) would have been just a 
+momentary sparkle against that abyss — noticeable for a few hours at most, then gone.
+
+Note that the 50's cold war arsenl of about 250 Shrimp design bombs was dwarfed by the worlds 2023 annual electric consumption.
+
+``` text
+You have: 1083 kg
+You want: shrimp
+        1083 kg = 1550.9112 shrimp
+```
 
 We are not energy titans. We are a thin, vibrant film living on an overwhelmingly abundant gradient.
 
