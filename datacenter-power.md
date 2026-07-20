@@ -9,9 +9,9 @@
 
 ### Data centers are being built all over the world in sizes up to 1 mega watt power consumption.
 
- To powerethese **procution** centers we ae building matching power plants.
+ To power these **procution** centers we are building matching power plants.
 
- All this energy is eventually converted to heat and must be radiated away from the serers or they would catch fire and be destroyed.
+ All this energy is eventually converted to heat and must be radiated away from the serers.
 
  ---
 ## Gas-Fired Power Plant + 500 MW Data Center
