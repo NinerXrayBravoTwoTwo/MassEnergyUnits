@@ -20,8 +20,8 @@ You’ll never see the universe quite the same again.
 | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[HYPERFACET.md](HYPERFACET.md)**                                | Short “mind-blower” reframe of global energy as mass                                                                                                        |
 | **[Data center power](datacenter-power.md)**                      | Power plants + data centers, waste heat vs Earth solar absorption — usage examples with `units`                                                             |
-| **[Solar radiance & Earth absorption](solarradiance-earthabsorbtion.md)** | Solar luminosity, daily insolation, absorbed/radiated balance, and mass-energy equivalences                                                       |
-| **[minkowski_entropy/](minkowski_entropy/)**                      | Space-etropy, python doing what unit's alone cannot.' Geometric compouding along timelike intervals (c = 1) ... *and yes it still does componding finance.* |
+| **[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)** | Solar luminosity, daily insolation, absorbed/radiated balance, and mass-energy equivalences                                                       |
+| **[minkowski_entropy/](minkowski_entropy/)**                      | Space-entropy: Python doing what units alone cannot. Geometric compounding along timelike intervals (c = 1) … *and yes, it still does compounding finance.* |
 | **[Spacetime-Entropy  Package(md)](minkowski_entropy/README.md)** | Spacetime Entropy & Growth/Decay Module                                                                                                                     |
 | **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)**       | Classic problem looked at as an entropy reduction effect instead of a clock speed effect                                                                    |
 | **[Finance examples](minkowski_entropy/README.md#finance)**       | Same math as entropy for compounding interest (readable help in the module README)                                                                          |
@@ -34,7 +34,7 @@ You’ll never see the universe quite the same again.
 - Mass ↔ energy conversions without extra factors
 - Named references for familiar nuclear yields and large-scale events
 - Real-world examples from physics, history, and energy economics
-- Topic notes: [data center power](datacenter-power.md), [solar radiance / Earth absorption](solarradiance-earthabsorbtion.md)
+- Topic notes: [data center power](datacenter-power.md), [solar radiance / Earth absorption](solarradiance-earthabsorption.md)
 - Optional **Minkowski / space-entropy** math package (`minkowski_entropy`)
 
 ---
@@ -154,7 +154,7 @@ You want: kton
         g = 21.480764 kton
         g = (1 / 0.046553278) kton
 ```
-### Trinity yeild, at White Sands test range NM, aka. GADGET 
+### Trinity yield, at White Sands test range NM, aka. GADGET
 
 ``` plaintext
 You have: gadget
@@ -300,10 +300,9 @@ You want: micro grams
 </p>
 
 ### Brain energy usage in grams of mass-energy
-Converting mass to energy at 168.5 µg per year, the human brain uses about 20 watts continious uninterupted of power.
+Converting mass to energy at 168.5 µg per year, the human brain uses about 20 watts continuous uninterrupted power.
 
- That is about 168.5 µg of mass-energy per year.
- 
+That is about 168.5 µg of mass-energy per year.
 
 ```text
 You have: 20 watt / hour * day * siderealyear
@@ -311,17 +310,17 @@ You want: micro g
         20 watt / hour * day * siderealyear = 168.54325 micro g
 ```
  * I am 65.5 years old. (1960 - 2026)
- * At ~0.17  (168.5 μg) mg mass per year, I have burned the equivalent of ~11.04 mg of mass with just my brain in 65 years.
- * Most of that energy scavenged from the solar gradiant was spent in fighting entropy, the second law.
+ * At ~168.5 µg of mass per year, I have burned the equivalent of ~11.04 mg of mass with just my brain in 65.5 years.
+ * Most of that energy scavenged from the solar gradient was spent in fighting entropy, the second law.
  * Was it all worth it? :blush:
- 
- ```bash
- You have: 20 watt / hour * day * siderealyear * 65.5
+
+```text
+You have: 20 watt / hour * day * siderealyear * 65.5
 You want: milligrams
         20 watt / hour * day * siderealyear * 65.5 = 11.039583 milligrams
- ```
+```
 
-### High end  NVidia AI data server power usage vs. a human brain power usage
+### High-end NVIDIA AI data server power usage vs. a human brain power usage
 
 ```text
 You have: 10000 watt / hour * day * siderealyear

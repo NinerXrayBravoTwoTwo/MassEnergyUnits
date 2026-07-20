@@ -25,7 +25,7 @@ c    1                   # Speed of light is now 1 by definition
                            #   horsepower s, J -- it is not supposed to be a unitless conversion ratio.
 #ton_tnt         ton tnt   # uncoment this, to use the default units definition and comment out the below  ton_tnt definition
 
-ton_tnt          4.184e9 J # 1950 definition of energy in a scale that military stratigists could understand and talk about.
+ton_tnt          4.184e9 J # 1950 definition of energy in a scale that military strategists could understand and talk about.
 ton_e            ton_tnt
 ton_tnt_energy   ton_tnt
 kton             1e3 ton_tnt
@@ -67,30 +67,32 @@ gadget           trinity
 littleboy        hiroshima
 fatman           nagasaki
 shrimp           castlebravo # "Staged Hydrogen Radiation IMPlosion"
-# There are few additonal shot definitions in the default definitions file.
+# There are a few additional shot definitions in the default definitions file.
 
 # Large scales
 everestmass             357 trillion lb
 chicxulub               4.184e23 J      # ~100 Tt TNT equivalent
 dinokill                chicxulub
 
-# universe significant - intersteller
+# universe significant - interstellar
 nova                    1e44 J          # order of magnitude
-blackholecollision      5.3e47 J        # GW150914 first measured. Total luminodity ~50 times the output of the entire universe for a moment
-sirisluminosity         9.5e27 W        # 25 times the sun 
+blackholecollision      5.3e47 J        # GW150914 first measured. Total luminosity ~50 times the output of the entire universe for a moment
+sirisluminosity         9.5e27 W        # Sirius ~25 times the sun (identifier kept for compatibility)
+siriusluminosity        sirisluminosity
 quasar                  1e42 W
-galaxy                  8e36 W          # For milkyway, 20-40 billion suns
+galaxy                  8e36 W          # For Milky Way, 20-40 billion suns
 
 # sun-power output (Our class G sun-sol)
 solarluminosity         382.6 yotta W    # total power output of sun
-solarconstant           1368 W / m^3     #
+solarconstant           1368 W / m^2     # flux at ~1 AU 
 
 sunpower                solarluminosity
 sirispower              sirisluminosity
+siriuspower             sirisluminosity
 
-# earths solar energy received from sun (day received - night radiated at atmospher)
-earthsolarincident     1.74e17 W        # incudes radiation that is reflected immediatly back into space
-earthsolarabsorbed     1.22e17 W        # Energy that makes it deeper into the atmosphere, surface
+# Earth's solar energy received from sun (day received - night radiated at atmosphere)
+earthsolarincident     1.74e17 W        # includes radiation that is reflected immediately back into space
+earthsolarabsorbed     1.22e17 W        # energy that makes it deeper into the atmosphere / surface
 
 ESI     earthsolarincident              
 ESA     earthsolarabsorbed

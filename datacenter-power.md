@@ -1,18 +1,19 @@
 # Data Centers -- A *hot* topic :wink:
 <p align="center">
   <img src="images/data-center-1.jpg" width="650" alt="Data Center - Grok generate">
-<h3 align="center">Data Center Power and Waste Heat Comparison</h2>
+  <h3 align="center">Data Center Power and Waste Heat Comparison</h3>
 </p>
 
 ---
 
-### Data centers are being built all over the world in sizes up to 1 mega watt power consumption.
+### Data centers are being built all over the world in sizes up to 1 megawatt power consumption.
 
- To power these **procution** centers we are building matching power plants.
+To power these **production** centers we are building matching power plants.
 
- All this energy is eventually converted to heat and must be radiated away from the serers.
+All this energy is eventually converted to heat and must be radiated away from the servers.
 
- ---
+---
+
 ## Gas-Fired Power Plant + 500 MW Data Center
 
 | Component                                 | Power (MW)        | Notes                                    |
@@ -23,11 +24,10 @@
 | Waste heat from data center               | 500               | All electricity becomes heat             |
 | **Total waste heat added to environment** | **1,000 – 1,250** | Combined from plant + data center        |
 
-A natural gas powered 500 MW data center (the largest being considered) would add heat to the 
-environment to 97.6 millionth of our current daily sunshine.
+A natural-gas-powered 500 MW data center (the largest being considered) would add heat to the
+environment of about **1/97,600,000** of our current daily sunshine.
 
- :sun_with_face:
- 
+:sun_with_face:
 
 ``` plaintext
 You have: 1250 MW
@@ -52,7 +52,7 @@ You want: earthsolarabsorbed (ESA)
 
 :sun_with_face:
 
- A nuclear powered 500 MW data center has consideraby less waste heat when powered by nucear instead of gas, equivelent to 222 millionth of daylght.
+A nuclear-powered 500 MW data center has considerably less waste heat when powered by nuclear instead of gas, equivalent to about **1/222,000,000** of daily sunlight.
 
 ``` plaintext
 You want: ESA

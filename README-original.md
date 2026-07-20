@@ -29,7 +29,7 @@ https://www.cygwin.com/
 
 There may be other ways of installing it on windows as well.
 
-This MassEnergy.units file project is *not* related to the Gnu unit's software project.
+This MassEnergy.units file project is *not* related to the GNU Units software project.
 
 Units does have several manuals; UnitsWin.pdf, UnitsMKS.pdf, units.pdf
 
@@ -51,7 +51,7 @@ This file will NOT help you with your Lorentz transformations or understanding
 the geometry of spacetime. To learn that time is really just a 4th dimension
 of space and that a second is actually 300 thousand kilometers (186,000 miles)
 you need some spacetime physics. You can take an undergraduate STP class if one is
-available or/and there are many books and videos that are fun and even necessary for continious
+available or/and there are many books and videos that are fun and even necessary for continuous
 immersion in this subject.
 
 An excellent textbook is; "Spacetime Physics, Edwin Taylor and John Archibald Wheeler, Copyright(c)1992".
