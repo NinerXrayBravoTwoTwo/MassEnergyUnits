@@ -1,4 +1,4 @@
-# Solar Radiance and Earth Absorption
+# Solar Radiance and Climate Resiliance
 <p align="center">
   <img src="images/soho-july20-2026.jpg" width="450" alt="Sun">
   <h3 align="center">Sol - July 20, 2026</h3>
@@ -35,7 +35,9 @@ These figures align with standard NASA/NOAA values for Earth’s energy budget.
 
 ## Solar Radiance Equivalences
 
-Energy release from sun per second
+Energy release from sun per second.
+
+ Energy released from the sun every second is 6.1 billion Castle-bravo hydrogen bombs. -- 6 billion 20 MT H-bombs per second -- :thinking: 
 
 ``` plaintext
 You have: solarluminosity second
@@ -65,11 +67,7 @@ You want: J
         earthsolarincident day = 1.50336e+22 J
 ```
 
-Sunlight on Earth daily is equivalent to about 239 **k** Castle Bravo (Shrimp) bombs — yes, per day …
-
-Which is the number of Mk-24 bombs we had in our arsenal at one time.
-
-Estimates of the energy that would be released in WW3 are in this range. So an extra day of sunshine that year — if it ever occurs.
+Sunlight on Earth daily is equivalent to about 239 **thousand** Castle Bravo (shrimp) bombs — yes, per day …
 
 ``` plaintext
 You have: ESI day
@@ -90,8 +88,9 @@ You want: Mtsarbomba
 ---
 
 ## Data Centers -- A *hot* topic :wink:
+**[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)**
 
-Data centers are being built all over the world in sizes up to 1 megawatt power consumption.
+ Data centers are being built all over the world in sizes up to 1 megawatt power consumption.
 
 To power these production centers we are building matching power plants.
 
