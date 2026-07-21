@@ -119,12 +119,12 @@ m = \frac{4.184 \times 10^{23} J}{c^2} = 4.65 \times 10^6 \text{ kg} = 4.65 \tex
 
 ## 💥 Nuclear Bomb Energy Equivalents
 
-| Event         | Energy (J)       | Mass Equivalent (g) |
-|--------------|----------------|---------------------|
-| Trinity (19 kt) | \(7.95 \times 10^{13}\) | **0.88 g** |
-| Hiroshima (12.5 kt) | \(5.24 \times 10^{13}\) | **0.58 g** |
-| Nagasaki (22 kt) | \(9.21 \times 10^{13}\) | **1.02 g** |
-| Castle Bravo (15 Mt) | \(6.3 \times 10^{16}\) | **700.97 g** |
+| Event                | Energy (J)              | Mass Equivalent (g) |
+| -------------------- | ----------------------- | ------------------- |
+| Trinity (19 kt)      | \(7.95 \times 10^{13}\) | **0.88 g**          |
+| Hiroshima (12.5 kt)  | \(5.24 \times 10^{13}\) | **0.58 g**          |
+| Nagasaki (22 kt)     | \(9.21 \times 10^{13}\) | **1.02 g**          |
+| Castle Bravo (15 Mt) | \(6.3 \times 10^{16}\)  | **700.97 g**        |
 
 - **Castle Bravo's explosion converted about 700 g of mass into energy**.
 - Even a **single gram** of matter, fully converted, releases a **nuclear-scale** amount of energy.
@@ -406,11 +406,11 @@ ProdTWh kg e   pop_M   kWh/pop  Country
 
 #### Light-like / Time-like Equations
 
-| Approach              | Interval Equation                                   | Key Feature                             | Pros                                                                 |
-|-----------------------|----------------------------------------------------|-----------------------------------------|----------------------------------------------------------------------|
-| **Standard (Real Time)** | Δs² = c²Δt² - Δx²                                | Mixed sign for time and space           | Familiar and intuitive in special relativity                         |
-| **Divided by c²**      | Δs² = Δt² - (Δx/c)²                               | Converts to time units for all terms   | Allows time and space terms to be in the same units                  |
-| **Imaginary Time**     | Δs² = -Δx² - Δ(ict)²                              | All terms with the same sign            | Unifies time and space signs, useful in some theoretical frameworks  |
-| **Hyperbolic (Rapidity)** | Δs² = c²Δt² - Δx² with cosh and sinh             | Uses rapidity instead of velocity       | Avoids imaginary numbers; useful for Lorentz transformations and spacetime |
+| Approach                  | Interval Equation                    | Key Feature                          | Pros                                                                       |
+| ------------------------- | ------------------------------------ | ------------------------------------ | -------------------------------------------------------------------------- |
+| **Standard (Real Time)**  | Δs² = c²Δt² - Δx²                    | Mixed sign for time and space        | Familiar and intuitive in special relativity                               |
+| **Divided by c²**         | Δs² = Δt² - (Δx/c)²                  | Converts to time units for all terms | Allows time and space terms to be in the same units                        |
+| **Imaginary Time**        | Δs² = -Δx² - Δ(ict)²                 | All terms with the same sign         | Unifies time and space signs, useful in some theoretical frameworks        |
+| **Hyperbolic (Rapidity)** | Δs² = c²Δt² - Δx² with cosh and sinh | Uses rapidity instead of velocity    | Avoids imaginary numbers; useful for Lorentz transformations and spacetime |
 
 Each approach provides a distinct way of understanding or calculating the spacetime interval, offering flexibility depending on the context and the desired interpretation.
