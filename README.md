@@ -10,9 +10,26 @@
 
 This project provides a small `massenergy.units` file for [GNU Units](https://www.gnu.org/software/units/). It redefines the second as the distance light travels in one second and sets the speed of light `c = 1`. Mass and energy then convert directly via \(E = mc^2\).
 
-Through this lens, a gram is about 21 kilotons of TNT. A sugar cube is city-scale. The Sun radiates roughly four million tons of mass every second.
+Through this lens, a gram is about 21 kilotons of TNT (think trinity, nagasaki, 25 MW hrs).
 
-You’ll never see the universe quite the same again.
+ A sugar cube, is about a gram  — city-scale military destruction.
+ 
+  In comparison our Sun radiates roughly 4.2 billion (giga) kg of mass
+  every second.  Or 2 billion tsar-bomba tests per second.
+
+``` text
+You have: solarluminosity s
+You want: Gkg
+        solarluminosity s = 4.2569991 Gkg
+
+# Or in cold war era weapons the sun shines with the light of 2 billion Tsar-bomba detonations each second.
+
+You have: solarluminosity s
+You want: Gtsarbomba
+        solarluminosity s = 1.8288719 Gtsarbomba
+  ```
+
+*Sorry, you will never see the universe quite the same again.*
 
 ### Related documentation and Spacetime -> Spaceentropy math 
 
@@ -228,7 +245,7 @@ You want: hours
 
 ### How many Jupiter distance sol radi is a day?
 
-It takes a day for the 'now'  spacetime cone manifold to reach a 4D spaceime diameter of 31.7 jupiter-sol radi.
+It takes a day for the 'now'  spacetime cone manifold to reach a 4D spacetime diameter of 31.7 jupiter-sol radi.
 
 ```
 You have: day
