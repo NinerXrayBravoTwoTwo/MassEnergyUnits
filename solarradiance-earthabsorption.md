@@ -1,4 +1,4 @@
-# Solar Radiance and Climate Resiliance
+# Solar Radiance and Climate Resilience
 <p align="center">
   <img src="images/soho-july20-2026.jpg" width="450" alt="Sun">
   <h3 align="center">Sol - July 20, 2026</h3>
@@ -20,7 +20,7 @@
 - Earth reflects ~30% (albedo from clouds, ice, etc.), so it **absorbs roughly 70%** or ~1.06 × 10²² J/day.
 - **In long-term equilibrium,** Earth **radiates essentially the same amount back to space** (~1.06 × 10²² J/day on average) as thermal infrared radiation to maintain its average temperature.
 - **Imbalances** drive warming/cooling over time but are insignificant at these scales and time intervals. Earth’s climate is extremely resilient and resistant to large fluctuations because of the massive solar inflow and equal daily radiation.
-- **Earth’s** massive oceans and atmosphere act as stabilizing heat sinks, radiating heat to space at night, absorbing during day.
+- **Earth’s** massive oceans and atmosphere act as stabilizing heat sinks, radiating heat to space 24 hrs each day and absorbing solar radiation durning our 12 hours of daylight.
 
 ## Context & Scale
 
@@ -35,9 +35,9 @@ These figures align with standard NASA/NOAA values for Earth’s energy budget.
 
 ## Solar Radiance Equivalences
 
-Energy release from sun per second.
+Energy release from the Sun per second.
 
- Energy released from the sun every second is 6.1 billion Castle-bravo hydrogen bombs. -- 6 billion 20 MT H-bombs per second -- :thinking: 
+Energy released from the Sun every second is about 6.1 billion Castle Bravo hydrogen bombs — 6 billion 20 MT H-bombs per second — :thinking:
 
 ``` plaintext
 You have: solarluminosity second
@@ -45,9 +45,9 @@ You want: Gcastlebravo
         solarluminosity second = 6.0994264 Gcastlebravo
 ```
 
-Energy emitted by sun per day (measured in mass-energy conversion)
+Energy emitted by the Sun per day (measured in mass-energy conversion)
 
-Converting 2.3 mountains of mass to energy each day and radiating it into space.
+Converting about 2.3 mountains of mass to energy each day and radiating it into space.
 
 ``` plaintext
 You have: solarluminosity day
@@ -77,7 +77,7 @@ You want: kcastlebravo
 
 One year of sunshine on Earth is energy equivalent to 26 million Tsar Bombas.
 
-I know that sounds terrifying but it happens every year for billions of years here on Earth.
+I know that sounds terrifying, but it happens every year for billions of years here on Earth.
 
 ``` text
 You have: ESI siderealyear
@@ -87,11 +87,6 @@ You want: Mtsarbomba
 
 ---
 
-## Data Centers -- A *hot* topic :wink:
-**[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)**
+## Data centers and waste heat
 
- Data centers are being built all over the world in sizes up to 1 megawatt power consumption.
-
-To power these production centers we are building matching power plants.
-
-All this energy is eventually converted to heat and must be radiated away from the servers or they would catch fire and be destroyed.
+For plant + data-center waste heat compared with Earth solar absorption, see **[datacenter-power.md](datacenter-power.md)**.

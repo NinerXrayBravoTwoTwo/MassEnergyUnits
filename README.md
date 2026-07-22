@@ -10,28 +10,27 @@
 
 This project provides a small `massenergy.units` file for [GNU Units](https://www.gnu.org/software/units/). It redefines the second as the distance light travels in one second and sets the speed of light `c = 1`. Mass and energy then convert directly via \(E = mc^2\).
 
-Through this lens, a gram is about 21 kilotons of TNT (think trinity, nagasaki, 25 MW hrs).
+Through this lens, a gram is about 21 kilotons of TNT (think Trinity, Nagasaki — about 25 MWh).
 
- A sugar cube, is about a gram  — city-scale military destruction.
- 
-  In comparison our Sun radiates roughly 4.2 billion (giga) kg of mass
-  every second.  Or 2 billion tsar-bomba tests per second.
+A sugar cube is about a gram — city-scale military destruction.
+
+In comparison, our Sun radiates roughly 4.2 billion (giga) kg of mass every second — or about 2 billion Tsar Bomba tests per second.
 
 ``` text
 You have: solarluminosity s
 You want: Gkg
         solarluminosity s = 4.2569991 Gkg
 
-# Or in cold war era weapons the sun shines with the light of 2 billion Tsar-bomba detonations each second.
+# Or in Cold War–era weapons: the Sun shines with the light of ~2 billion Tsar Bomba detonations each second.
 
 You have: solarluminosity s
 You want: Gtsarbomba
         solarluminosity s = 1.8288719 Gtsarbomba
-  ```
+```
 
-*Sorry, you will never see the universe quite the same again.*
+*Sorry — you will never see the universe quite the same again.*
 
-### Related documentation and Spacetime -> Spaceentropy math 
+### Related documentation and spacetime → space-entropy math
 
 | Doc / package                                                     | What it is                                                                                                                                                  |
 | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -285,33 +284,30 @@ The city of Seattle charges me $1 for every 0.2443 **μg** of energy I use.
 </p>
 </div>
 
- On the other hand, perhaps you are stunned by the fact that the 
-amount of energy I use in my house each day can actually be measured in mass that is meaningfull *at all*.
+On the other hand, perhaps you are stunned by the fact that the amount of energy I use in my house each day can actually be measured in mass that is meaningful *at all*.
 
- ... at 0.156 micro gram per day
-or 32.995 μg for the entire 64 day billing period.
-This is actually visible under a normal light micoscope, 
-at the scale of a bacteria or grain of pollen.
-A little bit smaller than the width of a human hair but close.
+…at 0.156 microgram per day, or 32.995 µg for the entire 64-day billing period.
+This is actually visible under a normal light microscope, at the scale of a bacterium or grain of pollen — a little smaller than the width of a human hair, but close.
 
- My take away is that we are not just passing by this energy gradient, we are wading through and into it.
+My takeaway is that we are not just passing by this energy gradient; we are wading through and into it.
 
- > Calculate the mass of your own power bill and see what you get.  You might be surprised.
+> Calculate the mass of your own power bill and see what you get. You might be surprised.
 
 ``` plaintext
 You have: 823.73 kW hours
 You want: micro grams
         823.73 kW hours = 32.994836 micro gram
- ```
-| Organism/Stucture | Typical mass | W hours equivalent mass | Visible under microscope? |
-| ----------------- | ------------ | ----------------------- | ------------------------- |
-| Pollen grain      | 10–100 ng    | 0.24965 - 2.5 kW hrs    | Yes                       |
-| Tiny plant seeds  | 1–10 µg      | 25 - 249 kW hrs         | Yes                       |
-| Diatom            | 2–200 µg     | 0.5 - 5 kW hrs          | Yes                       |
-| Tardigrade        | 100–500 µg   | 2.5 - 12.5 kW hrs       | Yes                       |
-| Human hair        | 50–100 µg    | 1.25 - 2.5 kW hrs       | Yes                       |
-| Rotifer           | 50–500 µg    | 1.25 - 12.5 kW hrs      | Yes                       |
-| flax seed         | 1–2 mg       | 24.97 - 49.93  MW hrs   | Yes                       |
+```
+
+| Organism/Structure | Typical mass | Wh equivalent mass | Visible under microscope? |
+| ------------------ | ------------ | ------------------ | ------------------------- |
+| Pollen grain       | 10–100 ng    | 0.25 – 2.5 kWh     | Yes                       |
+| Tiny plant seeds   | 1–10 µg      | 25 – 249 kWh       | Yes                       |
+| Diatom             | 2–200 µg     | 0.5 – 5 kWh        | Yes                       |
+| Tardigrade         | 100–500 µg   | 2.5 – 12.5 kWh     | Yes                       |
+| Human hair         | 50–100 µg    | 1.25 – 2.5 kWh     | Yes                       |
+| Rotifer            | 50–500 µg    | 1.25 – 12.5 kWh    | Yes                       |
+| Flax seed          | 1–2 mg       | 25 – 50 MWh        | Yes                       |
 
 ---
 <p align="center">
@@ -347,10 +343,10 @@ You want: 20 watt / hour * day * siderealyear
         10000 watt / hour * day * siderealyear = 500 * 20 watt / hour * day * siderealyear
                                                  ^^^ 500 human brains worth of power usage
 ``` 
-* Human brain burns about 0.17 milligrams of mass-energy per year,
-* while a high end AI data server burns about 84 milligrams of mass-energy per year.
+* A human brain burns about 0.17 milligrams of mass-energy per year,
+* while a high-end AI data server burns about 84 milligrams of mass-energy per year.
 
- That is about 500 times more energy usage than a human brain.
+That is about 500 times more energy usage than a human brain.
 ```text
 You have: 20 watt / hour * day * siderealyear
 You want: mg
@@ -430,7 +426,7 @@ trinity                 18 kiloton tnt     # July 16, 1945
 - **Intuitive scaling:** Cosmic and industrial energy use become comparable.
 - **Physics:** Mass and energy are interchangeable **\(E = mc^2\)**.
     - Or just **\(E = m\)** in our case since we are using naural units
-    - Which is actually the fundemental insight of relativity, that mass and energy are the same thing, time and distance are the same units of measure. Not equilvent, the same with *'restrictions'*
+    - Which is actually the fundamental insight of relativity: mass and energy are the same thing; time and distance are the same units of measure. Not equivalent — the same, with *restrictions*
 
 People have said; 
 > "A loaf of bread converted entirely to energy could power the Earth for a day."

@@ -59,7 +59,7 @@ Or the planet’s total energy gradient.
 Even the entire peak Cold War nuclear stockpile (including the massive Mark 17 & 24 H-bombs) would have been just a 
 momentary sparkle against that abyss — noticeable for a few hours at most, then gone.
 
-Note that the 50's cold war arsenl of about 250 Shrimp design bombs was dwarfed by the worlds 2023 annual electric consumption.
+Note that the 1950s Cold War arsenal of about 250 Shrimp-design bombs was dwarfed by the world’s 2023 annual electric consumption.
 
 ``` text
 You have: 1083 kg

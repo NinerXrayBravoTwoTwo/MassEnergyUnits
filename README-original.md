@@ -2,7 +2,7 @@ MassEnergy - Units Energy to mass conversion
 ==============================================================================
 Summary
 -------
-A conversion file for the "units" mathematics utility that modifies core constants setting; second = 299 thousand meters and c = 1.  This  simple change allows the units tool to render mass to energy space to time solutions.  Amazingly changing these fundemental constants does not effect calculation results or the usefulness of Units. If your conversion gives mass instead of energy like you were expecting you may sometimes need to specify that you want joules or watts.
+A conversion file for the "units" mathematics utility that modifies core constants setting; second = 299 thousand meters and c = 1.  This  simple change allows the units tool to render mass to energy space to time solutions.  Amazingly, changing these fundamental constants does not affect calculation results or the usefulness of Units. If your conversion gives mass instead of energy like you were expecting you may sometimes need to specify that you want joules or watts.
 
 Time and distance are the same thing.
 ergo
@@ -251,8 +251,8 @@ You have: 15 TW  years
 You want: kg
         15 TW  years = 5266.7723 kg
 ```
- In the 1950's the US built 300 MK-17 and MK-24 bombs, each of which could release
- approximately 20 Megatons of energy (23 terra watt hours, 0.91 kg) for a total cold war arsenal of 6,000 Megatons.
+ In the 1950s the US built 300 MK-17 and MK-24 bombs, each of which could release
+ approximately 20 megatons of energy (23 terawatt-hours, 0.91 kg) for a total Cold War arsenal of 6,000 megatons.
  In total these bombs would have released 616 lbs (279 kg) of mass as energy or 6,973 Tera watt hours.
 
  Every one of these bombs could have incinerated a large city while setting fire
@@ -354,7 +354,7 @@ You have: 384.6 yotta watt s *60 *60 *24 *365.2422 * 4 giga
 You want: nova
         384.6 yotta wa... = 0.48547175 nova
 ```
-**if the earth weighs 6.59+21 ton then; The sun radiated a mass equivalent to 90.41 earths over it's 4 billion year life or .0003 current solar masses or .28 Jupiter masses over it's four billion year life.**
+**If the Earth weighs 6.59×10²¹ ton, then the Sun radiated a mass equivalent to 90.41 Earths over its 4-billion-year life — or 0.0003 current solar masses, or 0.28 Jupiter masses, over its four-billion-year life.**
 
 **Interesting; 4 billion years star burn = Half of a Nova?**
 

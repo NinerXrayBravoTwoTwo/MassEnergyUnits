@@ -1,12 +1,12 @@
 # Data Centers -- A *hot* topic :wink:
 <p align="center">
-  <img src="images/data-center-1.jpg" width="650" alt="Data Center - Grok generate">
+  <img src="images/data-center-1.jpg" width="650" alt="Data center (generated image)">
   <h3 align="center">Data Center Power and Waste Heat Comparison</h3>
 </p>
 
 ---
 
-### Data centers are being built all over the world in sizes up to 1 megawatt power consumption.
+### Data centers are being built all over the world at scales of hundreds of megawatts of power consumption.
 
 To power these **production** centers we are building matching power plants.
 
@@ -59,13 +59,7 @@ You want: ESA
         550 MW = 4.5081967e-09 ESA
         550 MW = (1 / 221,818,181) ESA
 ```
+
 ---
-# Solar Radiance and Climate Resiliance## Data Centers -- A *hot* topic :wink:
-**[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)**
 
- Data centers are being built all over the world in sizes up to 1 megawatt power consumption.
-
-To power these production centers we are building matching power plants.
-
-All this energy is eventually converted to heat and must be radiated away from the servers or they would catch fire and be destroyed.
-
+See also: **[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)** for planetary-scale context.

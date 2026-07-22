@@ -23,7 +23,7 @@ c    1                   # Speed of light is now 1 by definition
 # tnt		 1e9 cal_th / ton   # new conversion definition in nunits
                            # The 1949 definition of "ton of tnt" is supposed to be a measure of energy, watt s,
                            #   horsepower s, J -- it is not supposed to be a unitless conversion ratio.
-#ton_tnt         ton tnt   # uncoment this, to use the default units definition and comment out the below  ton_tnt definition
+#ton_tnt         ton tnt   # uncomment this to use the default units definition and comment out the ton_tnt definition below
 
 ton_tnt          4.184e9 J # 1950 definition of energy in a scale that military strategists could understand and talk about.
 ton_e            ton_tnt
@@ -46,7 +46,7 @@ Mt               Mton
 # TNT is actually ~nothing~ like a nuclear explosion. 
 #
 # Using TNT as an energy 'equivalence' was probably a project/military decision to help 
-# explain and quantify the destructivness of the new bombs. 
+# explain and quantify the destructiveness of the new bombs.
 #
 # JAE 2005-- IMO we should stop using the 'imaginary' pile of TNT as a reference and start using joules or grams for energy
 # as a measure of energy released. This is less subjective and everyone knows that a mass is energy from 'e=mc^2'
