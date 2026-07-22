@@ -563,6 +563,15 @@ See **[CONTRIBUTING.md](CONTRIBUTING.md)** for issues, pull requests, and testin
 - Historical yield numbers may be updated when better public estimates appear; keep device aliases (`gadget`, `littleboy`, …) linked to the yield names.
 - Longer essay material and exercise ideas live in `README-original.md` and `Projects.md`.
 
+## A note from the author
+
+If you ever wondered what software engineers do for fun:
+
+We fly airplanes,
+
+— Jillian England
+See **[Bio.md](bio.md)** for an extrapolation :grinning:
+
 ## License
 
 [MIT](LICENSE) — Copyright (c) 1995, 2008, 2017, 2026 Jillian England.
