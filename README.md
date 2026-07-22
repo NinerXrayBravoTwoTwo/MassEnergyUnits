@@ -134,7 +134,7 @@ Mass and energy, space and time, are brought into direct calculable parity.
 <p align="center" >
   <img src="images/gaget.jpg" width="650" alt="Seattle July 2026 Utility Bill">
   </br>
-  The 'Gadget, painting', White Sands NM</br>July 17, 1945 --80 years ago in 2025
+  The 'Gadget', painting</br>White Sands NM, July 17, 1945</br>— 80 years ago in '25
 </p>
 
 ``` perl
