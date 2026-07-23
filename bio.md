@@ -38,4 +38,4 @@ vs.
 
 **Note:** *This idea can be applied directly to humans and society as well.*
 
-*It is the tension of taxation<->working, hunting<->fighting, family<->theft, and* **war**
+*It is the tension of working<->taxation>, hunting<->fighting, family<->theft, and* **war**
