@@ -197,7 +197,7 @@ You want: hiroshima
         5g = 7.1602548 hiroshima
 ```
 
-### grams to  Nagasaki's
+### Grams to  Nagasaki's
 
 ```text
 You have: g
@@ -209,7 +209,7 @@ You want: nagasaki
   <img src="images/coffee-2.jpg" width="250" alt="Spacetime Coffee -- whitespace">
 </p>
 
-### seconds to miles
+### Seconds to miles
 
 In spacetime the 'now' manifold requires 4D distance of 186282.4 miles
 
@@ -219,7 +219,7 @@ You want: miles
         s = 186282.4 miles
 ```
 
-### jupiter distance from sol convert to AU's
+### Jupiter distance from sol convert to AU's
 
 Jupiter is about 5.46 earth radi from the sun.
 
