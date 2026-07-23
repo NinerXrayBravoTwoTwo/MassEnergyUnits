@@ -246,7 +246,7 @@ You want: hours
 
 It takes a day for the 'now'  spacetime cone manifold to reach a 4D spacetime diameter of 31.7 jupiter-sol radi.
 
-```
+```text
 You have: day
 You want: jupitersundist_max
         day = 31.728616 jupitersundist_max
