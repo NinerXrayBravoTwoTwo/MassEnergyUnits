@@ -26,7 +26,7 @@ And in an important sense, that was never wrong. Those two lines still *are* the
 
 | Layer | Role |
 | ----- | ---- |
-| **Core** | Time as distance → mass **is** energy |
+| **Core** | Time is distance → mass **is** energy |
 | **Named yields, TNT scale, solar / Earth units** | “Show me Nagasaki in grams,” “show me a data center vs sunshine” |
 | **Topic notes** | Data centers, solar radiance, Earth absorption — scale for current arguments |
 | **minkowski_entropy, twin paradox, finance** | Same exponential map, other stories |

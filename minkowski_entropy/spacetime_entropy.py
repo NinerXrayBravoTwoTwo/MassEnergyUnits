@@ -6,7 +6,7 @@ A mathematically precise module for modeling exponential growth, decay,
 and entropy production along timelike intervals in Minkowski spacetime.
 
 Core idea:
-- Treat time as distance in natural units (c = 1).
+- Time is distance in natural units (c = 1).
 - Provide symmetric doubling-time / half-life calculations.
 - Support inverse predictions of future/past values.
 - Quantify general entropy-like production from a t₀ origin in the light-cone.

@@ -1,6 +1,6 @@
 # Contributing to MassEnergyUnits
 
-Thank you for considering a contribution! This repository maintains a custom definition file for the GNU `units` tool that treats **time as distance** (`c = 1` natural units) and makes mass–energy equivalence (\(E = mc^2\)) easy to explore.
+Thank you for considering a contribution! This repository maintains a custom definition file for the GNU `units` tool where **time is distance** (`c = 1` natural units) and makes mass–energy equivalence (\(E = mc^2\)) easy to explore.
 
 ## How to contribute
 
