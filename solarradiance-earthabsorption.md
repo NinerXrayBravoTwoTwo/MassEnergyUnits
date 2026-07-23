@@ -59,7 +59,7 @@ You want: everestmass
 
 ## Sun --> Earth --> The Abyss
 
-Each day the Earth receives 1.50336×10²² J of solar energy. It manages to radiate the same each day.
+Each day the Earth receives 1.50336×10²² J of solar energy. It also manages to radiate the same each day.
 
 ``` plaintext
 You have: earthsolarincident day

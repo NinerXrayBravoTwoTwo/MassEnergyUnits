@@ -11,6 +11,8 @@
 - *What do Software Engineers do?*
 - **We have fun** — and we watch our cats very closely :smile:
 
+### —  Jillian England, Seattle July, 2026
+
 ---
 
 <p align="center">
