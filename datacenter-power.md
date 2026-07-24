@@ -96,10 +96,12 @@ The nameplate capacity (e.g., 500 MW) is the maximum design load. Actual average
 # Summary of the technical design
 Modern data centers are built so servers, cooling, and power distribution can all ramp down when demand falls:
 
-Servers use DVFS, idle/sleep states, and full power-off of racks or floors.
+Servers use DVFS *, idle/sleep states, and full power-off of racks or floors.
 Cooling (fans, pumps, chillers) uses variable-speed drives and zone control so it tracks the actual heat load.
 Electrical distribution is modular, allowing sections to be de-energized.
 The result is that both electricity draw and waste heat fall when utilization drops. The 500 MW nameplate is only the ceiling.
+
+    * Dynamic Voltage and Frequency Scaling
 
 ## Data Center Government Policy Point
 
