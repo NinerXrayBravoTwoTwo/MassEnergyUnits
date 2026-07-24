@@ -193,18 +193,34 @@ You want: kt
 
 ### Nuclear yield comparison, fatman was 1.4x littleboy
 
+Gadget and Fatman were both ~1.333 times the power of little-boy
+ 
+ *(trinity and nagasaki were both plutonium implosion bombs, hiroshima was a unranium gun type bomb)*
+
 ```text
-You have: nagasaki
-You want: hiroshima
-        nagasaki = 1.4 hiroshima
+You have: fatman
+You want: littleboy
+        fatman = 1.4 littleboy
+
+You have: gadget
+You want: littleboy
+        gadget = 1.2666667 littleboy
+
+You have: (gadget + fatman)/2
+You want: littleboy
+        (gadget + fatman)/2 = 1.3333333 littleboy
 ```
 
-### Sugar cube (~5 g) in hiroshima's
+### Five sugar cubes (~5 g), seven hiroshima's or 124.8 Giga watt hours
 
 ```text
 You have: 5g
 You want: hiroshima
         5g = 7.1602548 hiroshima
+
+You have: 5 gram
+You want: billion watt hours
+        5 gram = 124.82711 billion watt hours
 ```
 
 ### Grams to  Nagasaki's
