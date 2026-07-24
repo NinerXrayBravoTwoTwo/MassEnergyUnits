@@ -10,7 +10,7 @@
 
 This project provides a small `massenergy.units` file for [GNU Units](https://www.gnu.org/software/units/). It redefines the second as the distance light travels in one second and sets the speed of light `c = 1`. Mass and energy then convert directly via \(E = mc^2\).
 
-Through this lens, a gram is about 21 kilotons of TNT (think Trinity, Nagasaki — about 25 MWh).
+Through this lens, a gram is about 21 kilotons of TNT (think Trinity, Nagasaki — about 25 GW hours).
 
 A sugar cube is about a gram — city-scale military destruction.
 
