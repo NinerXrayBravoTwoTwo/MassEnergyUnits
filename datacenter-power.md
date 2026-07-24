@@ -106,7 +106,7 @@ The result is that both electricity draw and waste heat fall when utilization dr
 If governments object to the scale of AI data centers, the more direct (and honest) approach would be to restrict or tax the end use—AI services and heavy internet traffic—rather than trying to ban the infrastructure that serves that demand. Banning or heavily obstructing data centers while leaving demand unrestricted simply shifts the load elsewhere or creates scarcity.
 
 
-I disagree with both approaches.This position is coherent: opposing both the infrastructure bans and new restrictions/taxes on AI and internet use leaves the market and technology to scale according to actual demand and economics.
+I disagree with both approaches. This position is coherent: opposing both the infrastructure bans and new restrictions/taxes on AI and internet use leaves the market and technology to scale according to actual demand and economics.
 
 ---
 See also: **[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)** for planetary-scale context.
