@@ -1,9 +1,11 @@
 # The Ultimate Reframe
 <p align="center">
   <img src="images/coffee-1.JPG" width="650" alt="Coffee perspective">
+<h3 align="center">The reference frame</h3>
 </p>
 
-**Just two lines of code that change how you see reality.**
+
+## Just two lines of code that change how you see reality.
 
 ```plaintext
 s         2.99792458e8 m
