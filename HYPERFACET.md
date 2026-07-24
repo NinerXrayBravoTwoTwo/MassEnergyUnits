@@ -1,4 +1,4 @@
-# The Ultimate Reframe
+# Ultimate Reframe of Time
 <p align="center">
   <img src="images/coffee-1.JPG" width="650" alt="Coffee perspective">
 <h3 align="center">The reference frame</h3>
