@@ -5,9 +5,9 @@
 - We ride sport bikes,
 - We Scuba dive,
 - We ponder spacetime and nuclear physics and stars.
-- We do math proofs because the answers are absolute and true within thier contexts.
+- We do math proofs because the answers are absolute and true within their contexts.
 - We ponder the rise and fall of civilizations, the ebb and flow of wars, the actual scope and limits of reality.
-- We read the bible as it fits into other Helenistic writtings of the first millenia and try to piece that puzzel together.
+- We read the bible as it fits into other Hellenistic writings of the first millennium and try to piece that puzzle together.
 - *What do Software Engineers do?*
 - **We have fun** — and we watch our cats very closely :smile:
 
@@ -24,7 +24,7 @@
 
 The reason for this is life’s **Negentropy requirements** ("What is Life?", Schrödinger 1944)
 
-To merely exist life... particularly predators, must grow at a geometricly faster rate than entropy decays it. 
+To merely exist life... particularly predators, must grow at a geometrically faster rate than entropy decays it. 
 
 If it moves— it is huntable — which is why everything not nailed down gets pushed off tables. 
 
