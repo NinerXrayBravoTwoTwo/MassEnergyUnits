@@ -158,7 +158,7 @@ Mass and energy, space and time, are brought into direct calculable parity.
 ---
 
 <p align="center" >
-  <img src="images/gaget.jpg" width="650" alt="Trinity test — Gadget painting, black and white">
+  <img src="images/gadget.jpg" width="650" alt="Trinity test — Gadget painting, black and white">
   </br>
   The 'Gadget', painting</br>White Sands NM, July 17, 1945</br>— 80 years ago in 2025
 </p>
