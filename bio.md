@@ -28,11 +28,11 @@ To merely exist, life—particularly predators—must grow at a geometrically fa
 
 If it moves, it is huntable — which is why everything not nailed down gets pushed off tables.
 
-**The law of compound growth** — life
-
-vs.
-
-**The law of compound decay** — entropy
+<p>
+<strong>The law of compound growth</strong> — life
+</br>vs.
+</br><strong>The law of compound decay</strong> — entropy
+</p>
 
 ---
 
