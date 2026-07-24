@@ -14,6 +14,12 @@ Through this lens, a gram is about 21 kilotons of TNT (think Trinity, Nagasaki �
 
 A sugar cube is about a gram — city-scale military destruction.
 
+```plaintext
+You have: g
+You want: billion watt hrs
+        g = 24.965422 billion watt hrs
+```
+
 In comparison, our Sun radiates roughly 4.2 billion (giga) kg of mass every second — or about 2 billion Tsar Bomba tests per second.
 
 ``` text
