@@ -1,4 +1,7 @@
 # The Ultimate Reframe
+<p align="center">
+  <img src="images/coffee-1.JPG" width="650" alt="Coffee perspective">
+</p>
 
 **Just two lines of code that change how you see reality.**
 
