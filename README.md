@@ -3,7 +3,7 @@
 ##  "Mass is not simply equivalent to energy — Mass **is** energy."
 
 <p align="center">
-  <img src="images/IMG_2619.JPG" width="650" alt="Seattle July 2026 Utility Bill">
+  <img src="images/Cherenkov-1.JPG" width="650" alt="Seattle July 2026 Utility Bill">
 </p>
 
 ## Overview
