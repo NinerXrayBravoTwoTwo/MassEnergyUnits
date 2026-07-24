@@ -63,6 +63,10 @@ You want: ESA
 ---
 
 # Data Center Self-Scaling Design
+<p align="center">
+  <img src="images/data-center-6.jpg" width="650" alt="Data center">
+  <h2 align="center">Data Center, Servers - cooling - power,  automatic scaling</h2>
+</p>
 
 Modern hyperscale and AI data centers are engineered so that power consumption, cooling, and supporting infrastructure can scale down significantly when demand drops. The goal is to avoid wasting electricity and heat when servers are idle or powered off.
 
