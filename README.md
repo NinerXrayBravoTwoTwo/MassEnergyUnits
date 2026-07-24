@@ -3,7 +3,7 @@
 ##  "Mass is not simply equivalent to energy — Mass **is** energy."
 
 <p align="center">
-  <img src="images/Cherenkov-1.JPG" width="650" alt="Seattle July 2026 Utility Bill">
+  <img src="images/Cherenkov-1.JPG" width="650" alt="Cherenkov blue theme image">
 </p>
 
 ## Overview
@@ -38,15 +38,18 @@ You want: Gtsarbomba
 
 ### Related documentation and spacetime → space-entropy math
 
-| Doc / package                                                     | What it is                                                                                                                                                  |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[HYPERFACET.md](HYPERFACET.md)**                                | Two-line core, project backstory, and “mind-blower” reframe of global energy as mass                                                                        |
-| **[Data center power](datacenter-power.md)**                      | Power plants + data centers, waste heat vs Earth solar absorption — usage examples with `units`                                                             |
-| **[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)** | Solar luminosity, daily insolation, absorbed/radiated balance, and mass-energy equivalences                                                       |
-| **[minkowski_entropy/](minkowski_entropy/)**                      | Space-entropy: Python doing what units alone cannot. Geometric compounding along timelike intervals (c = 1) … *and yes, it still does compounding finance.* |
-| **[Spacetime-Entropy  Package(md)](minkowski_entropy/README.md)** | Spacetime Entropy & Growth/Decay Module                                                                                                                     |
-| **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)**       | Classic problem looked at as an entropy reduction effect instead of a clock speed effect                                                                    |
-| **[Finance examples](minkowski_entropy/README.md#finance)**       | Same math as entropy for compounding interest (readable help in the module README)                                                                          |
+| Doc / package                                                             | What it is                                                                                                                                                  |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[HYPERFACET.md](HYPERFACET.md)**                                        | Two-line core, project backstory, and “mind-blower” reframe of global energy as mass                                                                        |
+| **[Data center power](datacenter-power.md)**                              | Power plants + data centers, waste heat vs Earth solar absorption — usage examples with `units`                                                             |
+| **[Data center scaling](datacenter-power#scaling)**                       | Data center automatic, dynamic, scaling                                                                                                                     |
+| **[Data center policy](datacenter-power#policy)**                         | Data center moratorium policy -- honesty                                                                                                                       |
+| **[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)** | Solar luminosity, daily insolation, absorbed/radiated balance, and mass-energy equivalences                                                                 |
+| **[minkowski_entropy/](minkowski_entropy/)**                              | Space-entropy: Python doing what units alone cannot. Geometric compounding along timelike intervals (c = 1) … *and yes, it still does compounding finance.* |
+| **[Spacetime-Entropy  Package(md)](minkowski_entropy/README.md)**         | Spacetime Entropy & Growth/Decay Module                                                                                                                     |
+| **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)**               | Classic problem looked at as an entropy reduction effect instead of a clock speed effect                                                                    |
+| **[Finance examples](minkowski_entropy/README.md#finance)**               | Same math as entropy for compounding interest (readable help in the module README)                                                                          |
+| **[Bio](Bio.md)**                                                         | What does a software engineer do for fun :smile:                                                                                                            |
 
 ---
 
@@ -154,7 +157,7 @@ Mass and energy, space and time, are brought into direct calculable parity.
 ---
 
 <p align="center" >
-  <img src="images/gaget.jpg" width="650" alt="Seattle July 2026 Utility Bill">
+  <img src="images/gaget.jpg" width="650" alt="Trintity test - gadget painting black & white">
   </br>
   The 'Gadget', painting</br>White Sands NM, July 17, 1945</br>— 80 years ago in 2025
 </p>

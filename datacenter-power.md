@@ -61,7 +61,7 @@ You want: ESA
 ```
 
 ---
-
+<a id="scaling"></a>
 # Data Center Self-Scaling Design
 <p align="center">
   <img src="images/data-center-6.jpg" width="650" alt="Data center">
@@ -107,6 +107,7 @@ The result is that both electricity draw and waste heat fall when utilization dr
 
     * Dynamic Voltage and Frequency Scaling
 
+<a id="policy"></a>
 ## Data Center Government Policy Point
 
 If governments object to the scale of AI data centers, the more direct (and honest) approach would be to restrict or tax the end use—AI services and heavy internet traffic—rather than trying to ban the infrastructure that serves that demand. Banning or heavily obstructing data centers while leaving demand unrestricted simply shifts the load elsewhere or creates scarcity.
