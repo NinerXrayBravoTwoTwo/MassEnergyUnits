@@ -36,6 +36,5 @@ vs.
 
 ---
 
-**Note:** *This idea can be applied directly to humans and society as well.*
-
-*It is the tension of working ↔ taxation, hunting ↔ fighting, family ↔ theft, and peace ↔ war.*
+**Note:** *This idea can be applied directly to humans and society as well.* 
+**It is the tension of** *working ↔ taxation, hunting ↔ fighting, family ↔ theft, and peace ↔* **war.**
