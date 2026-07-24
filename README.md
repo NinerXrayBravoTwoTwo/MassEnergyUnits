@@ -10,7 +10,7 @@
 
 This project provides a small `massenergy.units` file for [GNU Units](https://www.gnu.org/software/units/). It redefines the second as the distance light travels in one second and sets the speed of light `c = 1`. Mass and energy then convert directly via \(E = mc^2\).
 
-Through this lens, a gram is about 21 kilotons of TNT (think Trinity, Nagasaki — about 25 GW hours).
+Through this lens, a gram is about 21 kilotons of TNT (think Trinity, Nagasaki — about 25 GWh).
 
 A sugar cube is about a gram — city-scale military destruction.
 
@@ -27,7 +27,7 @@ You have: solarluminosity s
 You want: Gkg
         solarluminosity s = 4.2569991 Gkg
 
-# Or in Cold War–era weapons: the Sun shines with the light of ~2 billion Tsar Bomba detonations each second.
+# Or in Cold War–era weapons: the Sun shines with the light of ~1.8 billion Tsar Bomba detonations each second.
 
 You have: solarluminosity s
 You want: Gtsarbomba
@@ -42,14 +42,15 @@ You want: Gtsarbomba
 | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[HYPERFACET.md](HYPERFACET.md)**                                        | Two-line core, project backstory, and “mind-blower” reframe of global energy as mass                                                                        |
 | **[Data center power](datacenter-power.md)**                              | Power plants + data centers, waste heat vs Earth solar absorption — usage examples with `units`                                                             |
-| **[Data center scaling](datacenter-power#scaling)**                       | Data center automatic, dynamic, scaling                                                                                                                     |
-| **[Data center policy](datacenter-power#policy)**                         | Data center moratorium policy -- honesty                                                                                                                       |
+| **[Data center scaling](datacenter-power.md#scaling)**                    | Dynamic power, cooling, and electrical self-scaling when demand falls                                                                                       |
+| **[PUE & residual load](datacenter-power.md#pue)**                        | Why facility overhead still multiplies draw when IT load falls                                                                                              |
+| **[Infrastructure vs demand](datacenter-power.md#policy)**                | Honest levers if energy scale is the concern (not only siting bans)                                                                                         |
 | **[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)** | Solar luminosity, daily insolation, absorbed/radiated balance, and mass-energy equivalences                                                                 |
 | **[minkowski_entropy/](minkowski_entropy/)**                              | Space-entropy: Python doing what units alone cannot. Geometric compounding along timelike intervals (c = 1) … *and yes, it still does compounding finance.* |
-| **[Spacetime-Entropy  Package(md)](minkowski_entropy/README.md)**         | Spacetime Entropy & Growth/Decay Module                                                                                                                     |
-| **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)**               | Classic problem looked at as an entropy reduction effect instead of a clock speed effect                                                                    |
+| **[Spacetime-Entropy Package](minkowski_entropy/README.md)**              | Spacetime entropy & growth/decay module                                                                                                                     |
+| **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)**               | Classic problem as path length / entropy compounding, not “clocks slowing down”                                                                             |
 | **[Finance examples](minkowski_entropy/README.md#finance)**               | Same math as entropy for compounding interest (readable help in the module README)                                                                          |
-| **[Bio](Bio.md)**                                                         | What does a software engineer do for fun :smile:                                                                                                            |
+| **[Bio](bio.md)**                                                         | What software engineers do for fun :smile:                                                                                                                  |
 
 ---
 
@@ -59,7 +60,7 @@ You want: Gtsarbomba
 - Mass ↔ energy conversions without extra factors
 - Named references for familiar nuclear yields and large-scale events
 - Real-world examples from physics, history, and energy economics
-- Topic notes: [data center power](datacenter-power.md), [solar radiance / Earth absorption](solarradiance-earthabsorption.md)
+- Topic notes: [data center power](datacenter-power.md) ([scaling](datacenter-power.md#scaling), [PUE](datacenter-power.md#pue), [policy](datacenter-power.md#policy)), [solar radiance / Earth absorption](solarradiance-earthabsorption.md), [bio](bio.md)
 - Optional **Minkowski / space-entropy** math package (`minkowski_entropy`)
 
 ---
@@ -157,7 +158,7 @@ Mass and energy, space and time, are brought into direct calculable parity.
 ---
 
 <p align="center" >
-  <img src="images/gaget.jpg" width="650" alt="Trintity test - gadget painting black & white">
+  <img src="images/gaget.jpg" width="650" alt="Trinity test — Gadget painting, black and white">
   </br>
   The 'Gadget', painting</br>White Sands NM, July 17, 1945</br>— 80 years ago in 2025
 </p>
@@ -579,7 +580,7 @@ If you ever wondered what software engineers do for fun:
 We fly airplanes,
 
 — Jillian England
-See **[Bio.md](bio.md)** for an extrapolation :grinning:
+See **[bio.md](bio.md)** for an extrapolation :grinning:
 
 ## License
 
