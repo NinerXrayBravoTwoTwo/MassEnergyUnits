@@ -285,19 +285,46 @@ You want: jupitersundist_max
   <img src="images/utility-bill.png" width="650" alt="Seattle July 2026 Utility Bill">
 </p>
 
-### My latest power bill in grams of mass-energy
+### Seattle City Light $ cost per micro gram of mass-energy
 Total power used was 823.73 kW hours over 64 days, costing $135.06.
 
-```text
-You have: 823.73 kW hours / 64 days
-You want: micro g per day
-        823.73 kW hours / 64 days = 0.51554432 micro g per day
+### Jet airliner $ cost per micro gram of energy used by airline jet engines
 
-You have: 823.73 kW hours /135.06 dollars
-You want: $ / micro gram
+Simple cruise example (narrow-body like 737 / A320 family)
+Typical numbers in cruise (FL350–370, Mach ~0.78):
+
+Total fuel burn: ~2,200–2,500 kg/hour (both engines)
+≈ 2,400 kg/h average ≈ ~800–850 US gallons per hour
+Total thrust required: roughly 10,000–16,000 lbf (about 20–30 % of takeoff thrust)
+True airspeed: ~450–460 knots ≈ 230–240 m/s
+
+Power from thrust
+Power = Thrust × Velocity
+Using mid-range numbers (say 13,000 lbf total thrust ≈ 58,000 N at 235 m/s):
+≈ 13.6 MW ≈ 18,200 horsepower continuous.
+That power is almost entirely propulsion. The electrical generators (cabin, avionics, etc.) add only a few hundred kW — basically a rounding error.
+Bottom line from the simple method
+One gallon of jet fuel in cruise is delivering roughly the energy equivalent of 20–25 horsepower for one hour, once you account for the actual thrust and fuel flow the airplane is running.
+This matches the earlier thermal-efficiency estimate and skips the intermediate BTU step entirely.
+
+Current airliner jet fuel price (as of late July 2026):
+Wholesale / spot price (what the airlines actually pay for bulk Jet A):
+
+U.S. Gulf Coast: ≈ $3.50 per gallon
+Argus U.S. Jet Fuel Index (major hubs average): ≈ $3.67 per gallon
+
+```text
+# Seattle Light - Cost per microgram of energy used
+You have:  823.73 kW hours / 135.06 $
+You want: $ per micro gram
         reciprocal conversion
-        1 / (823.73 kW hours /135.06 dollars) = 4.0933678 $ / micro gram
-        1 / (823.73 kW hours /135.06 dollars) = (1 / 0.24429762) $ / micro g
+        1 / (823.73 kW hours / 135.06 $) = 4.0933678 $ per micro gram
+
+# Jet Fuel - Cost per micro gram of energy used
+You have: 25 hp hr / 3.5 $
+You want: $ per micro gram
+        reciprocal conversion
+        1 / (25 hp hr / 3.5 $) = 4.6870855 $ per micro gram
 ```
 The city of Seattle charges me $4.09 for every **μg** of energy I use.
 
@@ -325,20 +352,30 @@ My takeaway is that we are not just passing by this energy gradient; we are wadi
 | Antimatter                    | $62,500,000               |
 | Actinium-225                  | $29,000                   |
 | Californium-252               | $27                       |
-| **Seattle City Light energy** | **$4.093**                |
-| **Jet fuel energy**           | **$2.61**                 |
+| **Seattle City Light energy** | **$4.093** energy mass    |
+| **Jet fuel energy**           | **$4.687** energy mass    |
 | Tritium                       | $0.03                     |
 | Gold                          | $0.00013                  |
 | Crude oil                     | ~$6.7 × 10⁻¹⁰             |
 | Steel                         | ~$1.3 × 10⁻⁹              |
 
----
 
-``` plaintext
-You have: 823.73 kW hours
-You want: micro grams
-        823.73 kW hours = 32.994836 micro gram
+
+```plaintext
+#
+You have:  823.73 kW hours / 135.06 $
+You want: $ per micro gram
+        reciprocal conversion
+        1 / (823.73 kW hours / 135.06 $) = 4.0933678 $ per micro gram
+
+#
+You have: 25 hp hr / 3.5 $
+You want: $ per micro gram
+        reciprocal conversion
+        1 / (25 hp hr / 3.5 $) = 4.6870855 $ per micro gram
+You have:
 ```
+---
 
 | Organism/Structure | Typical mass | Wh equivalent mass | Visible under microscope? |
 | ------------------ | ------------ | ------------------ | ------------------------- |
