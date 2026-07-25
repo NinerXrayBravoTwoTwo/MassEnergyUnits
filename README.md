@@ -147,7 +147,7 @@ sudo cp massenergy.units /usr/share/units/
 
 | Definition            | Meaning                                                |
 | --------------------- | ------------------------------------------------------ |
-| `s = 2.99792458e8 m`  | One second is the distance light travels in one second |
+| `s = 299,792,458 m`   | One second is the distance light travels in one second |
 | `c = 1`               | Speed of light is unitless                             |
 | `ton_tnt = 4.184e9 J` | Standard thermochemical ton of TNT                     |
 
@@ -294,11 +294,12 @@ You want: micro g per day
         823.73 kW hours / 64 days = 0.51554432 micro g per day
 
 You have: 823.73 kW hours /135.06 dollars
-You want: micro g per dollar
-        823.73 kW hours /135.06 dollars = 0.24429762 micro g per dollar
+You want: $ / micro gram
+        reciprocal conversion
+        1 / (823.73 kW hours /135.06 dollars) = 4.0933678 $ / micro gram
+        1 / (823.73 kW hours /135.06 dollars) = (1 / 0.24429762) $ / micro g
 ```
-The city of Seattle charges me $1 for every 0.2443 **μg** of energy I use.
- (0.0002443 mg / $)
+The city of Seattle charges me $4.09 for every **μg** of energy I use.
 
 > ### *That is a lot $money for a speck of dust.*
 <div align="center"
@@ -318,6 +319,19 @@ This is actually visible under a normal light microscope, at the scale of a bact
 My takeaway is that we are not just passing by this energy gradient; we are wading through and into it.
 
 > Calculate the mass of your own power bill and see what you get. You might be surprised.
+
+| Material                      | Price per microgram (USD) |
+| ----------------------------- | ------------------------- |
+| Antimatter                    | $62,500,000               |
+| Actinium-225                  | $29,000                   |
+| Californium-252               | $27                       |
+| **Seattle City Light energy** | **$4.093**                |
+| Tritium                       | $0.03                     |
+| Gold                          | $0.00013                  |
+| Crude oil                     | ~$6.7 × 10⁻¹⁰             |
+| Steel                         | ~$1.3 × 10⁻⁹              |
+
+---
 
 ``` plaintext
 You have: 823.73 kW hours

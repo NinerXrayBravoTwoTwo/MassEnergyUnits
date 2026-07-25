@@ -23,7 +23,7 @@ With those two lines, **time becomes distance** and mass becomes energy.
 
 ---
 
-## Backstory: the whole project is two lines
+## Backstory: the whole project is two lines 
 
 There was a time — for years — when it seemed possible to get away with a units file of only those two lines.
 
@@ -49,12 +49,20 @@ You still can’t get away with *only* two lines if you want others to use the i
 
 ## The mind-blower
 
-Global electricity consumption in 2023: **27.047 trillion kWh** (27.047 PWh).
+Global electricity consumption in 2023 was **27.047 trillion kWh** (27.047 PWh).
+
+**(Source CIA factbook)**
 
 Converted to mass-equivalent: ≈ **1,083 kg**
+```plaintext
+You have: 27.047 trillion kWh
+You want: kg
+        27.047 trillion kWh = 1083.3785 kg
+```
 
 That’s roughly the payload of a single large pickup truck.
 
+---
 All the power plants on Earth — coal, gas, nuclear, hydro, wind, solar — 
 running full tilt for an entire year amount to about one ton of mass converted into energy.
 
@@ -67,9 +75,9 @@ momentary sparkle against that abyss — noticeable for a few hours at most, the
 Note that the 1950s Cold War arsenal of about 250 Shrimp-design bombs was dwarfed by the world’s 2023 annual electric consumption.
 
 ``` text
-You have: 1083 kg
+You have: 27.047 trillion kWh
 You want: shrimp
-        1083 kg = 1550.9112 shrimp
+        27.047 trillion kWh = 1551.4532 shrimp
 ```
 
 We are not energy titans. We are a thin, vibrant film living on an overwhelmingly abundant gradient.
