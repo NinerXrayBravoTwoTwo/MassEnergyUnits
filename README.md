@@ -326,6 +326,7 @@ My takeaway is that we are not just passing by this energy gradient; we are wadi
 | Actinium-225                  | $29,000                   |
 | Californium-252               | $27                       |
 | **Seattle City Light energy** | **$4.093**                |
+| **Jet fuel energy**           | **$2.61**                 |
 | Tritium                       | $0.03                     |
 | Gold                          | $0.00013                  |
 | Crude oil                     | ~$6.7 × 10⁻¹⁰             |
