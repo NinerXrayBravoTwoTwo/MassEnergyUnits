@@ -163,7 +163,7 @@ Mass and energy, space and time, are brought into direct calculable parity.
   The 'Gadget', painting</br>White Sands NM, July 17, 1945</br>— 80 years ago in 2025
 </p>
 
-``` perl
+``` plaintext
   * *
  * * *   Oh, We're having so much fun, making itty bitty suns!
   * *      
