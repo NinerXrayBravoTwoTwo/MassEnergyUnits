@@ -46,6 +46,7 @@ You want: Gtsarbomba
 | **[PUE & residual load](datacenter-power.md#pue)**                        | Why facility overhead still multiplies draw when IT load falls                                                                                              |
 | **[Infrastructure vs demand](datacenter-power.md#policy)**                | Honest levers if energy scale is the concern (not only siting bans)                                                                                         |
 | **[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)** | Solar luminosity, daily insolation, absorbed/radiated balance, and mass-energy equivalences                                                                 |
+| **[Legacy of the Manhattan Project](LegacyOfManhattenProject.md)**        | Criticality as proof, $ per microgram of early devices, and the industrial platform that outlasted the bombs                                              |
 | **[minkowski_entropy/](minkowski_entropy/)**                              | Space-entropy: Python doing what units alone cannot. Geometric compounding along timelike intervals (c = 1) … *and yes, it still does compounding finance.* |
 | **[Spacetime-Entropy Package](minkowski_entropy/README.md)**              | Spacetime entropy & growth/decay module                                                                                                                     |
 | **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)**               | Classic problem as path length / entropy compounding, not “clocks slowing down”                                                                             |
@@ -60,7 +61,7 @@ You want: Gtsarbomba
 - Mass ↔ energy conversions without extra factors
 - Named references for familiar nuclear yields and large-scale events
 - Real-world examples from physics, history, and energy economics
-- Topic notes: [data center power](datacenter-power.md) ([scaling](datacenter-power.md#scaling), [PUE](datacenter-power.md#pue), [policy](datacenter-power.md#policy)), [solar radiance / Earth absorption](solarradiance-earthabsorption.md), [bio](bio.md)
+- Topic notes: [data center power](datacenter-power.md) ([scaling](datacenter-power.md#scaling), [PUE](datacenter-power.md#pue), [policy](datacenter-power.md#policy)), [solar radiance / Earth absorption](solarradiance-earthabsorption.md), [Manhattan Project legacy](LegacyOfManhattenProject.md), [bio](bio.md)
 - Optional **Minkowski / space-entropy** math package (`minkowski_entropy`)
 
 ---
@@ -288,6 +289,8 @@ You want: jupitersundist_max
 ### Seattle City Light $ cost per micro gram of mass-energy
 Total power used was 823.73 kW hours over 64 days, costing $135.06.
 
+The city of Seattle charges me $4.09 for every **μg** of energy I use.
+
 ### Jet airliner $ cost per micro gram of energy used by airline jet engines
 
 Simple cruise example (narrow-body like 737 / A320 family)
@@ -326,7 +329,18 @@ You want: $ per micro gram
         reciprocal conversion
         1 / (25 hp hr / 3.5 $) = 4.6870855 $ per micro gram
 ```
-The city of Seattle charges me $4.09 for every **μg** of energy I use.
+
+| Material                      | Price per microgram (USD) |
+| ----------------------------- | ------------------------- |
+| Antimatter                    | $62,500,000               |
+| Actinium-225                  | $29,000                   |
+| Californium-252               | $27                       |
+| **Seattle City Light energy** | **$4.093** energy mass    |
+| **Jet fuel energy**           | **$4.687** energy mass    |
+| Tritium                       | $0.03                     |
+| Gold                          | $0.00013                  |
+| Crude oil                     | ~$6.7 × 10⁻¹⁰             |
+| Steel                         | ~$1.3 × 10⁻⁹              |
 
 > ### *That is a lot $money for a speck of dust.*
 <div align="center"
@@ -345,36 +359,6 @@ This is actually visible under a normal light microscope, at the scale of a bact
 
 My takeaway is that we are not just passing by this energy gradient; we are wading through and into it.
 
-> Calculate the mass of your own power bill and see what you get. You might be surprised.
-
-| Material                      | Price per microgram (USD) |
-| ----------------------------- | ------------------------- |
-| Antimatter                    | $62,500,000               |
-| Actinium-225                  | $29,000                   |
-| Californium-252               | $27                       |
-| **Seattle City Light energy** | **$4.093** energy mass    |
-| **Jet fuel energy**           | **$4.687** energy mass    |
-| Tritium                       | $0.03                     |
-| Gold                          | $0.00013                  |
-| Crude oil                     | ~$6.7 × 10⁻¹⁰             |
-| Steel                         | ~$1.3 × 10⁻⁹              |
-
-
-
-```plaintext
-#
-You have:  823.73 kW hours / 135.06 $
-You want: $ per micro gram
-        reciprocal conversion
-        1 / (823.73 kW hours / 135.06 $) = 4.0933678 $ per micro gram
-
-#
-You have: 25 hp hr / 3.5 $
-You want: $ per micro gram
-        reciprocal conversion
-        1 / (25 hp hr / 3.5 $) = 4.6870855 $ per micro gram
-You have:
-```
 ---
 
 | Organism/Structure | Typical mass | Wh equivalent mass | Visible under microscope? |
@@ -386,6 +370,9 @@ You have:
 | Human hair         | 50–100 µg    | 1.25 – 2.5 kWh     | Yes                       |
 | Rotifer            | 50–500 µg    | 1.25 – 12.5 kWh    | Yes                       |
 | Flax seed          | 1–2 mg       | 25 – 50 MWh        | Yes                       |
+
+> Calculate the mass of your own power bill and see what you get. You might be surprised.
+
 
 ---
 <p align="center">
