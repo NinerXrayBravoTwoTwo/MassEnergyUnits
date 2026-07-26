@@ -293,21 +293,32 @@ The city of Seattle charges me $4.09 for every **μg** of energy I use.
 
 ### Jet airliner $ cost per micro gram of energy used by airline jet engines
 
-Simple cruise example (narrow-body like 737 / A320 family)
+**Simple cruise example (narrow-body like 737 / A320 family)**
+
 Typical numbers in cruise (FL350–370, Mach ~0.78):
 
 Total fuel burn: ~2,200–2,500 kg/hour (both engines)
+
 ≈ 2,400 kg/h average ≈ ~800–850 US gallons per hour
+
 Total thrust required: roughly 10,000–16,000 lbf (about 20–30 % of takeoff thrust)
+
 True airspeed: ~450–460 knots ≈ 230–240 m/s
 
-Power from thrust
+## Power from thrust
+
 Power = Thrust × Velocity
+
 Using mid-range numbers (say 13,000 lbf total thrust ≈ 58,000 N at 235 m/s):
+
 ≈ 13.6 MW ≈ 18,200 horsepower continuous.
+
 That power is almost entirely propulsion. The electrical generators (cabin, avionics, etc.) add only a few hundred kW — basically a rounding error.
-Bottom line from the simple method
+
+### Bottom line from performance specification method (BTU of fuel not required)
+
 One gallon of jet fuel in cruise is delivering roughly the energy equivalent of 20–25 horsepower for one hour, once you account for the actual thrust and fuel flow the airplane is running.
+
 This matches the earlier thermal-efficiency estimate and skips the intermediate BTU step entirely.
 
 Current airliner jet fuel price (as of late July 2026):
@@ -343,6 +354,8 @@ You want: $ per micro gram
 | Steel                         | ~$1.3 × 10⁻⁹              |
 
 > ### *That is a lot $money for a speck of dust.*
+
+---
 <div align="center"
 <p align="center">
   <img src="images/Fire_lily_pollens_on_an_insect's_hair-Aquinaus..jpg" 
@@ -356,8 +369,6 @@ On the other hand, perhaps you are stunned by the fact that the amount of energy
 
 …at 0.156 microgram per day, or 32.995 µg for the entire 64-day billing period.
 This is actually visible under a normal light microscope, at the scale of a bacterium or grain of pollen — a little smaller than the width of a human hair, but close.
-
-My takeaway is that we are not just passing by this energy gradient; we are wading through and into it.
 
 ---
 
@@ -373,8 +384,8 @@ My takeaway is that we are not just passing by this energy gradient; we are wadi
 
 > Calculate the mass of your own power bill and see what you get. You might be surprised.
 
-
 ---
+
 <p align="center">
   <img src="images/brain-entropy.gif" width="250" alt="Spacetime coffee -- curiosity manifold :smile:">
 </p>
