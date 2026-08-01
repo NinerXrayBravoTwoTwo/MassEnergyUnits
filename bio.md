@@ -9,6 +9,7 @@
 - We do math proofs because the answers are absolute and true within their contexts.
 - We ponder the rise and fall of civilizations, the ebb and flow of wars, the actual scope and limits of reality.
 - We read the Bible as it fits into other Hellenistic writings of the first millennium and try to piece that puzzle together.
+- I wonder what else I can turn into energy or what enery source I can turn into mass— A Quasar's output for example, how much mass is that? 😲
 - *What do software engineers do?*
 - **We have fun** — and we watch our cats very closely :smile:
 
