@@ -78,6 +78,11 @@ Note that the 1950s Cold War arsenal of about 250 Shrimp-design bombs was dwarfe
 You have: 27.047 trillion kWh
 You want: shrimp
         27.047 trillion kWh = 1551.4532 shrimp
+
+# (US 1958 arsenal) 250 Shrimp bombs is  only 16% of the world’s annual electricity consumption in 2023.
+You have: 250 castlebravo
+You want: kg
+        250 castlebravo = 174.57479 kg
 ```
 
 We are not energy titans. We are a thin, vibrant film living on an overwhelmingly abundant gradient.
