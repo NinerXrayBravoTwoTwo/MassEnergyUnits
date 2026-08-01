@@ -80,9 +80,11 @@ You want: shrimp
         27.047 trillion kWh = 1551.4532 shrimp
 
 # (US 1958 arsenal) 250 Shrimp bombs is  only 16% of the world’s annual electricity consumption in 2023.
-You have: 250 castlebravo
-You want: kg
-        250 castlebravo = 174.57479 kg
+You have: 27.047 trillion kW hr
+You want: 250 shrimp
+        27.047 trillion kW hr = 6.2058126 * 250 shrimp
+        27.047 trillion kW hr = (1 / 0.16113925) * 250 shrimp
+                                     ^^^^^^^^ 16.12% of cold war nukes   
 ```
 
 We are not energy titans. We are a thin, vibrant film living on an overwhelmingly abundant gradient.
