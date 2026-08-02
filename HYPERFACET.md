@@ -107,7 +107,7 @@ units -f /usr/share/units/definitions.units -f ./massenergy.units
 | [datacenter-power.md](datacenter-power.md) | Waste heat vs Earth solar absorption |
 | [solarradiance-earthabsorption.md](solarradiance-earthabsorption.md) | Daily sunshine at planetary scale |
 | [LegacyOfManhattenProject.md](LegacyOfManhattenProject.md) | Criticality, early $ per µg, industrial legacy |
-| [minkowski_entropy/](minkowski_entropy/) | Growth/decay, entropy-like measures along timelike intervals |
+| [minkowski_entropy/](minkowski_entropy/README.md) | Growth/decay, entropy-like measures along timelike intervals |
 
 ---
 
