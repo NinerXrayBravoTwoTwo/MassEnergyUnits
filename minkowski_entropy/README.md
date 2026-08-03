@@ -1,4 +1,6 @@
-# Compounding, half-lives, and doubling times in Minkowski spacetime
+# Compounding Growth Rate
+## Entropy Production - half-lives - doubling times in Minkowski spacetime
+
 
 **A mathematically precise framework for modeling growth, decay, and entropy production in Minkowski spacetime.**
 
