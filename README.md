@@ -47,7 +47,7 @@ You want: Gtsarbomba
 | **[Infrastructure vs demand](datacenter-power.md#policy)**                | Honest levers if energy scale is the concern (not only siting bans)                                                                                         |
 | **[Solar radiance & Earth absorption](solarradiance-earthabsorption.md)** | Solar luminosity, daily insolation, absorbed/radiated balance, and mass-energy equivalences                                                                 |
 | **[Legacy of the Manhattan Project](LegacyOfManhattenProject.md)**        | Criticality as proof, $ per microgram of early devices, and the industrial platform that outlasted the bombs                                                |
-| **[minkowski_entropy/](minkowski_entropy/README.md)**                     | Space-entropy: Python doing what units alone cannot. Geometric compounding along timelike intervals (c = 1) … *and yes, it still does compounding finance.* |
+| **[minkowski_entropy](minkowski_entropy/README.md)**                     | Space-entropy: Python doing what units alone cannot. Geometric compounding along timelike intervals (c = 1) … *and yes, it still does compounding finance.* |
 | **[Spacetime-Entropy Package](minkowski_entropy/)**                       | Spacetime entropy & growth/decay module                                                                                                                     |
 | **[Twin Paradox Redux](minkowski_entropy/twin_paradox.md)**               | Classic problem as path length / entropy compounding, not “clocks slowing down”                                                                             |
 | **[Finance examples](minkowski_entropy/README.md#finance)**               | Same math as entropy for compounding interest (readable help in the module README)                                                                          |
@@ -148,7 +148,7 @@ sudo cp massenergy.units /usr/share/units/
 
 | Definition            | Meaning                                                |
 | --------------------- | ------------------------------------------------------ |
-| `s = 299,792,458 m`   | One second is the distance light travels in one second |
+| `s = 299 792 458 m`   | One second is the distance light travels in one second |
 | `c = 1`               | Speed of light is unitless                             |
 | `ton_tnt = 4.184e9 J` | Standard thermochemical ton of TNT                     |
 

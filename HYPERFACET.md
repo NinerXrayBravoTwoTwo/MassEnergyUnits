@@ -8,7 +8,7 @@
 ## Just two lines of code that change how you see reality.
 
 ```plaintext
-s         299,792,458 m
+s         299 792 458 m
 c         1
 ```
 
