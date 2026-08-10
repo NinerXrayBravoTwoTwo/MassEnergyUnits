@@ -1,7 +1,7 @@
 # Compounding Growth Rate
 
 <p align="center">
-  <img src="../images/spacetime-coffee-1.png" width="650" alt="Minkowski Spacetime Coffee">
+  <img src="../images/spacetime-coffee-1.png" width="650" alt="Minkowski Spacetime Coffee                                                               ">
 <h3 align="center">The reference frame</h3>
 </p>
 
