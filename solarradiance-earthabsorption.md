@@ -14,6 +14,32 @@
 2. **Solar constant** (average flux at Earth’s distance): ~1,367–1,370 W/m². This is L spread over the surface of a sphere with radius = 1 AU.
 3. **Power intercepted by Earth**: ~1.74 × 10¹⁷ W (using Earth’s cross-sectional area πR², where R ≈ 6,371 km). This is the total incoming power.
 4. **Energy per day**: Multiply by 86,400 seconds/day → **~1.51 × 10²² joules/day** arriving at the top of the atmosphere.
+5. **Mass-energy absorbed and reradiated each day**: Earth absorbs ~70% of this energy (~1.06 × 10²² J/day) and radiates essentially the same amount back to space in thermal infrared radiation, maintaining long-term energy balance.
+
+``` plaintext
+You have: solarluminosity day
+You want: Gkg
+        solarluminosity day = 367804.72 Gkg
+
+You have: solarluminosity day
+You want: Gshrimp
+        solarluminosity day = 526715.11 Gshrimp
+
+You have: solarluminosity siderealyear
+You want: Tkg
+        solarluminosity siderealyear = 134343.01 Tkg
+```
+Just to drill this home Earth absorbs and radiates back into space 124 trillion times the energy the human race uses.
+``` plaintext
+You have: solarluminosity siderealyear
+You want:  27.047 trillion kWh
+        solarluminosity siderealyear = 1.2400377e+14 * 27.047 trillion kWh
+
+You have: solarluminosity siderealyear
+You want:  27.047 trillion trillion kWh  (a trilliom times the human race uses)
+        solarluminosity siderealyear = 124.00377 * 27.047 trillion trillion kWh
+                                       ^------------------^
+```
 
 ## Absorption and Radiation (Energy Balance)
 
