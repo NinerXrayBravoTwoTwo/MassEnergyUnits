@@ -32,7 +32,7 @@ You want: Tkg
 Just to drill this home Earth absorbs and radiates back into space **124 trillion times** the energy the human race uses.
 ``` plaintext
 You have: solarluminosity siderealyear
-You want:  27.047 trillion kWh (per year CIA factbook-2023 value
+You want:  27.047 trillion kWh (per year CIA factbook-2023 value)
         solarluminosity siderealyear = 1.2400377e+14 * 27.047 trillion kWh
 
 You have: solarluminosity siderealyear
