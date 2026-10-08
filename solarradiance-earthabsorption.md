@@ -31,12 +31,25 @@ You want: million kg
 
 ```
 
-Just to drill this home Earth absorbs and radiates back into space **56.4 thousand times** the energy the human race uses.
+Just to drill this home Earth absorbs and radiates back into space **56.4 thousand times** the electricity the human race uses.
+
 ``` plaintext
-You have: ESI year
-You want: 27.047 trillion kWh (CIA factbook 2023 world electricity consumption)
-        ESI year = 56,392.628 * 27.047 trillion kWh
-                   ^--------^
+You have: 27.0478 trillion kWh per siderealyear (CIA factbook- 2023)
+You want: TW
+        27.0478 trillion kWh per siderealyear = 3.0854813 TW (instantaneous electricity consumption)
+
+You have: ESI
+You want: 3.0854813 TW
+        ESI = 56393.147 * 3.0854813 TW (56 thousand times more energy than humanity uses in electricity))
+
+You have: ESI
+You want: 3.6 TW # current global electricity consumption (higher current estimate- 2026, 48 thousand times))
+        ESI = 48333.333 * 3.6 TW
+
+You have: ESI
+You want: 19 TW # current global energy consumption including all sources- fossil, nuclear, hydro, solar, wind, spaceX etc.
+        ESI = 9157.8947 * 19 TW (9,158 times more energy than humanity uses in total energy consumption)
+
 ```
 
 ## Absorption and Radiation (Energy Balance)
