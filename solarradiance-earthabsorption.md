@@ -17,28 +17,26 @@
 5. **Mass-energy absorbed and reradiated each day**: Earth absorbs ~70% of this energy (~1.06 × 10²² J/day) and radiates the same amount back to space in thermal infrared radiation, maintaining long-term energy balance.
 
 ``` plaintext
-You have: solarluminosity day
-You want: Gkg
-        solarluminosity day = 367804.72 Gkg
+You have: ESI day
+You want: kg
+        ESI day = 167,271.36 kg
 
-You have: solarluminosity day
-You want: Gshrimp
-        solarluminosity day = 526715.11 Gshrimp
+You have: ESI day
+You want: shrimp
+        ESI day = 23,9541.11 shrimp
 
-You have: solarluminosity siderealyear
-You want: Tkg
-        solarluminosity siderealyear = 134343.01 Tkg
+You have: ESI year
+You want: million kg
+        ESI year = 61.094559 million kg
+
 ```
-Just to drill this home Earth absorbs and radiates back into space **124 trillion times** the energy the human race uses.
-``` plaintext
-You have: solarluminosity siderealyear
-You want:  27.047 trillion kWh (per year CIA factbook-2023 value)
-        solarluminosity siderealyear = 1.2400377e+14 * 27.047 trillion kWh
 
-You have: solarluminosity siderealyear
-You want:  27.047 trillion trillion kWh  (a trilliom times the human race use)
-        solarluminosity siderealyear = 124.00377 * 27.047 trillion trillion kWh
-                                       ^-------^
+Just to drill this home Earth absorbs and radiates back into space **56.4 thousand times** the energy the human race uses.
+``` plaintext
+You have: ESI year
+You want: 27.047 trillion kWh (CIA factbook 2023 world electricity consumption)
+        ESI year = 56,392.628 * 27.047 trillion kWh
+                   ^--------^
 ```
 
 ## Absorption and Radiation (Energy Balance)
