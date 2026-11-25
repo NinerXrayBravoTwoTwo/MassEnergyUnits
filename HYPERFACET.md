@@ -1,7 +1,7 @@
 # Ultimate Reframe of Time
 <p align="center">
   <img src="images/coffee-1.JPG" width="650" alt="Coffee perspective">
-<h3 align="center">The reference frame</h3>
+<h3 align="center">The reference re-frame</h3>
 </p>
 
 
@@ -20,6 +20,7 @@ With those two lines, **time becomes distance** and mass becomes energy.
 * The speed of light is exactly 1.
 
 **E = mc²** turns energy into something you can actually touch, or carry.
+See 
 
 ---
 
