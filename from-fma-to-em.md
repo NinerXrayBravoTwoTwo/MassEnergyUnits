@@ -8,7 +8,7 @@
   The 'Gadget'</br>—Whats in a gram?—</br>Trinity test, 16 July 1945 (render)
 </p>
 
-**“Now for something completely different..." (hat tip to Monty Python)**
+**“Now for something completely different..."** (hat tip to Monty Python)
 
 ---
 
