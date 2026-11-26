@@ -86,7 +86,13 @@ $$
 
 ## 3. Einstein, Minkowski, and the Missing Shortcut
 
-Einstein’s 1905 derivation did not assume the unit identification. It began from the invariance of \( c \) (proven, not postulated) and a light-emission thought experiment comparing energy and momentum in two frames. Conservation forced \( \Delta m = E/c^2 \).
+Einstein’s 1905 derivation did not assume the unit identification. 
+It began from the invariance of **\( c \)** (proven, not postulated) 
+and a light-emission thought experiment comparing energy and momentum 
+in two frames.
+$$
+\quad Conservation\quad forced\quad \Delta m = E/c^2
+$$
 
 Minkowski (1908) made the geometric leap: once spacetime is a single manifold with the metric mixing time and space, \( c = 1 \) becomes the natural coordinate choice rather than a trick. He formalized Einstein’s results; he did not supply a shortcut Einstein overlooked.
 
@@ -132,8 +138,8 @@ Inside an Ares/Apollo-style capsule the external solar load (~1,400 W m⁻²) do
 
 ---
 
-## Closing Note
+# Closing Note
 
-The algebraic cancellation that turns **F = ma into E = m** under **c = 1** is real.
+### The algebraic cancellation that turns **F = ma into E = m** under **c = 1** is real.
 
 Whether the deeper computational reading of inertia and gravity can be made precise inside a ruliad-style model remains an open question — interesting precisely because it sits at the intersection of relativity, information, and the cost of updating state.
