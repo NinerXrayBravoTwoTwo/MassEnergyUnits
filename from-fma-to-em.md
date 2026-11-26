@@ -74,10 +74,9 @@ itself. The derivation does not assume **E = mc^2** — it recovers it from the 
 
 - It is internally consistent within the chosen units.
 - It recovers the rest-energy equivalence 
-- 
-$$
-E = m \quad when \quad v = 0
-$$
+
+- E = m  when  v = 0
+
 
 - It mixes a Newtonian work definition with a relativistic unit choice. The numerical agreement is real; the mixed foundation is the point a referee would flag.
 - The substitution is valid along the light cone. Ordinary matter sits inside the cone, so the identification is used as a boundary condition rather than a state the mass itself occupies.
@@ -90,6 +89,7 @@ Einstein’s 1905 derivation did not assume the unit identification.
 It began from the invariance of **\( c \)** (proven, not postulated) 
 and a light-emission thought experiment comparing energy and momentum 
 in two frames.
+
 $$
 \quad Conservation\quad forced\quad \Delta m = E/c^2
 $$
