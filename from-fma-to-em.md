@@ -29,6 +29,7 @@ a = \frac{\Delta x}{(\Delta t)^2}
 $$
 
 Under the identification:
+
 $$
 \Delta t \equiv \Delta x
 $$
