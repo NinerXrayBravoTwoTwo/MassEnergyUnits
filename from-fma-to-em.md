@@ -35,14 +35,12 @@ $$
 
 $$
 a = \frac{1}{\Delta x}
-
 $$
 
 Therefore:
 
 $$
 F = \frac{m}{\Delta x} \quad \Rightarrow \quad F \cdot \Delta x = m
-
 $$
 
 The left-hand side is mechanical work, which in these units is energy:
@@ -55,16 +53,13 @@ Hence:
 
 $$
 E = m
-
 $$
 
 The length term cancels, leaving mass and energy dimensionally identical. 
-This is the content of 
-$$
-E = mc^2 
-$$
+This is the content of **E = mc^2** 
 
-once **c** has been scaled to unity.
+
+once **c** has been scaled to unity (i.e. **c = 1**)
 
 You can see that nothing more complicated than grade school 
 algebra is required to make the identification.
@@ -72,7 +67,6 @@ algebra is required to make the identification.
 The only subtlety is that the identification is made in a 
 particular frame (the light cone) rather than as a property of the mass 
 itself. The derivation does not assume **E = mc^2** — it recovers it from the Newtonian work definition and the unit choice.
-
 
 ---
 
@@ -140,9 +134,6 @@ Inside an Ares/Apollo-style capsule the external solar load (~1,400 W m⁻²) do
 
 ## Closing Note
 
-The algebraic cancellation that turns 
-$$
-F = ma \quad \text{into} \quad E = m
-$$
+The algebraic cancellation that turns **F = ma into E = m** under **c = 1** is real.
 
-under **c = 1** is real. Whether the deeper computational reading of inertia and gravity can be made precise inside a ruliad-style model remains an open question — interesting precisely because it sits at the intersection of relativity, information, and the cost of updating state.
+Whether the deeper computational reading of inertia and gravity can be made precise inside a ruliad-style model remains an open question — interesting precisely because it sits at the intersection of relativity, information, and the cost of updating state.
