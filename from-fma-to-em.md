@@ -2,6 +2,12 @@
 ## Natural Units, Computational Inertia, and Related Tangents
 
 
+<p align="center" >
+  <img src="images/gadget-color.jpg" width="650" alt="Trinity test — Gadget painting, black and white">
+  </br>
+  The 'Gadget'</br>—Whats in a gram?—</br>Trinity test, 16 July 1945
+</p>
+
 **“Now for something completely different... (had tipped to Monty Python)**
 
 ---
